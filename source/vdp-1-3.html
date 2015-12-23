@@ -1,0 +1,686 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>APV - Incorpo 2012 - Proj de la Courtine</title>
+	<link href="style_apv.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+</head>
+<body bgcolor="white">
+
+
+
+<div class="slideshow">
+
+<div class="slide">
+<div class="bkgd" style="background-image: url('Images/miniatures/1-2-3-01-La_Courtine-grand.png');"></div>
+
+<div id="vp">
+<div id="vp2">
+<div id="superzone">
+	
+	<ul class="buttonsmenu">
+		<li>
+			<a id="next" href="#next">
+				<img id="droite" src="Images/droite.png" />
+				<div><img id="droite_hover" src="Images/droite_hover.png" /></div>
+			</a>
+		</li>
+		<li>
+			<a id="prev" href="#prev">
+				<img id="gauche" src="Images/gauche.png" />
+				<div><img id="gauche_hover" src="Images/gauche_hover.png" /></div>
+			</a>
+		</li>
+		<li>
+		</li>
+		<li>
+			<a id="goto1" onClick="goToMenu(0);" href="#1">
+				<img src="" />
+			</a>
+		</li>
+		<li>
+			<a id="goto2" onClick="goToMenu(1);" href="#2">
+				<img src="" />
+			</a>
+		</li>
+		<li>
+			<a id="goto3" onClick="goToMenu(2);" href="#3">
+				<img src="" />
+			</a>
+		</li>
+		<li>
+			<a id="goto4" onClick="goToMenu(3);" href="#4">
+				<img src="" />
+			</a>
+		</li>
+		<li>
+			<a id="goto5" onClick="goToMenu(4);" href="#5">
+				<img src="" />
+			</a>
+		</li>
+		<li>
+		</li>
+		<li>
+			<a>
+				<img id="titre" src="Images/titre_texte_vdp13.png" />
+			</a>
+		</li>
+		<li>
+			<a href="vdp-1.html" onClick="">
+				<img id="accueil" src="Images/accueil.png" />
+				<div><img id="accueil_hover" title="Retour au menu APV" src="Images/accueil_hover.png" /></div>
+			</a>
+			
+		</li>
+		<li>
+			<a onClick="loadVideo(1,1);" href="#proj">
+				<img id="proj" src="Images/proj.png" />
+				<div><img id="proj_hover" title="Lancer toutes les videos" src="Images/proj_hover.png" /></div>
+			</a>
+		</li>
+		<li>
+			<a href="equipe.html">
+				<img id="equipe" src="Images/equipe.png" />
+				<div><img id="equipe_hover" title="L'équipe" src="Images/equipe_hover.png" /></div>
+			</a>
+		</li>
+		<li></li><li></li><li></li><li></li><li></li><li></li>
+		<li><!--  hiddenimage  -->
+			<a>
+				<img id="hiddo" src="Images/trs.png" />
+			</a>
+		</li>
+		<li onClick="switchTeam();"><!--  Switch Team bouton)  -->
+		</li>
+		<li onClick="if(activeTeam) {loadTeam(0);return;}"><!--  goTo Website Bouton  -->
+		</li>
+
+	</ul>
+
+<div class="slideshowmenu">
+<div class="slidemenu">
+    <div class="imgzone">
+        <img src="Images/zone_gauche.png" />
+    </div>
+    <ul class="lb-album">
+    <li>
+        <a href="#clip-1" onClick="loadVideo(1,0);">
+            <img src="Images/miniatures/1-2-3-00-Intro.png" alt="image1">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Intro </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-2" onClick="loadVideo(2,0);">
+            <img src="Images/miniatures/1-2-3-01-La_Courtine.png" alt="image2">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> La Courtine </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-3" onClick="loadVideo(3,0);">
+            <img src="Images/miniatures/1-2-3-02-Tir.png" alt="image3">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Tir </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-4" onClick="loadVideo(4,0);">
+            <img src="Images/miniatures/1-2-3-03-PO.png" alt="image4">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> PO </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-5" onClick="loadVideo(5,0);">
+            <img src="Images/miniatures/1-2-3-04-Mot_du_chef_de_corps.png" alt="image5">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Mot du chef de corps </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-6" onClick="loadVideo(6,0);">
+            <img src="Images/miniatures/1-2-3-06-CO.png" alt="image6">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> CO </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-7" onClick="loadVideo(7,0);">
+            <img src="Images/miniatures/1-2-3-07-Zapping_1.png" alt="image7">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Zapping 1 </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-8" onClick="loadVideo(8,0);">
+            <img src="Images/miniatures/1-2-3-08-Grouze_explique_la_DFHM.png" alt="image8">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Grouze explique la DFHM </span>
+        </a>
+       
+    </li>
+    </ul>
+</div>
+
+<div class="slidemenu">
+    <div class="imgzone">
+        <img src="Images/zone_centre.png" />
+    </div>
+    <ul class="lb-album">
+    <li>
+        <a href="#clip-9" onClick="loadVideo(9,0);">
+            <img src="Images/miniatures/1-2-3-09-VEC.png" alt="image9">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> VEC </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-10" onClick="loadVideo(10,0);">
+            <img src="Images/miniatures/1-2-3-10-McDo.png" alt="image10">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> McDo </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-11" onClick="loadVideo(11,0);">
+            <img src="Images/miniatures/1-2-3-11-Pendant_ce_temps_chez_le_magouilleur.png" alt="image11">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Pendant ce temps chez le magouilleur </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-12" onClick="loadVideo(12,0);">
+            <img src="Images/miniatures/1-2-3-12-Escalade.png" alt="image12">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Escalade </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-13" onClick="loadVideo(13,0);">
+            <img src="Images/miniatures/1-2-3-14-MinDef.png" alt="image13">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> MinDef </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-14" onClick="loadVideo(14,0);">
+            <img src="Images/miniatures/1-2-3-15-Sport.png" alt="image14">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Sport </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-15" onClick="loadVideo(15,0);">
+            <img src="Images/miniatures/1-2-3-16-Magoufist.png" alt="image15">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Magoufist </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-16" onClick="loadVideo(16,0);">
+            <img src="Images/miniatures/1-2-3-17-PSC.png" alt="image16">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> PSC </span>
+        </a>
+       
+    </li>
+    </ul>
+</div>
+
+<div class="slidemenu">
+    <div class="imgzone">
+        <img src="Images/zone_centre.png" />
+    </div>
+    <ul class="lb-album">
+    <li>
+        <a href="#clip-17" onClick="loadVideo(17,0);">
+            <img src="Images/miniatures/1-2-3-18-EpicBivouacTime.png" alt="image17">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> EpicBivouacTime </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-18" onClick="loadVideo(18,0);">
+            <img src="Images/miniatures/1-2-3-19-Radeau.png" alt="image18">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Radeau </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-19" onClick="loadVideo(19,0);">
+            <img src="Images/miniatures/1-2-3-20-PO_en_GU.png" alt="image19">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> PO en GU </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-20" onClick="loadVideo(20,0);">
+            <img src="Images/miniatures/1-2-3-21-Bulldog.png" alt="image20">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Bulldog </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-21" onClick="loadVideo(21,0);">
+            <img src="Images/miniatures/1-2-3-22-Ordre_serre.png" alt="image21">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Ordre serre </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-22" onClick="loadVideo(22,0);">
+            <img src="Images/miniatures/1-2-3-23-Zapping_2.png" alt="image22">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Zapping 2 </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-23" onClick="loadVideo(23,0);">
+            <img src="Images/miniatures/1-2-3-24-Tournoi_sportif.png" alt="image23">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Tournoi sportif </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-24" onClick="loadVideo(24,0);">
+            <img src="Images/miniatures/1-2-3-25-Connais_ton_chef_de_section.png" alt="image24">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Connais ton chef de section </span>
+        </a>
+       
+    </li>
+    </ul>
+</div>
+
+<div class="slidemenu">
+    <div class="imgzone">
+        <img src="Images/zone_droite.png" />
+    </div>
+    <ul class="lb-album">
+    <li>
+        <a href="#clip-25" onClick="loadVideo(25,0);">
+            <img src="Images/miniatures/1-2-3-26-Derniere_chance.png" alt="image25">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Derniere chance </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-26" onClick="loadVideo(26,0);">
+            <img src="Images/miniatures/1-2-3-27-Pub_4ecie.png" alt="image26">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Pub 4ecie </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-27" onClick="loadVideo(27,0);">
+            <img src="Images/miniatures/1-2-3-28-Marseillaise.png" alt="image27">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Marseillaise </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-28" onClick="loadVideo(28,0);">
+            <img src="Images/miniatures/1-2-3-29-Chant.png" alt="image28">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Chant </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-29" onClick="loadVideo(29,0);">
+            <img src="Images/miniatures/1-2-3-30-Alphas.png" alt="image29">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Alphas </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-30" onClick="loadVideo(30,0);">
+            <img src="Images/miniatures/1-2-3-31-Trombi.png" alt="image30">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Trombi </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-31" onClick="loadVideo(31,0);">
+            <img src="Images/miniatures/1-2-3-PO_en_GU_2.png" alt="image31">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> PO en GU 2 </span>
+        </a>
+       
+    </li>
+
+ 
+
+
+
+
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+	<script type="text/javascript">
+	var QueryString = function () {
+	  // This function is anonymous, is executed immediately and 
+	  // the return value is assigned to QueryString!
+	  var query_string = {};
+	  var query = window.location.search.substring(1);
+	  var vars = query.split("&");
+	  for (var i=0;i<vars.length;i++) {
+		var pair = vars[i].split("=");
+			// If first entry with this name
+		if (typeof query_string[pair[0]] === "undefined") {
+		  query_string[pair[0]] = pair[1];
+			// If second entry with this name
+		} else if (typeof query_string[pair[0]] === "string") {
+		  var arr = [ query_string[pair[0]], pair[1] ];
+		  query_string[pair[0]] = arr;
+			// If third or later entry with this name
+		} else {
+		  query_string[pair[0]].push(pair[1]);
+		}
+	  } 
+		return query_string;
+	} ();
+	
+	</script>
+	<script type="text/javascript">
+
+		var menu =  parseInt(QueryString.menu);
+		var appearTime=250; //Temps d'apparition des boutons au deplacement dans le menu
+		
+		var currentMenu = 0;
+		var currentTeam = 0;
+		var currentPage = 0;
+		if (menu>=0 && menu<5) {currentPage=1; currentMenu=menu;}
+		if (menu>=10 && menu<32){currentPage=2;currentTeam=menu-10;}
+		
+		
+		var goToMenu = function(i){
+			$('.slideshowmenu').cycle(i);
+		}	
+		
+ 
+		var goTo = function(i){
+			
+ 
+			$('.slideshow').cycle(i);
+		}	
+
+		
+		
+	/*---------------------------------------------------
+	
+					Bloc de navigation
+	
+	----------------------------------------------------*/
+		var racineImages = "Images/Proj1/";
+		var baseNumeroVideos = 124000;
+		var activeIntro = false;
+		var activeTeam = false;
+		
+		var hasIntro=[2,5,13,15,17,21,23,25,27,29,31,33,35,38,40,42,44,46,49,55];
+		var inTeam=[//inTeam[i] donne la page de Team pour acceder a i
+			22,
+			-1,0,8,-1,0,0,0,0,1,1,
+			9,-1,16,-1,10,-1,17,18,17,-1,
+			11,-1,19,-1,11,-1,20,-1,11,-1,
+			19,-1,20,-1,1,8,-1,0,-1,21,
+			-1,21,-1,12,-1,0,0,-1,21,1,
+			14,18,0,-1,14,13,13,15,5,14
+		]
+	
+		
+		var loadVideo = function(i, continuer){ //cont=2 pour juste lire l'intro et la vidéo puis s'arrêter
+			if(activeTeam && continuer != 1) {loadTeam(i);return;}
+			var offset=[activeIntro && hasIntro.indexOf(i)>-1 ? 1 : 0];
+			
+			if(continuer==1) {window.location = 'video.html?id='+ (baseNumeroVideos + i - offset) + "&cont=1&origin=vdp-1&menu=-1";}
+			else {window.location = 'video.html?id='+ (baseNumeroVideos + i - offset) + "&cont=" + (2*offset) + "&origin=vdp-1-3&menu=" + currentMenu;}
+		}
+ 
+		
+		var randomize = function(i){
+			if(i==1){
+				var pageRandom=Math.floor((Math.random() * 22));
+				goToTeam(pageRandom);
+			}
+			
+			else if(i==2){
+				var videoRandom=Math.floor((Math.random() * 60)+1);
+				loadVideo(videoRandom,0);
+			}
+			else if(i==3){
+				$('.slideshowteam').cycle('destroy');
+				$(document).ready(function() {
+				$('.slideshowteam').cycle({
+					after: onAfterTeam,
+					slideResize: false,
+					containerResize: false,
+					fx: 'all' ,
+					speed:   500, 
+					timeout: 0,
+					startingSlide:  0
+						});
+					});
+			}
+			else{}
+		}
+		
+		
+		var accesPage = function(page){
+			window.location = page;
+		}
+		
+		function switchIntro() {
+			activeIntro = !activeIntro;
+			if (activeIntro) 
+			{
+				document.getElementById("intro").src = "Images/intro_on.png";
+			}
+			else 
+			{
+				document.getElementById("intro").src = "Images/intro.png";
+			}
+		}
+		
+ 
+			$(document).ready(function() {
+				$('.slideshow').fadeIn();
+			});
+			
+			var loadImage = function(i) {
+				var real = document.getElementById("photo_" + i).getAttribute("srcrl");
+				if(real!=document.getElementById("photo_" + i).src){
+				document.getElementById("photo_" + i).src = real;
+				}}
+			
+			var unloadAllImages = function() {
+				$('.lb-overlay img').each( function() {
+					$(this).attr('src', "");
+				});
+			}
+			
+			
+			$(document).ready(function() {
+			$('.slideshowmenu').cycle({
+
+				slideResize: false,
+				containerResize: false,
+				after: onAfter,
+				before: onBefore,
+			    next:   '#next', 
+				prev:   '#prev', 
+				fx: 'scrollHorz' ,
+				speed:   500, 
+				timeout: 0,
+				startingSlide: currentMenu
+					});
+				});
+
+			$(document).ready(function() {
+			$('.slideshow').cycle({
+
+				slideResize: false,
+				containerResize: false,
+				fx: 'fade' ,
+				speed:   500, 
+				after: onAfterGlobal,
+				timeout: 0,
+				startingSlide:currentPage
+					});
+				});
+				
+			$(document).ready(function() {
+			$('.slideshowteam').cycle({
+				after: onAfterTeam,
+				slideResize: false,
+				containerResize: false,
+				fx: 'fade' ,
+				speed:   300, 
+				timeout: 0,
+				startingSlide:  currentTeam
+					});
+				});
+				
+				
+		function onBefore(curr, next, opts) {
+			$('#prev')['hide']();
+			$('#next')['hide']();
+			$('#goto0')['hide']();
+			$('#goto1')['hide']();
+			$('#goto2')['hide']();
+			$('#goto3')['hide']();
+			$('#goto4')['hide']();
+			$('#goto5')['hide']();
+			$('#introduction')['hide']();
+		}
+		function onAfter(curr, next, opts) {
+			currentMenu = opts.currSlide;
+			
+			for (i = 1; i <= 5; i++)
+			{
+				var nom = "goto" + i;
+				document.getElementById(nom).getElementsByTagName('img')[0].src = "Images/bouton.png";
+			} 
+			document.getElementById('goto'+(currentMenu+1)).getElementsByTagName('img')[0].src = "Images/bouton_on.png";
+			
+			
+			$('#prev')[currentMenu == 0 ? 'hide' : 'show'](appearTime);
+			$('#next')[currentMenu == opts.slideCount - 1 ? 'hide' : 'show'](appearTime);
+			$('#introduction')['show'](appearTime);
+			for (i = 0; i <= 5; i++)
+			{
+				var nom = "#goto" + i;
+				$(nom)['show'](appearTime);
+			}
+		}
+
+ 
+		function onAfterGlobal(curr, next, opts) {
+			if(activeTeam) {switchTeam()}
+			currentPage = opts.currSlide;
+			if(currentPage!=2) {
+				$('.slideshowteam').cycle(0);
+			}
+			if (currentPage!=1) {
+				$('.slideshowmenu').cycle(0);
+			}
+
+		}
+		
+		
+		
+	</script>
+
+</body>
+
+</html>
+

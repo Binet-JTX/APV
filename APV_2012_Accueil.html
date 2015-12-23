@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <title>Album Promo Vidéo 2012</title>
+    <link href="Source/style_video.css" rel="stylesheet" type="text/css" />
+	<meta Content-Disposition: attachment; filename="fname.ext"/>
+</head>
+
+ <body bgcolor="black">
+	<span id="container">
+    	<div id="video-container">
+            <a href="Source/apv.html" style="position:relative; z-index:8; top:0%; left:0%; float:right;">
+			<img src="Source/Images/skip_intro.png" />
+			</a>
+            <video id="current-video" style="display:block;" poster="" controls autoplay onended="passerAuMenu()" alt="">
+               <source id="video-src" src="Videos/Intro.mp4" type="video/mp4" onerror="//passerAuMenu();"/>
+            </video>
+           
+        </div>
+		<div id="alternat" style="display:none" onmousemove="">
+		</div>
+	</span>
+	<script type="text/javascript" src="js/jquery.js"></script>
+  	<script type="text/javascript" src="js/script.js"></script>
+	
+	<script type="text/javascript">
+	
+		var videoSrc = "../Videos/";
+				
+		var Masquer = function(){
+			document.getElementById('current-video').style.display = "none";
+			document.getElementById('alternat').style.display = "block";
+		}
+	
+		
+		var Afficher = function(){
+			document.getElementById('current-video').style.display = "block";
+		}
+		
+		var passerAuMenu = function(){;
+			window.location = "Source/apv.html";
+		}
+		
+	</script>
+    
+</div>
+</body>
+</html>

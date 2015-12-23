@@ -1,0 +1,639 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>APV - Rendez-vous en Poinca</title>
+	<link href="style_apv.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+</head>
+
+<body bgcolor="white">
+
+
+
+<div class="slideshow">
+
+<div class="slide">
+<div class="bkgd" style="background-image: url('Images/photos_dvd/03-RendezVousEnPoinca.jpg');"></div>
+
+<div id="vp">
+<div id="vp2">
+<div id="superzone">
+
+	
+	<ul class="buttonsmenu">
+		<li>
+			<a id="next" href="#next">
+				<img id="droite" src="Images/droite.png" />
+				<div><img id="droite_hover" src="Images/droite_hover.png" /></div>
+			</a>
+		</li>
+		<li>
+			<a id="prev" href="#prev">
+				<img id="gauche" src="Images/gauche.png" />
+				<div><img id="gauche_hover" src="Images/gauche_hover.png" /></div>
+			</a>
+		</li>
+		<li>
+		</li>
+		<li>
+			<a id="goto1" onClick="goToMenu(0);" href="#1">
+				<img src="Images/bouton.png" />
+				<div><img src="Images/bouton_hover.png" /></div>
+			</a>
+		</li>
+		<li>
+			<a id="goto2" onClick="goToMenu(1);" href="#2">
+				<img src="Images/bouton.png" />
+				<div><img src="Images/bouton_hover.png" /></div>
+			</a>
+		</li>
+		<li>
+			<a id="goto3" onClick="goToMenu(2);" href="#3">
+				<img src="Images/bouton.png" />
+				<div><img src="Images/bouton_hover.png" /></div>
+			</a>
+		</li>
+		<li>
+			<a id="goto4" onClick="goToMenu(3);" href="#4">
+				<img src="Images/bouton.png" />
+				<div><img src="Images/bouton_hover.png" /></div>
+			</a>
+		</li>
+		<li>
+			<a id="goto5" onClick="goToMenu(4);" href="#5">
+				<img src="Images/bouton.png" />
+				<div><img src="Images/bouton_hover.png" /></div>
+			</a>
+		</li>
+		<li>
+
+		</li>
+		<li>
+			<a>
+				<img id="titre" src="Images/titre_texte_superieur_3.png" />
+			</a>
+		</li>
+		<li>
+			<a href="apv.html" onClick="">
+				<img id="accueil" src="Images/accueil.png" />
+				<div><img id="accueil_hover" title="Retour au menu APV" src="Images/accueil_hover.png" /></div>
+			</a>
+			
+		</li>
+		<li>
+			<a onClick="loadVideo(1,1);" href="#proj">
+				<img id="proj" src="Images/proj.png" />
+				<div><img id="proj_hover" title="Lancer toutes les videos" src="Images/proj_hover.png" /></div>
+			</a>
+		</li>
+		<li>
+			<a href="equipe.html">
+				<img id="equipe" src="Images/equipe.png" />
+				<div><img id="equipe_hover" title="L'équipe" src="Images/equipe_hover.png" /></div>
+			</a>
+		</li>
+		<li></li><li></li><li></li><li></li><li></li><li></li>
+		<li><!--  hiddenimage  -->
+			<a>
+				<img id="hiddo" src="Images/trs.png" />
+			</a>
+		</li>
+		<li onClick="switchTeam();"><!--  Switch Team bouton)  -->
+		</li>
+		<li onClick="if(activeTeam) {loadTeam(0);return;}"><!--  goTo Website Bouton  -->
+		</li>
+
+
+		
+	</ul><div class="slideshowmenu">
+<div class="slidemenu">
+    <div class="imgzone">
+        <img src="Images/zone_gauche.png" />
+    </div>
+    <ul class="lb-album">
+    <li>
+        <a href="#clip-1" onclick="loadVideo(1,0);">
+            <img src="Images/miniatures/3-event_101_Dance4U_Show1.png" alt="image1">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Dance4U : Show 1 </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-2" onclick="loadVideo(2,0);">
+            <img src="Images/miniatures/3-event_103_Dance4U_Show3.png" alt="image2">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Dance4U : Show 2 </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-3" onclick="loadVideo(3,0);">
+            <img src="Images/miniatures/3-event_104_Dance4U_Show4.png" alt="image3">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Dance4U : Show 3 </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-4" onclick="loadVideo(4,0);">
+            <img src="Images/miniatures/3-event_108_Dance4U_Show8.png" alt="image4">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Dance4U : Show 4 </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-5" onclick="loadVideo(5,0);">
+            <img src="Images/miniatures/3-event_114_Dance4U_Show14.png" alt="image5">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Dance4U : Show 5 </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-6" onclick="loadVideo(6,0);">
+            <img src="Images/miniatures/3-event_115_Dance4U_Show15.png" alt="image6">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Dance4U : Show 6 </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-7" onclick="loadVideo(7,0);">
+            <img src="Images/miniatures/3-event_116_Dance4U_Show16.png" alt="image7">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Dance4U : Show 7 </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-8" onclick="loadVideo(8,0);">
+            <img src="Images/miniatures/3-event_117_Dance4U_Show17.png" alt="image8">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Dance4U : Show 8 </span>
+        </a>
+       
+    </li>
+    </ul>
+</div>
+
+<div class="slidemenu">
+    <div class="imgzone">
+        <img src="Images/zone_centre.png" />
+    </div>
+    <ul class="lb-album">
+    <li>
+        <a href="#clip-9" onclick="loadVideo(9,0);">
+            <img src="Images/miniatures/3-event_119_Dance4U_Show19.png" alt="image9">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Dance4U : Show 9 </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-10" onclick="loadVideo(10,0);">
+            <img src="Images/miniatures/3-event_120_Dance4U_Conclusion.png" alt="image10">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Dance4U : Conclusion </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-11" onclick="loadVideo(11,0);">
+            <img src="Images/miniatures/3-event_Casino.png" alt="image11">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Casino </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-12" onclick="loadVideo(12,0);">
+            <img src="Images/miniatures/3-event_Chorale_2013-03-25.png" alt="image12">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Chorale - 25/03/2013 </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-13" onclick="loadVideo(13,0);">
+            <img src="Images/miniatures/3-event_Conférence Lehoucq.png" alt="image13">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Conférence de Roland Lehoucq </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-14" onclick="loadVideo(14,0);">
+            <img src="Images/miniatures/3-event_Jazz Band.png" alt="image14">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Jazz Band </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-15" onclick="loadVideo(15,0);">
+            <img src="Images/miniatures/3-event_Le_Voyageur_sans_bagages.png" alt="image15">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Le Voyageur sans bagages </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-17" onclick="loadVideo(17,0);">
+            <img src="Images/miniatures/3-event_Nabla_2013_Intro.png" alt="image17">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Nabla 2013 : Intro </span>
+        </a>
+       
+    </li>
+    </ul>
+</div>
+
+<div class="slidemenu">
+    <div class="imgzone">
+        <img src="Images/zone_centre.png" />
+    </div>
+    <ul class="lb-album">
+    <li>
+		<a href="#clip-16" onclick="loadVideo(16,0);">
+            <img src="Images/miniatures/3-event_Nabla_2013_Deuxieme hypnose.png" alt="image16">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Nabla 2013 : deuxième hypnose </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-18" onclick="loadVideo(18,0);">
+            <img src="Images/miniatures/3-event_Nabla_2013_Partie 1.png" alt="image18">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Nabla 2013 : Partie 1 </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-19" onclick="loadVideo(19,0);">
+            <img src="Images/miniatures/3-event_Nabla_2013_Partie 2.png" alt="image19">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Nabla 2013 : Partie 2 </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-20" onclick="loadVideo(20,0);">
+            <img src="Images/miniatures/3-event_Nabla_2013_Partie 3.png" alt="image20">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Nabla 2013 : Partie 3 </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-21" onclick="loadVideo(21,0);">
+            <img src="Images/miniatures/3-event_Nabla_2014_Extraits.png" alt="image21">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Nabla 2014 : Extraits </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-22" onclick="loadVideo(22,0);">
+            <img src="Images/miniatures/3-event_OPS_2014-06-16.png" alt="image22">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Concert de l'OPS : 16/06/2014 </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-23" onclick="loadVideo(23,0);">
+            <img src="Images/miniatures/3-event_Opéra.png" alt="image23">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Opéra </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-24" onclick="loadVideo(24,0);">
+            <img src="Images/miniatures/3-event_Recital_pour_jupons.png" alt="image24">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Récital pour jupons </span>
+        </a>
+       
+    </li>
+    </ul>
+</div>
+
+<div class="slidemenu">
+    <div class="imgzone">
+        <img src="Images/zone_droite.png" />
+    </div>
+    <ul class="lb-album">
+    <li>
+        <a href="#clip-25" onclick="loadVideo(25,0);">
+            <img src="Images/miniatures/3-event_X-Broadway-Cabaret-7-Mai.png" alt="image25">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> X-Broadway Cabaret 7 Mai </span>
+        </a>
+       
+    </li>
+    </ul>
+</div>
+
+
+</div>
+</div>	
+</div>	 
+</div>
+</div> 
+
+
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+	<script type="text/javascript">
+	var QueryString = function () {
+	  // This function is anonymous, is executed immediately and 
+	  // the return value is assigned to QueryString!
+	  var query_string = {};
+	  var query = window.location.search.substring(1);
+	  var vars = query.split("&");
+	  for (var i=0;i<vars.length;i++) {
+		var pair = vars[i].split("=");
+			// If first entry with this name
+		if (typeof query_string[pair[0]] === "undefined") {
+		  query_string[pair[0]] = pair[1];
+			// If second entry with this name
+		} else if (typeof query_string[pair[0]] === "string") {
+		  var arr = [ query_string[pair[0]], pair[1] ];
+		  query_string[pair[0]] = arr;
+			// If third or later entry with this name
+		} else {
+		  query_string[pair[0]].push(pair[1]);
+		}
+	  } 
+		return query_string;
+	} ();
+	
+	</script>
+	<script type="text/javascript">
+
+		var menu =  parseInt(QueryString.menu);
+		var appearTime=250; //Temps d'apparition des boutons au deplacement dans le menu
+		
+		var currentMenu = 0;
+		var currentTeam = 0;
+		var currentPage = 0;
+		if (menu>=0 && menu<5) {currentPage=1; currentMenu=menu;}
+		if (menu>=10 && menu<32){currentPage=2;currentTeam=menu-10;}
+		
+		
+		var goToMenu = function(i){
+			$('.slideshowmenu').cycle(i);
+		}	
+		
+ 
+		var goTo = function(i){
+			
+ 
+			$('.slideshow').cycle(i);
+		}	
+
+		
+		
+	/*---------------------------------------------------
+	
+					Bloc de navigation
+	
+	----------------------------------------------------*/
+		var racineImages = "Images/Proj1/";
+		var baseNumeroVideos = 3000;
+		var activeIntro = false;
+		var activeTeam = false;
+		
+		var hasIntro=[2,5,13,15,17,21,23,25,27,29,31,33,35,38,40,42,44,46,49,55];
+		var inTeam=[//inTeam[i] donne la page de Team pour acceder a i
+			22,
+			-1,0,8,-1,0,0,0,0,1,1,
+			9,-1,16,-1,10,-1,17,18,17,-1,
+			11,-1,19,-1,11,-1,20,-1,11,-1,
+			19,-1,20,-1,1,8,-1,0,-1,21,
+			-1,21,-1,12,-1,0,0,-1,21,1,
+			14,18,0,-1,14,13,13,15,5,14
+		]
+	
+		
+		var loadVideo = function(i, continuer){ //cont=2 pour juste lire l'intro et la vidéo puis s'arrêter
+			if(activeTeam && continuer != 1) {loadTeam(i);return;}
+			var offset=[activeIntro && hasIntro.indexOf(i)>-1 ? 1 : 0];
+			
+			if(continuer==1) {window.location = 'video.html?id='+ (baseNumeroVideos + i - offset) + "&cont=1&origin=apv&menu=-1";}
+			else {window.location = 'video.html?id='+ (baseNumeroVideos + i - offset) + "&cont=" + (2*offset) + "&origin=dvd-3&menu=" + currentMenu;}
+		}
+ 
+		
+		var randomize = function(i){
+			if(i==1){
+				var pageRandom=Math.floor((Math.random() * 22));
+				goToTeam(pageRandom);
+			}
+			
+			else if(i==2){
+				var videoRandom=Math.floor((Math.random() * 60)+1);
+				loadVideo(videoRandom,0);
+			}
+			else if(i==3){
+				$('.slideshowteam').cycle('destroy');
+				$(document).ready(function() {
+				$('.slideshowteam').cycle({
+					after: onAfterTeam,
+					slideResize: false,
+					containerResize: false,
+					fx: 'all' ,
+					speed:   500, 
+					timeout: 0,
+					startingSlide:  0
+						});
+					});
+			}
+			else{}
+		}
+		
+		
+		var accesPage = function(page){
+			window.location = page;
+		}
+		
+		function switchIntro() {
+			activeIntro = !activeIntro;
+			if (activeIntro) 
+			{
+				document.getElementById("intro").src = "Images/intro_on.png";
+			}
+			else 
+			{
+				document.getElementById("intro").src = "Images/intro.png";
+			}
+		}
+		
+ 
+			$(document).ready(function() {
+				$('.slideshow').fadeIn();
+			});
+			
+			var loadImage = function(i) {
+				var real = document.getElementById("photo_" + i).getAttribute("srcrl");
+				if(real!=document.getElementById("photo_" + i).src){
+				document.getElementById("photo_" + i).src = real;
+				}}
+			
+			var unloadAllImages = function() {
+				$('.lb-overlay img').each( function() {
+					$(this).attr('src', "");
+				});
+			}
+			
+			
+			$(document).ready(function() {
+			$('.slideshowmenu').cycle({
+
+				slideResize: false,
+				containerResize: false,
+				after: onAfter,
+				before: onBefore,
+			    next:   '#next', 
+				prev:   '#prev', 
+				fx: 'scrollHorz' ,
+				speed:   500, 
+				timeout: 0,
+				startingSlide: currentMenu
+					});
+				});
+
+			$(document).ready(function() {
+			$('.slideshow').cycle({
+
+				slideResize: false,
+				containerResize: false,
+				fx: 'fade' ,
+				speed:   500, 
+				after: onAfterGlobal,
+				timeout: 0,
+				startingSlide:currentPage
+					});
+				});
+				
+			$(document).ready(function() {
+			$('.slideshowteam').cycle({
+				after: onAfterTeam,
+				slideResize: false,
+				containerResize: false,
+				fx: 'fade' ,
+				speed:   300, 
+				timeout: 0,
+				startingSlide:  currentTeam
+					});
+				});
+				
+				
+		function onBefore(curr, next, opts) {
+			$('#prev')['hide']();
+			$('#next')['hide']();
+			$('#goto0')['hide']();
+			$('#goto1')['hide']();
+			$('#goto2')['hide']();
+			$('#goto3')['hide']();
+			$('#goto4')['hide']();
+			$('#goto5')['hide']();
+			$('#introduction')['hide']();
+		}
+		function onAfter(curr, next, opts) {
+			currentMenu = opts.currSlide;
+			
+			for (i = 1; i <= 5; i++)
+			{
+				var nom = "goto" + i;
+				document.getElementById(nom).getElementsByTagName('img')[0].src = "Images/bouton.png";
+			} 
+			document.getElementById('goto'+(currentMenu+1)).getElementsByTagName('img')[0].src = "Images/bouton_on.png";
+			
+			
+			$('#prev')[currentMenu == 0 ? 'hide' : 'show'](appearTime);
+			$('#next')[currentMenu == opts.slideCount - 1 ? 'hide' : 'show'](appearTime);
+			$('#introduction')['show'](appearTime);
+			for (i = 0; i <= 5; i++)
+			{
+				var nom = "#goto" + i;
+				$(nom)['show'](appearTime);
+			}
+		}
+
+ 
+		function onAfterGlobal(curr, next, opts) {
+			if(activeTeam) {switchTeam()}
+			currentPage = opts.currSlide;
+			if(currentPage!=2) {
+				$('.slideshowteam').cycle(0);
+			}
+			if (currentPage!=1) {
+				$('.slideshowmenu').cycle(0);
+			}
+
+		}
+		
+		
+		
+	</script>
+
+</body>
+
+</html>
+

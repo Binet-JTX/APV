@@ -1,0 +1,884 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>APV - Proj' de mars</title>
+	<link href="style_apv.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+</head>
+
+<body bgcolor="white">
+
+
+
+<div class="slideshow">
+
+<div class="slide">
+<div class="bkgd" style="background-image: url('Images/photos_projs/proj3.png');"></div>
+
+<div id="vp">
+<div id="vp2">
+<div id="superzone">
+
+	
+	<ul class="buttonsmenu">
+		<li>
+			<a id="next" href="#next">
+				<img id="droite" src="Images/droite.png" />
+				<div><img id="droite_hover" src="Images/droite_hover.png" /></div>
+			</a>
+		</li>
+		<li>
+			<a id="prev" href="#prev">
+				<img id="gauche" src="Images/gauche.png" />
+				<div><img id="gauche_hover" src="Images/gauche_hover.png" /></div>
+			</a>
+		</li>
+		<li>
+		</li>
+		<li>
+			<a id="goto1" onClick="goToMenu(0);" href="#1" style="display:none">
+            	<img src="" />
+			</a>
+		</li>
+		<li>
+			<a id="goto2" onClick="goToMenu(1);" href="#2" style="display:none">
+            	<img src="" />
+			</a>
+		</li>
+		<li>
+			<a id="goto3" onClick="goToMenu(2);" href="#3" style="display:none">
+            	<img src="" />
+			</a>
+		</li>
+		<li>
+			<a id="goto4" onClick="goToMenu(3);" href="#4" style="display:none">
+            	<img src="" />
+			</a>
+		</li>
+		<li>
+			<a id="goto5" onClick="goToMenu(4);" href="#5" style="display:none">
+            	<img src="" />
+			</a>
+		</li>
+		<li>
+
+		</li>
+		<li>
+			<a>
+				<img id="titre" src="Images/titre_texte_proj_3.png" />
+			</a>
+		</li>
+		<li>
+			<a href="dvd-6.html" onClick="">
+				<img id="accueil" src="Images/accueil.png" />
+				<div><img id="accueil_hover" title="Retour au menu APV" src="Images/accueil_hover.png" /></div>
+			</a>
+			
+		</li>
+		<li>
+			<a onClick="loadVideo(1,1);" href="#proj">
+				<img id="proj" src="Images/proj.png" />
+				<div><img id="proj_hover" title="Lancer toutes les videos" src="Images/proj_hover.png" /></div>
+			</a>
+		</li>
+		<li>
+			<a href="equipe.html">
+				<img id="equipe" src="Images/equipe.png" />
+				<div><img id="equipe_hover" title="L'équipe" src="Images/equipe_hover.png" /></div>
+			</a>
+		</li>
+		<li></li><li></li><li></li><li></li><li></li><li></li>
+		<li><!--  hiddenimage  -->
+			<a>
+				<img id="hiddo" src="Images/trs.png" />
+			</a>
+		</li>
+		<li onClick="switchTeam();"><!--  Switch Team bouton)  -->
+		</li>
+		<li onClick="if(activeTeam) {loadTeam(0);return;}"><!--  goTo Website Bouton  -->
+		</li>
+		<li>
+			<a id="goto6" onClick="goToMenu(5);" href="#6" style="display:none">
+				<img src="" />
+			</a>
+		</li>
+
+
+		
+	</ul>
+<div class="slideshowmenu">
+<div class="slidemenu">
+    <div class="imgzone">
+        <img src="Images/zone_gauche.png" />
+	</div>
+<ul class="lb-album">
+    <li>
+        <a href="#clip-1" onClick="loadVideo(1,0);">
+            <img src="Images/miniatures/6-3-00a_Preproj_Retrospective_TSGED.png" alt="image1">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Préproj Retrospective TSGED </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-2" onClick="loadVideo(2,0);">
+            <img src="Images/miniatures/6-3-00b_Preproj_SIGEM.png" alt="image2">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Préproj SIGEM </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-3" onClick="loadVideo(3,0);">
+            <img src="Images/miniatures/6-3-00c_Preproj_Start_Up_Week_End.png" alt="image3">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Préproj Start Up Week End </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-4" onClick="loadVideo(4,0);">
+            <img src="Images/miniatures/6-3-00d_Preproj_Retrospective_24H_Natation.png" alt="image4">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Préproj Rétrospective 24H Natation </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-5" onClick="loadVideo(5,0);">
+            <img src="Images/miniatures/6-3-00e_Preproj_Retrospective_Tix.png" alt="image5">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Préproj Retrospective TIX </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-6" onClick="loadVideo(6,0);">
+            <img src="Images/miniatures/6-3-00f_Preproj_Pub_Nuit_des_Sports_de_Combat.png" alt="image6">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Préproj Nuit des Sports de Combat </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-7" onClick="loadVideo(7,0);">
+            <img src="Images/miniatures/6-3-00g_Preproj_Faerix.png" alt="image7">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Préproj Faerix </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-8" onClick="loadVideo(8,0);">
+            <img src="Images/miniatures/6-3-01a_Intro.png" alt="image8">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Intro </span>
+        </a>
+       
+    </li>
+    </ul>
+</div>
+
+<div class="slidemenu">
+    <div class="imgzone">
+        <img src="Images/zone_centre.png" />
+    </div>
+    <ul class="lb-album">
+    <li>
+        <a href="#clip-9" onClick="loadVideo(9,0);">
+            <img src="Images/miniatures/6-3-02a_Retrospective_JSP.png" alt="image9">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Rétrospective JSP </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-10" onClick="loadVideo(10,0);">
+            <img src="Images/miniatures/6-3-03a_Et_si_l_alcool_ne_faisait_plus_effet.png" alt="image10">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Et si l'alcool ne faisait plus effet </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-11" onClick="loadVideo(11,0);">
+            <img src="Images/miniatures/6-3-05a_BA_Amphi_Binets.png" alt="image11">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> BA Amphi Binets </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-12" onClick="loadVideo(12,0);">
+            <img src="Images/miniatures/6-3-06b_Chiquette_Murder.png" alt="image12">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Chiquette Murder </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-13" onClick="loadVideo(13,0);">
+            <img src="Images/miniatures/6-3-08a_Les_Genres_Oublies.png" alt="image13">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Les Genres Oubliés </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-14" onClick="loadVideo(14,0);">
+            <img src="Images/miniatures/6-3-09a_Facebook_X2012.png" alt="image14">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Facebook X2012 </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-15" onClick="loadVideo(15,0);">
+            <img src="Images/miniatures/6-3-10a_Habillement_1944.png" alt="image15">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Habillement 1944 </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-16" onClick="loadVideo(16,0);">
+            <img src="Images/miniatures/6-3-11a_Publicite.png" alt="image16">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Publicité </span>
+        </a>
+       
+    </li>
+    </ul>
+</div>
+
+<div class="slidemenu">
+    <div class="imgzone">
+        <img src="Images/zone_centre.png" />
+    </div>
+    <ul class="lb-album">
+    <li>
+        <a href="#clip-17" onClick="loadVideo(17,0);">
+            <img src="Images/miniatures/6-3-12a_Pub_Amphi_Binets_Peripaltux.png" alt="image17">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Pub Amphi Binets Peripaltux </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-18" onClick="loadVideo(18,0);">
+            <img src="Images/miniatures/6-3-13a_Pub_BDS.png" alt="image18">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Pub BDS </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-19" onClick="loadVideo(19,0);">
+            <img src="Images/miniatures/6-3-14a_Pub_WEI.png" alt="image19">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Pub WEI </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-20" onClick="loadVideo(20,0);">
+            <img src="Images/miniatures/6-3-15a_Pub_Maskes.png" alt="image20">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Pub MasKès </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-21" onClick="loadVideo(21,0);">
+            <img src="Images/miniatures/6-3-16a_Pub_Amphi_Binets_XForum.png" alt="image21">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Pub Amphi Binets X-Forum </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-22" onClick="loadVideo(22,0);">
+            <img src="Images/miniatures/6-3-17a_Pub_WEI.png" alt="image22">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Pub WEI </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-23" onClick="loadVideo(23,0);">
+            <img src="Images/miniatures/6-3-18a_Publicite.png" alt="image23">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Publicité </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-24" onClick="loadVideo(24,0);">
+            <img src="Images/miniatures/6-3-20a_SherlocX.png" alt="image24">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> SherlocX </span>
+        </a>
+       
+    </li>
+    </ul>
+</div>
+
+<div class="slidemenu">
+    <div class="imgzone">
+        <img src="Images/zone_centre.png" />
+    </div>
+    <ul class="lb-album">
+    <li>
+        <a href="#clip-25" onClick="loadVideo(25,0);">
+            <img src="Images/miniatures/6-3-21a_La_Chute_Bureau_Logement.png" alt="image25">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> La Chute : Bureau Logement </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-26" onClick="loadVideo(26,0);">
+            <img src="Images/miniatures/6-3-22a_300.png" alt="image26">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> 300 </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-27" onClick="loadVideo(27,0);">
+            <img src="Images/miniatures/6-3-24a_Pendant_ce_temps_dans_l_IK.png" alt="image27">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Pendant ce temps dans l'IK </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-28" onClick="loadVideo(28,0);">
+            <img src="Images/miniatures/6-3-25a_Je_pisse_donc_j_essuie.png" alt="image28">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Je pisse donc j'essuie </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-29" onClick="loadVideo(29,0);">
+            <img src="Images/miniatures/6-3-26a_S_Amuser_en_conf_DFHM.png" alt="image29">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> S'amuser en conf DFHM </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-30" onClick="loadVideo(30,0);">
+            <img src="Images/miniatures/6-3-27a_Chtis_A_Palaiseau.png" alt="image30">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Les Chtis à Palaiseau </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-31" onClick="loadVideo(31,0);">
+            <img src="Images/miniatures/6-3-28a_Publicite.png" alt="image31">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Publicité </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-32" onClick="loadVideo(32,0);">
+            <img src="Images/miniatures/6-3-29a_Pub_Amphi_Binets_Binet_Jambon.png" alt="image32">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Pub Amphi Binets : Binet Jambon </span>
+        </a>
+       
+    </li>
+    </ul>
+</div>
+
+<div class="slidemenu">
+    <div class="imgzone">
+        <img src="Images/zone_centre.png" />
+    </div>
+    <ul class="lb-album">
+    <li>
+        <a href="#clip-33" onClick="loadVideo(33,0);">
+            <img src="Images/miniatures/6-3-30a_Pub_PSC.png" alt="image33">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Pub PSC </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-34" onClick="loadVideo(34,0);">
+            <img src="Images/miniatures/6-3-31a_Pub_WEI.png" alt="image34">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Pub WEI </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-35" onClick="loadVideo(35,0);">
+            <img src="Images/miniatures/6-3-32a_Pub_Amphi_Binets_Binet_Torture.png" alt="image35">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Pub Amphi Binets : Binet Torture </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-36" onClick="loadVideo(36,0);">
+            <img src="Images/miniatures/6-3-34a_Trailer_Impro_Casino.png" alt="image36">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Trailer Impro Casino </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-37" onClick="loadVideo(37,0);">
+            <img src="Images/miniatures/6-3-35a_Pub_WEI.png" alt="image37">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Pub WEI </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-38" onClick="loadVideo(38,0);">
+            <img src="Images/miniatures/6-3-36a_Les_Tutos_de_Magnan_ADD.png" alt="image38">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Les Tutos de Magnan : ADD </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-39" onClick="loadVideo(39,0);">
+            <img src="Images/miniatures/6-3-37a_Publicite.png" alt="image39">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Publicité </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-40" onClick="loadVideo(40,0);">
+            <img src="Images/miniatures/6-3-38a_The_Origin_of_Dubstep_Pales.png" alt="image40">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> The Origin of Dubstep Pales </span>
+        </a>
+       
+    </li>
+    </ul>
+</div>
+
+<div class="slidemenu">
+    <div class="imgzone">
+        <img src="Images/zone_droite.png" />
+    </div>
+    <ul class="lb-album">
+    <li>
+        <a href="#clip-41" onClick="loadVideo(41,0);">
+            <img src="Images/miniatures/6-3-39a_Les_Bales_de_l_X.png" alt="image41">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Les Bales de l'X </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-42" onClick="loadVideo(42,0);">
+            <img src="Images/miniatures/6-3-41a_La_Pinte.png" alt="image42">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> La Pinte </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-43" onClick="loadVideo(43,0);">
+            <img src="Images/miniatures/6-3-42a_Da_Vinci_Poop.png" alt="image43">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Da Vinci Poop </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-44" onClick="loadVideo(44,0);">
+            <img src="Images/miniatures/6-3-43a_Tous_les_Memes.png" alt="image44">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Tous les Mêmes </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-45" onClick="loadVideo(45,0);">
+            <img src="Images/miniatures/6-3-44a_Zapping.png" alt="image45">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Zapping </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-46" onClick="loadVideo(46,0);">
+            <img src="Images/miniatures/6-3-46a_Generique_de_fin.png" alt="image46">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Générique de fin </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-47" onClick="loadVideo(47,0);">
+            <img src="Images/miniatures/6-3-47a_Credits.png" alt="image47">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> Crédits </span>
+        </a>
+       
+    </li>
+    <li>
+        <a href="#clip-48" onClick="loadVideo(48,0);">
+            <img src="Images/miniatures/6-3-48a_PostProj.png" alt="image48">
+            <div>
+            <img src="Images/play.png" alt="play">
+            </div>
+            <span> PostProj </span>
+        </a>
+       
+    </li>
+</div>
+</ul>
+
+</div>
+</div>	
+</div>	 
+</div>
+</div> 
+
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+	<script type="text/javascript">
+	var QueryString = function () {
+	  // This function is anonymous, is executed immediately and 
+	  // the return value is assigned to QueryString!
+	  var query_string = {};
+	  var query = window.location.search.substring(1);
+	  var vars = query.split("&");
+	  for (var i=0;i<vars.length;i++) {
+		var pair = vars[i].split("=");
+			// If first entry with this name
+		if (typeof query_string[pair[0]] === "undefined") {
+		  query_string[pair[0]] = pair[1];
+			// If second entry with this name
+		} else if (typeof query_string[pair[0]] === "string") {
+		  var arr = [ query_string[pair[0]], pair[1] ];
+		  query_string[pair[0]] = arr;
+			// If third or later entry with this name
+		} else {
+		  query_string[pair[0]].push(pair[1]);
+		}
+	  } 
+		return query_string;
+	} ();
+	
+	</script>
+	<script type="text/javascript">
+
+		var menu =  parseInt(QueryString.menu);
+		var appearTime=250; //Temps d'apparition des boutons au deplacement dans le menu
+		
+		var currentMenu = 0;
+		var currentTeam = 0;
+		var currentPage = 0;
+		if (menu>=0 && menu<5) {currentPage=1; currentMenu=menu;}
+		if (menu>=10 && menu<32){currentPage=2;currentTeam=menu-10;}
+		
+		
+		var goToMenu = function(i){
+			$('.slideshowmenu').cycle(i);
+		}	
+		
+ 
+		var goTo = function(i){
+			
+ 
+			$('.slideshow').cycle(i);
+		}	
+
+		
+		
+	/*---------------------------------------------------
+	
+					Bloc de navigation
+	
+	----------------------------------------------------*/
+		var racineImages = "Images/Proj1/";
+		var baseNumeroVideos = 63000;
+		var activeIntro = false;
+		var activeTeam = false;
+		
+		var hasIntro=[2,5,13,15,17,21,23,25,27,29,31,33,35,38,40,42,44,46,49,55];
+		var inTeam=[//inTeam[i] donne la page de Team pour acceder a i
+			22,
+			-1,0,8,-1,0,0,0,0,1,1,
+			9,-1,16,-1,10,-1,17,18,17,-1,
+			11,-1,19,-1,11,-1,20,-1,11,-1,
+			19,-1,20,-1,1,8,-1,0,-1,21,
+			-1,21,-1,12,-1,0,0,-1,21,1,
+			14,18,0,-1,14,13,13,15,5,14
+		]
+	
+		
+		var loadVideo = function(i, continuer){ //cont=2 pour juste lire l'intro et la vidéo puis s'arrêter
+			if(activeTeam && continuer != 1) {loadTeam(i);return;}
+			var offset=[activeIntro && hasIntro.indexOf(i)>-1 ? 1 : 0];
+			
+			if(continuer==1) {window.location = 'video.html?id='+ (baseNumeroVideos + i - offset) + "&cont=1&origin=dvd-6&menu=-1";}
+			else {window.location = 'video.html?id='+ (baseNumeroVideos + i - offset) + "&cont=" + (2*offset) + "&origin=proj-3&menu=" + currentMenu;}
+		}
+ 
+		
+		var randomize = function(i){
+			if(i==1){
+				var pageRandom=Math.floor((Math.random() * 22));
+				goToTeam(pageRandom);
+			}
+			
+			else if(i==2){
+				var videoRandom=Math.floor((Math.random() * 60)+1);
+				loadVideo(videoRandom,0);
+			}
+			else if(i==3){
+				$('.slideshowteam').cycle('destroy');
+				$(document).ready(function() {
+				$('.slideshowteam').cycle({
+					after: onAfterTeam,
+					slideResize: false,
+					containerResize: false,
+					fx: 'all' ,
+					speed:   500, 
+					timeout: 0,
+					startingSlide:  0
+						});
+					});
+			}
+			else{}
+		}
+		
+		
+		var accesPage = function(page){
+			window.location = page;
+		}
+		
+		function switchIntro() {
+			activeIntro = !activeIntro;
+			if (activeIntro) 
+			{
+				document.getElementById("intro").src = "Images/intro_on.png";
+			}
+			else 
+			{
+				document.getElementById("intro").src = "Images/intro.png";
+			}
+		}
+		
+ 
+			$(document).ready(function() {
+				$('.slideshow').fadeIn();
+			});
+			
+			var loadImage = function(i) {
+				var real = document.getElementById("photo_" + i).getAttribute("srcrl");
+				if(real!=document.getElementById("photo_" + i).src){
+				document.getElementById("photo_" + i).src = real;
+				}}
+			
+			var unloadAllImages = function() {
+				$('.lb-overlay img').each( function() {
+					$(this).attr('src', "");
+				});
+			}
+			
+			
+			$(document).ready(function() {
+			$('.slideshowmenu').cycle({
+
+				slideResize: false,
+				containerResize: false,
+				after: onAfter,
+				before: onBefore,
+			    next:   '#next', 
+				prev:   '#prev', 
+				fx: 'scrollHorz' ,
+				speed:   500, 
+				timeout: 0,
+				startingSlide: currentMenu
+					});
+				});
+
+			$(document).ready(function() {
+			$('.slideshow').cycle({
+
+				slideResize: false,
+				containerResize: false,
+				fx: 'fade' ,
+				speed:   500, 
+				after: onAfterGlobal,
+				timeout: 0,
+				startingSlide:currentPage
+					});
+				});
+				
+			$(document).ready(function() {
+			$('.slideshowteam').cycle({
+				after: onAfterTeam,
+				slideResize: false,
+				containerResize: false,
+				fx: 'fade' ,
+				speed:   300, 
+				timeout: 0,
+				startingSlide:  currentTeam
+					});
+				});
+				
+				
+		function onBefore(curr, next, opts) {
+			$('#prev')['hide']();
+			$('#next')['hide']();
+			$('#goto0')['hide']();
+			$('#goto1')['hide']();
+			$('#goto2')['hide']();
+			$('#goto3')['hide']();
+			$('#goto4')['hide']();
+			$('#goto5')['hide']();
+			$('#introduction')['hide']();
+		}
+		function onAfter(curr, next, opts) {
+			currentMenu = opts.currSlide;
+			
+			for (i = 1; i <= 5; i++)
+			{
+				var nom = "goto" + i;
+				document.getElementById(nom).getElementsByTagName('img')[0].src = "Images/bouton.png";
+			} 
+			document.getElementById('goto'+(currentMenu+1)).getElementsByTagName('img')[0].src = "Images/bouton_on.png";
+			
+			
+			$('#prev')[currentMenu == 0 ? 'hide' : 'show'](appearTime);
+			$('#next')[currentMenu == opts.slideCount - 1 ? 'hide' : 'show'](appearTime);
+			$('#introduction')['show'](appearTime);
+			for (i = 0; i <= 6; i++)
+			{
+				var nom = "#goto" + i;
+				$(nom)['show'](appearTime);
+			}
+		}
+
+ 
+		function onAfterGlobal(curr, next, opts) {
+			if(activeTeam) {switchTeam()}
+			currentPage = opts.currSlide;
+			if(currentPage!=2) {
+				$('.slideshowteam').cycle(0);
+			}
+			if (currentPage!=1) {
+				$('.slideshowmenu').cycle(0);
+			}
+
+		}
+		
+		
+		
+	</script>
+
+</body>
+
+</html>
+
