@@ -1,6 +1,6 @@
 //Simple function called after the intro video to redirect to main menu
 var goToMenu = function() {;
-    $('body').load("source/main-menu.html");
+    $('body').load("source/components/main-menu/main-menu.html");
 }
 
 //pure.js directive to fill in the intro video source
