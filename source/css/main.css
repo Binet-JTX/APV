@@ -1,9 +1,46 @@
+body {
+    background-color:black;
+    background-repeat: repeat;
+    background-position: 0px 0px;
+    background-attachment: fixed;
+    /*background-width: 100%;*/
+    margin: 0px;
+    height:100vh;
+    max-width: 100%;
+    text-align: center;
+}
+#container {
+    text-align:center;
+    height:100%;
+}
+#current-video{
+    position:absolute;
+    left:0px;
+    height:100%;
+    width:100%;
+}
+#alternat{
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    top:200px;
+    width:400px;
+    height:240px;
+    background-color:lightgray;
+    text-align:center;
+    border-radius:30px;
+    border-width:20px;
+    border-style:solid;
+    border-color: lightgray;
+    box-shadow: 3px 3px 0px darkgray;
+    font-family: Arial;
+}
+
+
+
 html {
     color: #000;
     background: #FFF;
-}
-body {
-    background-color:black;
 }
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
     margin: 0;
@@ -59,9 +96,12 @@ legend {
     /*src: url(FuturaLight.ttf);*/
     src: url('../font/FuturaLight.eot?#iefix') format('embedded-opentype'), url('../font/FuturaLight.ttf') format('truetype');
 }
-/*.slideshow {
+
+/* Pour avoir l'effet de fade in des menus, il faut qu'au départ celui-ci soit caché. */ 
+.slideshow {
     display: none;
-}*/
+}
+
 img {
     border-style: none;
 }
