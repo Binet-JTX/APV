@@ -1,9 +1,9 @@
 <span id="container">
     <div id="video-container">
-        <a style="position:relative; z-index:8; top:0%; left:0%; float:right;" onclick="goToMenu()">
+        <a id="skip-intro" onclick="goToMenu()">
             <img src="images/skip_intro.png" />
         </a>
-        <video id="current-video" style="display:block;" poster="" autoplay onended="goToMenu()">
+        <video id="current-video" style="display:block" poster="" autoplay onended="goToMenu()">
             <source id="intro-video-src" type="video/mp4" />
         </video>
     </div>
