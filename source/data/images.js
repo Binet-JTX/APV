@@ -1,5 +1,10 @@
 var images = {
+    intro : {
+        pathPrefix : "../../../",
+        skipIntro : "images/skip_intro.png"
+    },
     mainMenu: {
+        pathPrefix : "../../../",
         background: "images/fondmenu.jpg",
         title : "images/titre_texte_superieur.png",
         backToIntro : {
