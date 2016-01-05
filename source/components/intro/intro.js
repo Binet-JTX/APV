@@ -4,12 +4,12 @@ var goToMenu = function() {;
 }
 
 //pure.js directive to fill in the intro video source
-var introVideosDirective = {
+var videosDirective = {
     '#intro-video-src@src': '#{intro.pathPrefix}/#{intro.src}'
 };
-var introImagesDirective = {
+var displayDirective = {
     '#skip-intro-image@src' : '#{intro.pathPrefix}/#{intro.skipIntro}'
 }
 
-$p('body').render(images, introImagesDirective);
-$p('body').render(videos, introVideosDirective); //render the result
+$p('body').render(display, displayDirective);
+$p('body').render(videos, videosDirective); //render the result

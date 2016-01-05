@@ -1,5 +1,5 @@
-//pure.js directive to fill in the image sources
-var imagesDirective = {
+//pure.js directive to fill in the image sources and other
+var displayDirective = {
     '#zone-isolated@src': '#{mainMenu.pathPrefix}/#{common.zone.isolated}',
     '#background@style': function(a) {
         return "background-image: url(" + this.mainMenu.pathPrefix + this.mainMenu.background + ");"
@@ -11,12 +11,13 @@ var imagesDirective = {
         'section<-mainMenu.sections': {
             '.main-menu-section-poster@src': '#{mainMenu.pathPrefix}/#{section.poster}',
             '.main-menu-section-play@src': '#{mainMenu.pathPrefix}/#{common.play}',
-            '.main-menu-section-title': 'section.title'
+            '.main-menu-section-title': 'section.title',
+            '.main-menu-section-link@href+': 'section.id'
         }
     }
 };
 
-$('body').render(images, imagesDirective); //render the result
+$('body').render(display, displayDirective); //render the result
 
 
 //Navigation functions

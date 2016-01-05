@@ -1,4 +1,4 @@
-var images = {
+var display = {
     intro : {
         pathPrefix : "../../../",
         skipIntro : "images/skip_intro.png"
@@ -18,7 +18,8 @@ var images = {
             },
             {
                 poster : "images/photos_dvd/mini/02-Interview.png",
-                title : "Interviews"
+                title : "Interviews",
+                id : 'interviews'
             },
             {
                 poster : "images/photos_dvd/mini/03-RendezVousEnPoinca.png",
