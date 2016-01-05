@@ -1,0 +1,277 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Album Promo Vidéo 2013</title>
+        <link href="../../css/main.css" rel="stylesheet" type="text/css">
+        <!-- Chargement des librairies -->
+        <script src="../../js/jquery.js" type="text/javascript"></script>
+        <script src="../../js/pure.js" type="text/javascript"></script>
+        <!-- Chargement des données des images et vidéos -->
+        <script src="../../data/display.js" type="text/javascript"></script>
+        <script src="../../data/videos.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+
+        <div class="slideshow">
+
+            <div class="slide">
+                <div class="bkgd" style="background-image: url('Images/photos_dvd/02-Interview.jpg');"></div>
+
+                <div id="vp">
+                    <div id="vp2">
+                        <div id="superzone">
+
+                            <ul class="buttonsmenu">
+                                <li>
+                                    <a href="#next" id="next">
+                                        <img id="droite" src="Images/droite.png"/>
+                                        <div><img id="droite_hover" src="Images/droite_hover.png"/></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#prev" id="prev">
+                                        <img id="gauche" src="Images/gauche.png"/>
+                                        <div><img id="gauche_hover" src="Images/gauche_hover.png"/></div>
+                                    </a>
+                                </li>
+                                <li></li>
+                                <li>
+                                    <a href="#1" id="goto1" onClick="goToMenu(0);">
+                                        <img src="Images/bouton.png"/>
+                                        <div><img src="Images/bouton_hover.png"/></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#2" id="goto2" onClick="goToMenu(1);">
+                                        <img src="Images/bouton.png"/>
+                                        <div><img src="Images/bouton_hover.png"/></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#3" id="goto3" onClick="goToMenu(2);">
+                                        <img src="Images/bouton.png"/>
+                                        <div><img src="Images/bouton_hover.png"/></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#4" id="goto4" onClick="goToMenu(3);">
+                                        <img src="Images/bouton.png"/>
+                                        <div><img src="Images/bouton_hover.png"/></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#5" id="goto5" onClick="goToMenu(4);">
+                                        <img src="Images/bouton.png"/>
+                                        <div><img src="Images/bouton_hover.png"/></div>
+                                    </a>
+                                </li>
+                                <li></li>
+                                <li>
+                                    <a>
+                                        <img id="titre" src="Images/titre_texte_superieur_2.png"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="apv.html" onClick="">
+                                        <img id="accueil" src="Images/accueil.png"/>
+                                        <div><img id="accueil_hover" src="Images/accueil_hover.png" title="Retour au menu APV"/></div>
+                                    </a>
+
+                                </li>
+                                <li>
+                                    <a href="#proj" onClick="loadVideo(1,1);">
+                                        <img id="proj" src="Images/proj.png"/>
+                                        <div><img id="proj_hover" src="Images/proj_hover.png" title="Lancer toutes les videos"/></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="equipe.html">
+                                        <img id="equipe" src="Images/equipe.png"/>
+                                        <div><img id="equipe_hover" src="Images/equipe_hover.png" title="L'équipe"/></div>
+                                    </a>
+                                </li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li>
+                                    <!--  hiddenimage  -->
+                                    <a>
+                                        <img id="hiddo" src="Images/trs.png"/>
+                                    </a>
+                                </li>
+                                <li onClick="switchTeam();">
+                                    <!--  Switch Team bouton)  -->
+                                </li>
+                                <li onClick="if(activeTeam) {loadTeam(0);return;}">
+                                    <!--  goTo Website Bouton  -->
+                                </li>
+
+                            </ul>
+                            <div class="slideshowmenu">
+                                <div class="slidemenu">
+                                    <div class="imgzone">
+                                        <img src="Images/zone_gauche.png"/>
+                                    </div>
+                                    <ul class="lb-album">
+                                        <li>
+                                            <a href="#clip-1" onClick="loadVideo(1,0);">
+                                                <img alt="image01" src="Images/miniatures/2-01_Jacques_Biot.png">
+                                                <div>
+                                                    <img alt="play" src="Images/play.png">
+                                                </div>
+                                                <span>
+                                                    Jacques Biot
+                                                </span>
+                                            </a>
+
+                                        </li>
+
+                                        <li>
+                                            <a href="#clip-2" onClick="loadVideo(2,0);">
+                                                <img alt="image02" src="Images/miniatures/2-02_Yves_Demay.png">
+                                                <div>
+                                                    <img alt="play" src="Images/play.png">
+                                                </div>
+                                                <span>
+                                                    IGA Yves Demay
+                                                </span>
+                                            </a>
+
+                                        </li>
+                                        <li>
+                                            <a href="#clip-3" onClick="loadVideo(3,0);">
+                                                <img alt="image03" src="Images/miniatures/2-03_Colonel_Gontier.png">
+                                                <div>
+                                                    <img alt="play" src="Images/play.png">
+                                                </div>
+                                                <span>
+                                                    COL Gontier
+                                                </span>
+                                            </a>
+
+                                        </li>
+                                        <li>
+                                            <a href="#clip-4" onClick="loadVideo(4,0);">
+                                                <img alt="image04" src="Images/miniatures/2-04_Joaquim_Nassar.png">
+                                                <div>
+                                                    <img alt="play" src="Images/play.png">
+                                                </div>
+                                                <span>
+                                                    Joaquim Nassar
+                                                </span>
+                                            </a>
+
+                                        </li>
+                                        <li></li>
+                                        <li>
+                                            <a href="#clip-5" onClick="loadVideo(5,0);">
+                                                <img alt="image05" src="Images/miniatures/2-05_Frank_Pacard.png">
+                                                <div>
+                                                    <img alt="play" src="Images/play.png">
+                                                </div>
+                                                <span>
+                                                    Frank Pacard
+                                                </span>
+                                            </a>
+
+                                        </li>
+                                        <li>
+                                            <a href="#clip-6" onClick="loadVideo(6,0);">
+                                                <img alt="image06" src="Images/miniatures/2-06_baq_Lemonnier.png">
+                                                <div>
+                                                    <img alt="play" src="Images/play.png">
+                                                </div>
+                                                <span>
+                                                    LCL Lemonnier
+                                                </span>
+                                            </a>
+
+                                        </li>
+                                        <li></li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+
+                                <div class="slidemenu">
+                                    <div class="imgzone">
+                                        <img src="Images/zone_droite.png"/>
+                                    </div>
+                                    <ul class="lb-album">
+                                        <li>
+                                            <a href="#clip-7" onClick="loadVideo(7,0);">
+                                                <img alt="image07" src="Images/miniatures/2-07_baq_Dulac_Legrix.png">
+                                                <div>
+                                                    <img alt="play" src="Images/play.png">
+                                                </div>
+                                                <span>
+                                                    LCL Dulac & Legrix
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#clip-8" onClick="loadVideo(8,0);">
+                                                <img alt="image08" src="Images/miniatures/2-08_baq_Coline_Briquet.png">
+                                                <div>
+                                                    <img alt="play" src="Images/play.png">
+                                                </div>
+                                                <span>
+                                                    Coline Briquet
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#clip-9" onclick="loadVideo(9,0);">
+                                                <img alt="image09" src="Images/miniatures/2-09_baq_Holiner.png">
+                                                <div>
+                                                    <img alt="play" src="Images/play.png">
+                                                </div>
+                                                <span>
+                                                    Holiner
+                                                </span>
+                                            </a>
+
+                                        </li>
+                                        <li>
+                                            <a href="#clip-10" onClick="loadVideo(10,0);">
+                                                <img alt="image10" src="Images/miniatures/2-10_baq_Scola_Jean.png">
+                                                <div>
+                                                    <img alt="play" src="Images/play.png">
+                                                </div>
+                                                <span>
+                                                    Jean
+                                                </span>
+                                            </a>
+
+                                        </li>
+                                        <li>
+                                            <a href="#clip-11" onClick="loadVideo(11,0);">
+                                                <img alt="image11" src="Images/miniatures/2-11_baq_Mina_Zaza.png">
+                                                <div>
+                                                    <img alt="play" src="Images/play.png">
+                                                </div>
+                                                <span>
+                                                    Mina & Zaza</span>
+                                            </a>
+                                        </li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src="projection.js" type="text/javascript"></script>
+</html>
