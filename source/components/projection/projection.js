@@ -11,7 +11,8 @@ $(document).ready(function() {
 //QueryString is given by queryString.js imported in the <head>
 var projId = QueryString.id;
 var projection = videos[projId];
-
+var projectionDisplay = display.projection.projections[projId]
+projectionDisplay.pathPrefix = display.projection.pathPrefix;
 
 //pure.js directive to fill in the video sources and posters
 var videosDirective = {
@@ -23,7 +24,30 @@ var videosDirective = {
     }
 };
 
+var displayDirective = {
+    '#droite@src' : '#{projection.pathPrefix}/#{common.droite.main}',
+    '#droite_hover@src' : '#{projection.pathPrefix}/#{common.droite.hover}',
+    '#gauche@src' : '#{projection.pathPrefix}/#{common.gauche.main}',
+    '#gauche_hover@src' : '#{projection.pathPrefix}/#{common.gauche.hover}',
+    '#accueil@src' : '#{projection.pathPrefix}/#{common.accueil.main}',
+    '#accueil_hover@src' : '#{projection.pathPrefix}/#{common.accueil.hover}',
+    '#proj@src' : '#{projection.pathPrefix}/#{common.proj.main}',
+    '#proj_hover@src' : '#{projection.pathPrefix}/#{common.proj.hover}',
+    '#equipe@src' : '#{projection.pathPrefix}/#{common.equipe.main}',
+    '#equipe_hover@src' : '#{projection.pathPrefix}/#{common.equipe.hover}',
+    '#left_zone@src' : '#{projection.pathPrefix}/#{common.zone.left}',
+};
+
+var projectionDisplayDirective = {
+    '.bkgd@style+': function(a) {
+        return "background-image: url(" + this.pathPrefix + this.background + ");"
+    },
+    '#titre@src' : '#{pathPrefix}/#{titre}',
+}
+
 $('body').render(projection, videosDirective); //render the result
+$('body').render(display, displayDirective);
+$('body').render(projectionDisplay, projectionDisplayDirective);
 
 
 /**********************************************

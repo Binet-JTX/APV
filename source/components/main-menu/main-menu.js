@@ -1,3 +1,7 @@
+/********************************
+Controller for the main menu page
+*********************************/
+
 //pure.js directive to fill in the image sources and other
 var displayDirective = {
     '#zone-isolated@src': '#{mainMenu.pathPrefix}/#{common.zone.isolated}',
