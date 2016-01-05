@@ -1,33 +1,34 @@
+/**********************************
+Controller for the projection page
+***********************************/
+
 //FadeIn to mask the loading of the page elements
 $(document).ready(function() {
     $('.slideshow').fadeIn(1000);
 });
 
-var QueryString = function() {
-    // This function is anonymous, is executed immediately and
-    // the return value is assigned to QueryString!
-    var query_string = {};
-    var query = window.location.search.substring(1);
-    var vars = query.split("&");
-    for (var i = 0; i < vars.length; i++) {
-        var pair = vars[i].split("=");
-        // If first entry with this name
-        if (typeof query_string[pair[0]] === "undefined") {
-            query_string[pair[0]] = pair[1];
-            // If second entry with this name
-        } else if (typeof query_string[pair[0]] === "string") {
-            var arr = [
-                query_string[pair[0]], pair[1]
-            ];
-            query_string[pair[0]] = arr;
-            // If third or later entry with this name
-        } else {
-            query_string[pair[0]].push(pair[1]);
+//We select the relevant section of video data corresponding to the projection
+//QueryString is given by queryString.js imported in the <head>
+var projId = QueryString.id;
+var projection = videos[projId];
+
+
+//pure.js directive to fill in the video sources and posters
+var videosDirective = {
+    '.projection-video': {
+        'video<-videos': {
+            '.projection-video-poster@src': '#{posterPathPrefix}/#{video.poster}',
+            '.projection-video-title': 'video.title',
         }
     }
-    return query_string;
-}();
+};
 
+$('body').render(projection, videosDirective); //render the result
+
+
+/**********************************************
+************** Breton's JS down here **********
+**********************************************/
 
 var menu = parseInt(QueryString.menu);
 var appearTime = 250; //Temps d'apparition des boutons au deplacement dans le menu
@@ -63,7 +64,6 @@ var goTo = function(i) {
                 Bloc de navigation
 
 ----------------------------------------------------*/
-var racineImages = "Images/Proj1/";
 var baseNumeroVideos = 2000;
 var activeIntro = false;
 var activeTeam = false;
