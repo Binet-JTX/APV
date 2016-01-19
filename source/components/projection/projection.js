@@ -10,6 +10,7 @@ $(document).ready(function() {
 //We select the relevant section of video data corresponding to the projection
 //QueryString is given by queryString.js imported in the <head>
 var projId = QueryString.id;
+var prevMenu = QueryString.prev;
 var projection = videos[projId];
 var projectionDisplay = display.projection.projections[projId]
 projectionDisplay.pathPrefix = display.projection.pathPrefix;
@@ -73,8 +74,11 @@ var displayDirective = {
     '#droite_hover@src' : '#{projection.pathPrefix}/#{common.droite.hover}',
     '#gauche@src' : '#{projection.pathPrefix}/#{common.gauche.main}',
     '#gauche_hover@src' : '#{projection.pathPrefix}/#{common.gauche.hover}',
-    '#accueil@src' : '#{projection.pathPrefix}/#{common.accueil.main}',
-    '#accueil_hover@src' : '#{projection.pathPrefix}/#{common.accueil.hover}',
+    '#prevMenu@href+' : function(a) {
+        return prevMenu;
+    },
+    '#prevMenuImg@src' : '#{projection.pathPrefix}/#{common.accueil.main}',
+    '#prevMenuImg_hover@src' : '#{projection.pathPrefix}/#{common.accueil.hover}',
     '#proj@src' : '#{projection.pathPrefix}/#{common.proj.main}',
     '#proj_hover@src' : '#{projection.pathPrefix}/#{common.proj.hover}',
     '#equipe@src' : '#{projection.pathPrefix}/#{common.equipe.main}',

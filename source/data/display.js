@@ -3,46 +3,48 @@ var display = {
         "pathPrefix" : "../../../images/",
         "skipIntro" : "skip_intro.png"
     },
-    "mainMenu" : {
+    "menu" : {
         "pathPrefix" : "../../../images/",
-        "background": "fondmenu.jpg",
-        "title" : "titre_texte_superieur.png",
-        "backToIntro" : {
-            "main" : "proj.png",
-            "hover" : "proj_hover.png"
-        },
-        "sections" : [
-            {
-                "poster" : "photos_dvd/mini/01-VieDePromo.png",
-                "title" : "Vie de Promo",
-                "id" : "promo"
+        "main" : {
+            "background": "fondmenu.jpg",
+            "title" : "titre_texte_superieur.png",
+            "backToIntro" : {
+                "main" : "proj.png",
+                "hover" : "proj_hover.png"
             },
-            {
-                "poster" : "photos_dvd/mini/02-Interview.png",
-                "title" : "Interviews",
-                "id" : "interviews"
-            },
-            {
-                "poster" : "photos_dvd/mini/03-RendezVousEnPoinca.png",
-                "title" : "Spectacles",
-                "id" : "spectacles"
-            },
-            {
-                "poster" : "photos_dvd/mini/04-Binets.png",
-                "title" : "Binets",
-                "id" : "binets"
-            },
-            {
-                "poster" : "photos_dvd/mini/05-Sections.png",
-                "title" : "Sections",
-                "id" : "sections"
-            },
-            {
-                "poster" : "photos_dvd/mini/06-ProjJtx.png",
-                "title" : "Projections JTX",
-                "id" : "jtx"
-            },
-        ]
+            "sections" : [
+                {
+                    "poster" : "photos_dvd/mini/01-VieDePromo.png",
+                    "title" : "Vie de Promo",
+                    "id" : "promo"
+                },
+                {
+                    "poster" : "photos_dvd/mini/02-Interview.png",
+                    "title" : "Interviews",
+                    "id" : "interviews"
+                },
+                {
+                    "poster" : "photos_dvd/mini/03-RendezVousEnPoinca.png",
+                    "title" : "Spectacles",
+                    "id" : "spectacles"
+                },
+                {
+                    "poster" : "photos_dvd/mini/04-Binets.png",
+                    "title" : "Binets",
+                    "id" : "binets"
+                },
+                {
+                    "poster" : "photos_dvd/mini/05-Sections.png",
+                    "title" : "Sections",
+                    "id" : "sections"
+                },
+                {
+                    "poster" : "photos_dvd/mini/06-ProjJtx.png",
+                    "title" : "Projections JTX",
+                    "id" : "jtx"
+                },
+            ]
+        }
     },
     "projection" : {
         "pathPrefix" : "../../../images/",

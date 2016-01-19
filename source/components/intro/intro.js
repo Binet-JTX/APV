@@ -4,7 +4,7 @@ Controller for the intro page
 
 //Simple function called after the intro video to redirect to main menu
 var goToMenu = function() {;
-    window.location.href = "../main-menu/main-menu.html";
+    window.location.href = "../menu/menu.html?id=main";
 }
 
 //pure.js directive to fill in the intro video source
