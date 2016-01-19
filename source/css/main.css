@@ -7,7 +7,6 @@ body {
     margin: 0px;
     height:100vh;
     max-width: 100%;
-    text-align: center;
 }
 #container {
     text-align:center;
@@ -97,7 +96,7 @@ legend {
     src: url('../font/FuturaLight.eot?#iefix') format('embedded-opentype'), url('../font/FuturaLight.ttf') format('truetype');
 }
 
-/* Pour avoir l'effet de fade in des menus, il faut qu'au départ celui-ci soit caché. */ 
+/* Pour avoir l'effet de fade in des menus, il faut qu'au départ celui-ci soit caché. */
 .slideshow {
     display: none;
 }
