@@ -56,7 +56,8 @@ var display = {
     "common" : {
         "zone" : {
             "isolated" : "zone_isole.png",
-            "left" : "zone_gauche.png"
+            "left" : "zone_gauche.png",
+            "right" : "zone_droite.png"
         },
         "play" : "play.png",
         "droite" : {
