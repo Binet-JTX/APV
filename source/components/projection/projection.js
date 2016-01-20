@@ -9,8 +9,17 @@ $(document).ready(function() {
 
 //We select the relevant section of video data corresponding to the projection
 //QueryString is given by queryString.js imported in the <head>
-var projId = QueryString.id;
-var prevMenu = QueryString.prev;
+if (QueryString.id) {
+    var projId = QueryString.id;
+} else {
+    window.location = "../main-menu/main-menu.html";
+}
+if (QueryString.prev) {
+    var prevMenu = QueryString.prev;
+} else {
+    var prevMenu = "main";
+}
+
 var projection = videos[projId];
 var projectionDisplay = display.projection.projections[projId]
 projectionDisplay.pathPrefix = display.projection.pathPrefix;
@@ -48,7 +57,7 @@ var videosDirective = {
                     if (a.pos == 0) {
                         return " left_zone";
                     } else if (a.pos < this.length-1) {
-                        return " isolated_zone";
+                        return " center_zone";
                     } else {
                         return " right_zone"
                     }
@@ -74,8 +83,13 @@ var displayDirective = {
     '#droite_hover@src' : '#{projection.pathPrefix}/#{common.droite.hover}',
     '#gauche@src' : '#{projection.pathPrefix}/#{common.gauche.main}',
     '#gauche_hover@src' : '#{projection.pathPrefix}/#{common.gauche.hover}',
-    '#prevMenu@href+' : function(a) {
-        return prevMenu;
+    '#prevMenu@href' : function(a) {
+        if (prevMenu == "main") {
+            return "../main-menu/main-menu.html";
+        } else {
+            return "../menu/menu.html?id="+prevMenu;
+        }
+
     },
     '#prevMenuImg@src' : '#{projection.pathPrefix}/#{common.accueil.main}',
     '#prevMenuImg_hover@src' : '#{projection.pathPrefix}/#{common.accueil.hover}',
@@ -92,7 +106,7 @@ if (type=="single") {
     displayDirective['.left_zone@src'] ='#{projection.pathPrefix}/#{common.zone.left}';
     displayDirective['.right_zone@src'] ='#{projection.pathPrefix}/#{common.zone.right}';
 } else {
-    displayDirective['.isolated_zone@src'] ='#{projection.pathPrefix}/#{common.zone.isolated}';
+    displayDirective['.center_zone@src'] ='#{projection.pathPrefix}/#{common.zone.center}';
     displayDirective['.left_zone@src'] ='#{projection.pathPrefix}/#{common.zone.left}';
     displayDirective['.right_zone@src'] ='#{projection.pathPrefix}/#{common.zone.right}';
 }
