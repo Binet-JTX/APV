@@ -25,10 +25,10 @@ var slideify = function(array) {
     if (videos_per_slide == 8) {
         switch (lastSlide.length) {
             case 1:
-                array[array.length - 1] = [e, lastSlide[0], e, e, e, e, e, e];
+                array[array.length - 1] = [lastSlide[0],e, e, e, e, e, e, e];
                 break;
             case 2:
-                array[array.length - 1] = [e, lastSlide[0], lastSlide[1], e, e, e, e, e];
+                array[array.length - 1] = [e,lastSlide[0], lastSlide[1], e, e, e, e, e];
                 break;
             case 3:
                 array[array.length - 1] = [lastSlide[0], lastSlide[1], lastSlide[2], e, e, e, e, e];

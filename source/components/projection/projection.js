@@ -144,36 +144,49 @@ var projectionDisplayDirective = {
 $('body').render(projectionDisplay, projectionDisplayDirective);
 
 
-/*
-Slideshow controller : uses the slideshow plugin to animate the slides
-*/
-$(document).ready(function() {
-    $('.slideshowmenu').cycle({
+if (type=="single") {
+    /*
+    If there is only one slide, the clycle plugin must not bed activated;
+    instead we have to delete the html components of the plugin.
+    */
+    var singleSlideDirective = {
+        '#next' : '',
+        '#prev' : '',
+        '.slidemenu@style' : "position: absolute; top: 0px; left: 0px; display: block; z-index: 3;"
+    };
+    $('body').render(display,singleSlideDirective);
+} else {
+    /*
+    Slideshow controller : uses the slideshow plugin to animate the slides
+    */
+    $(document).ready(function() {
+        $('.slideshowmenu').cycle({
 
-        slideResize: false,
-        containerResize: false,
-        after: onAfter,
-        before: onBefore,
-        next: '#next',
-        prev: '#prev',
-        fx: 'scrollHorz',
-        speed: 500,
-        timeout: 0,
-        startingSlide: 0
+            slideResize: false,
+            containerResize: false,
+            after: onAfter,
+            before: onBefore,
+            next: '#next',
+            prev: '#prev',
+            fx: 'scrollHorz',
+            speed: 500,
+            timeout: 0,
+            startingSlide: 0
+        });
     });
-});
-function onBefore(curr, next, opts) {
-    $('#prev')['hide']();
-    $('#next')['hide']();
-}
-var appearTime = 250;
-function onAfter(curr, next, opts) {
-    currentMenu = opts.currSlide;
-    $('#prev')[currentMenu == 0 ? 'hide' : 'show'](appearTime);
-    $('#next')[currentMenu == opts.slideCount - 1 ? 'hide' : 'show'](appearTime);
-    $('#introduction')['show'](appearTime);
-    for (i = 0; i <= 5; i++) {
-        var nom = "#goto" + i;
-        $(nom)['show'](appearTime);
+    function onBefore(curr, next, opts) {
+        $('#prev')['hide']();
+        $('#next')['hide']();
+    }
+    var appearTime = 250;
+    function onAfter(curr, next, opts) {
+        currentMenu = opts.currSlide;
+        $('#prev')[currentMenu == 0 ? 'hide' : 'show'](appearTime);
+        $('#next')[currentMenu == opts.slideCount - 1 ? 'hide' : 'show'](appearTime);
+        $('#introduction')['show'](appearTime);
+        for (i = 0; i <= 5; i++) {
+            var nom = "#goto" + i;
+            $(nom)['show'](appearTime);
+        }
     }
 }

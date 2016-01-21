@@ -42,7 +42,7 @@ var display = {
                 "poster": "photos_dvd/mini/06-ProjJtx.png",
                 "title": "Projections JTX",
                 "id": "jtx"
-            }, ]
+            }]
         },
         "jtx": {
             "background": "photos_dvd/06-ProjJtx.jpg",
@@ -81,14 +81,17 @@ var display = {
                 "poster": "photos_projs/mini/proj6.png",
                 "title": "Proj' de la SYWoC",
                 "id": "sywoc"
-            },
-            {
+            }, {
                 "type": "projection",
                 "poster": "photos_projs/mini/proj7.png",
                 "title": "Proj' de passation du JTX 2012",
                 "id": "jtx2012nov"
-            },
-            {
+            }, {
+                "type": "projection",
+                "poster": "photos_projs/mini/proj8.png",
+                "title": "Des traditions à l'anarchie",
+                "id": "jtx2013fev"
+            }, {
                 "type": "projection",
                 "poster": "photos_projs/mini/proj8.png",
                 "title": "Des traditions à l'anarchie",

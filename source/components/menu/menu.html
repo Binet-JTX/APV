@@ -1,5 +1,5 @@
-<!DOCTYPE html>
 <html>
+
     <head>
         <meta charset="utf-8"/>
         <title>Album Promo Vidéo 2013</title>
@@ -7,7 +7,9 @@
         <!-- Chargement des librairies -->
         <script src="../../js/jquery.js" type="text/javascript"></script>
         <script src="../../js/pure.js" type="text/javascript"></script>
+        <script src="../../js/jquery.cycle.all.js" type="text/javascript"></script>
         <script src="../../js/queryString.js" type="text/javascript"></script>
+        <script src="../../js/arrayToSlides.js" type="text/javascript"></script>
         <!-- Chargement des données des images et vidéos -->
         <script src="../../data/display.js" type="text/javascript"></script>
         <script src="../../data/videos.js" type="text/javascript"></script>
@@ -16,17 +18,30 @@
     <body>
 
         <div class="slideshow">
+
             <div class="slide">
-                <!-- slide 1 de slideshow -->
-                <div class="bkgd" id="background" style=""></div>
+                <div class="bkgd"></div>
 
                 <div id="vp">
                     <div id="vp2">
                         <div id="superzone">
-                            <div class="imgzone"><img id="zone-isolated" src=""/></div>
                             <ul class="buttonsmenu">
-                                <li></li>
-                                <li></li>
+                                <li>
+                                    <a href="#next" id="next">
+                                        <img id="droite"/>
+                                        <div>
+                                            <img id="droite_hover"/>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#prev" id="prev">
+                                        <img id="gauche"/>
+                                        <div>
+                                            <img id="gauche_hover"/>
+                                        </div>
+                                    </a>
+                                </li>
                                 <li></li>
                                 <li></li>
                                 <li></li>
@@ -36,7 +51,7 @@
                                 <li></li>
                                 <li>
                                     <a>
-                                        <img id="titre" src=""/>
+                                        <img id="titre"/>
                                     </a>
                                 </li>
                                 <li>
@@ -44,6 +59,15 @@
                                         <img id="prevMenuImg"/>
                                         <div>
                                             <img id="prevMenuImg_hover" title="Retour au menu précédent"/>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li></li>
+                                <li>
+                                    <a href="equipe.html">
+                                        <img id="equipe"/>
+                                        <div>
+                                            <img id="equipe_hover" title="L'équipe"/>
                                         </div>
                                     </a>
                                 </li>
@@ -56,27 +80,29 @@
                                 <li></li>
                                 <li></li>
                                 <li></li>
-                                <li></li>
-                                <li></li>
-
                             </ul>
-                            <ul class="lb-album">
-                                <li class="menu-section">
-                                    <a class="menu-section-link">
-                                        <img alt="image01" class="menu-section-poster" src=""/>
-                                        <div><img alt="play" class="menu-section-play" src=""/></div>
-                                        <span class="menu-section-title"></span>
-                                    </a>
-                                </li>
-                            </ul>
+                            <div class="slideshowmenu">
+                                <div class="slidemenu">
+                                    <div class="imgzone">
+                                        <img class="imgzoneimg"/>
+                                    </div>
+                                    <ul class="lb-album">
+                                        <li class="menu-section">
+                                            <a class="menu-section-link">
+                                                <img alt="image01" class="menu-section-poster" src=""/>
+                                                <div><img alt="play" class="menu-section-play" src=""/></div>
+                                                <span class="menu-section-title"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </body>
-
-    <!-- Controller import -->
+    <!-- Chargement du controlleur -->
     <script src="menu.js" type="text/javascript"></script>
 </html>
