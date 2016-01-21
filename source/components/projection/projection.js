@@ -85,8 +85,12 @@ var videosDirective = {
         }
     }
 };
+//If emptyVideos remains false after the rendering, there is no empty
+//video container and there is no need to call the rendering directive
+//for empty videos container (doing this would result in an error)
 var emptyVideos = false;
 $('body').render(projection, videosDirective); //render the result
+
 /*
 PureJSDirective to display graphical elements on the page that don't
 depend on the current projection
@@ -126,8 +130,8 @@ if (type == "single") {
 if (emptyVideos) {
     displayDirective['.empty-video-container'] = "";
 }
-
 $('body').render(display, displayDirective);
+
 /*
 PureJS directive to display graphical elements related to the current projection
 */
@@ -158,14 +162,11 @@ $(document).ready(function() {
         startingSlide: 0
     });
 });
-
 function onBefore(curr, next, opts) {
     $('#prev')['hide']();
     $('#next')['hide']();
 }
-
 var appearTime = 250;
-
 function onAfter(curr, next, opts) {
     currentMenu = opts.currSlide;
     $('#prev')[currentMenu == 0 ? 'hide' : 'show'](appearTime);

@@ -1,6 +1,13 @@
+/*****************************************************
+The function slideify takes an array and split in into
+several arrays (slides). The last slide is reorganized
+to have a better presentation.
+*******************************************************/
+
 var videos_per_slide = 8;
 
 var slideify = function(array) {
+    //accumulator is the new array (made of slides) being constructed
     array = array.reduce(function(accumulator, currentVideo, index, array) {
         if (accumulator[accumulator.length - 1].length < videos_per_slide) {
             accumulator[accumulator.length - 1].push(currentVideo);
@@ -13,6 +20,8 @@ var slideify = function(array) {
     ])
     var lastSlide = array[array.length - 1];
     var e = {"empty" : true};
+    //If there is only two videos on the last slide for instance, they look better
+    //centered rather than on the left of the slide.
     if (videos_per_slide == 8) {
         switch (lastSlide.length) {
             case 1:
