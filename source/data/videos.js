@@ -30,6 +30,37 @@ var videos = {
             "poster": "2-01_Jacques_Biot.png",
             "src": "1_Jacques_Biot.mp4",
             "title": "Jacques Biot6"
-        }, ]
+        },
+        {
+            "poster": "2-01_Jacques_Biot.png",
+            "src": "1_Jacques_Biot.mp4",
+            "title": "Jacques Biot7"
+        },
+        {
+            "poster": "2-01_Jacques_Biot.png",
+            "src": "1_Jacques_Biot.mp4",
+            "title": "Jacques Biot8"
+        },
+        {
+            "poster": "2-01_Jacques_Biot.png",
+            "src": "1_Jacques_Biot.mp4",
+            "title": "Jacques Biot9"
+        },
+        {
+            "poster": "2-01_Jacques_Biot.png",
+            "src": "1_Jacques_Biot.mp4",
+            "title": "Jacques Biot10"
+        },
+        {
+            "poster": "2-01_Jacques_Biot.png",
+            "src": "1_Jacques_Biot.mp4",
+            "title": "Jacques Biot11"
+        },
+        {
+            "poster": "2-01_Jacques_Biot.png",
+            "src": "1_Jacques_Biot.mp4",
+            "title": "Jacques Biot12"
+        },]
+
     }
 }

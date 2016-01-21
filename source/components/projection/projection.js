@@ -72,12 +72,14 @@ var videosDirective = {
                 'video<-slide': {
                     '.projection-video-poster@src': '#{posterPathPrefix}/#{video.poster}',
                     '.projection-video-title': 'video.title',
-                    '.@class+' : function(a) {
+                    '.projection-video-link@href+': function(a) {
+                        return "?prev=" + projId + "&prevPrev=" + prevMenu + "&prevSlide="+a.slide.pos + "&src=" + a.context.videoPathPrefix + this.src + "&proj=false";
+                    },
+                    '.@class+': function(a) {
                         if (a.item.empty == true) {
                             emptyVideos = true;
                             return " empty-video-container";
-                        }
-                        else
+                        } else
                             return "";
                     }
                 }
@@ -143,22 +145,36 @@ var projectionDisplayDirective = {
 }
 $('body').render(projectionDisplay, projectionDisplayDirective);
 
+/*
+Function that redirects to the video player with the correct settings to player
+the whole projection
+*/
+var playProj = function() {
+    window.location = "../video/video.html?prev=" + projId + "&prevPrev=" + prevMenu +"&prevSlide=0&proj=true";
+}
 
-if (type=="single") {
+if (type == "single") {
     /*
     If there is only one slide, the clycle plugin must not bed activated;
     instead we have to delete the html components of the plugin.
     */
     var singleSlideDirective = {
-        '#next' : '',
-        '#prev' : '',
-        '.slidemenu@style' : "position: absolute; top: 0px; left: 0px; display: block; z-index: 3;"
+        '#next': '',
+        '#prev': '',
+        '.slidemenu@style': "position: absolute; top: 0px; left: 0px; display: block; z-index: 3;"
     };
-    $('body').render(display,singleSlideDirective);
+    $('body').render(display, singleSlideDirective);
 } else {
     /*
     Slideshow controller : uses the slideshow plugin to animate the slides
     */
+    if (QueryString.slide != undefined) {
+        var startSlide = QueryString.slide;
+            console.log("Coucou !",startSlide);
+    } else {
+        var startSlide = 0;
+    }
+
     $(document).ready(function() {
         $('.slideshowmenu').cycle({
 
@@ -171,22 +187,19 @@ if (type=="single") {
             fx: 'scrollHorz',
             speed: 500,
             timeout: 0,
-            startingSlide: 0
+            startingSlide: startSlide
         });
     });
+
     function onBefore(curr, next, opts) {
         $('#prev')['hide']();
         $('#next')['hide']();
     }
     var appearTime = 250;
+
     function onAfter(curr, next, opts) {
         currentMenu = opts.currSlide;
         $('#prev')[currentMenu == 0 ? 'hide' : 'show'](appearTime);
         $('#next')[currentMenu == opts.slideCount - 1 ? 'hide' : 'show'](appearTime);
-        $('#introduction')['show'](appearTime);
-        for (i = 0; i <= 5; i++) {
-            var nom = "#goto" + i;
-            $(nom)['show'](appearTime);
-        }
     }
 }

@@ -42,6 +42,21 @@ var display = {
                 "poster": "photos_dvd/mini/06-ProjJtx.png",
                 "title": "Projections JTX",
                 "id": "jtx"
+            },{
+                "type": "menu",
+                "poster": "photos_dvd/mini/06-ProjJtx.png",
+                "title": "Projections JTX",
+                "id": "jtx"
+            },{
+                "type": "menu",
+                "poster": "photos_dvd/mini/06-ProjJtx.png",
+                "title": "Projections JTX",
+                "id": "jtx"
+            },{
+                "type": "menu",
+                "poster": "photos_dvd/mini/06-ProjJtx.png",
+                "title": "Projections JTX",
+                "id": "jtx"
             }]
         },
         "jtx": {
