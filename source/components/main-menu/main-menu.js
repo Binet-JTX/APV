@@ -19,7 +19,10 @@ if (display.menu.main.sections.length == 1) {
     var type = "multiple";
 }
 console.log(type);
-//pure.js directive to fill in the image sources and other
+
+/*
+Pure.js directive to rendre the graphic elements linked to thte menu sections
+*/
 display.menu.main.pathPrefix = display.menu.pathPrefix;
 var mainDisplayDirective = {
     '#background@style': function(a) {
