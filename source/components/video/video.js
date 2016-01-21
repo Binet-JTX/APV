@@ -2,6 +2,9 @@
 Controller for the video player
 *******************************/
 
+/*
+Retrieving the parameters if they exist
+*/
 if (QueryString.prev == undefined
     ||QueryString.prevPrev == undefined
     || QueryString.proj == undefined
@@ -12,6 +15,21 @@ if (QueryString.prev == undefined
     var projMode = (QueryString.proj === 'true');
     var prevPrevMenu = QueryString.prevPrev;
 }
+
+/*
+Display a nice error message in case of error
+*/
+var displayError = function() {
+    document.getElementById('current-video').style.display = "none";
+    document.getElementById('alternat').style.display = "block";
+}
+$(document).ready(function() {
+    var errorDirective = {
+        '#video-src@onerror': "displayError()"
+    };
+    $('body').render({}, errorDirective);
+})
+
 
 if (projMode) {
     /*
