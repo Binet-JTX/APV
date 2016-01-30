@@ -32,8 +32,8 @@ do
     if [ -f "$folder_to_encode/constant_quality_output/$filename" ]; then
         constant_quality_bitrate=$(ffprobe -v error -show_entries format=bit_rate -of default=noprint_wrappers=1:nokey=1 "$folder_to_encode/constant_quality_output/$filename")
         video_bitrate=$(echo "($desired_size*$constant_quality_bitrate)/$total_size-$audio_bitrate" | bc )
-        #ffmpeg -i "$video" -codec:v libx264 -profile:v high -preset veryslow -b:v $video_bitrate -threads 0 -pass 1 -an -f mp4 -y /dev/null
-        #ffmpeg -i "$video" -strict -2 -c:v libx264 -preset veryslow -b:v $video_bitrate -threads 0 -pass 2 -c:a aac -b:a $audio_bitrate -y "$folder_to_encode/encoding_final_output/$filename"
+        ffmpeg -i "$video" -codec:v libx264 -profile:v high -preset veryslow -b:v $video_bitrate -threads 0 -pass 1 -an -f mp4 -y /dev/null
+        ffmpeg -i "$video" -strict -2 -c:v libx264 -preset veryslow -b:v $video_bitrate -threads 0 -pass 2 -c:a aac -b:a $audio_bitrate -y "$folder_to_encode/encoding_final_output/$filename"
     else
         echo $(printf "Erreur : fichier %s non trouve dans le dossier %s/constant_quality_output !" "$filename" "$folder_to_encode")
     fi
