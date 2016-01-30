@@ -1,5 +1,5 @@
 [Autorun]
-shellexecute=APV_2012_Accueil.html
-open=APV_2012_Accueil.html
+shellexecute=APV_2013.html
+open=APV_2013.html
 icon=APV.ico
-label= Full Métal APV
+label=Album Promo Vidéo 2013
