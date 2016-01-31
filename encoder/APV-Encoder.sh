@@ -5,9 +5,9 @@ fi
 
 #Parameters
 folder_to_encode=$1
-desired_size=$(echo "$2*(2^20)" | bc)
+desired_size=$(echo "$2*10^6" | bc)
 video_quality_factor="28"
-audio_bitrate=$(echo "192*2^10" | bc)
+audio_bitrate=$(echo "192*10^3" | bc)
 
 #Deals with complex file names
 SAVEIFS=$IFS
@@ -19,7 +19,7 @@ total_size=0
 for video in $(find "$folder_to_encode" -maxdepth 1 -type f -name "*.mp4")
 do
     filename=$(basename $video)
-    #ffmpeg -i "$video" -c:v libx264 -preset ultrafast -crf 28 -pix_fmt yuv420p -threads 0 -c:a copy -y "$folder_to_encode/constant_quality_output/$filename"
+    ffmpeg -i "$video" -c:v libx264 -preset medium -crf $video_quality_factor -pix_fmt yuv420p -threads 0 -c:a copy -y "$folder_to_encode/constant_quality_output/$filename"
     size=$(ffprobe -v error -show_entries format=size -of default=noprint_wrappers=1:nokey=1 "$folder_to_encode/constant_quality_output/$filename")
     total_size=$(($total_size + $size))
 done
