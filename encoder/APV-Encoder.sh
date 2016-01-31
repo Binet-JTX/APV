@@ -39,5 +39,8 @@ do
     fi
 done
 
+#Delete temporary files
+rm -rf "$folder_to_encode/constant_quality_output"
+
 #Restores filename dealing configuration
 IFS=$SAVEIFS
