@@ -24,6 +24,8 @@ do
     total_size=$(($total_size + $size))
 done
 
+echo "[$folder_to_encode]: encodage à qualité constant effectué." >> APV-Encoder.log
+
 #The second loop : encodes the whole to respect size limit
 mkdir "$folder_to_encode/encoding_final_output"
 for video in $(find "$folder_to_encode" -maxdepth 1 -type f -name "*.mp4")
@@ -38,6 +40,8 @@ do
         echo $(printf "Erreur : fichier %s non trouve dans le dossier %s/constant_quality_output !" "$filename" "$folder_to_encode")
     fi
 done
+
+echo "[$folder_to_encode]: encodage final effectué." >> APV-Encoder.log
 
 #Delete temporary files
 rm -rf "$folder_to_encode/constant_quality_output"
