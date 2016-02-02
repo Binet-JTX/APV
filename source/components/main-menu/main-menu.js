@@ -23,7 +23,6 @@ console.log(type);
 /*
 Pure.js directive to rendre the graphic elements linked to thte menu sections
 */
-display.menu.main.pathPrefix = display.menu.pathPrefix;
 var mainDisplayDirective = {
     '#background@style': function(a) {
         return "background-image: url(" + this.menu.main.pathPrefix + this.menu.main.background + ");"
@@ -52,7 +51,7 @@ var mainDisplayDirective = {
             '.main-menu-section': {
                 'section<-slide': {
                     '.main-menu-section-poster@src': '#{menu.main.pathPrefix}/#{section.poster}',
-                    '.main-menu-section-play@src': '#{menu.main.pathPrefix}/#{common.play}',
+                    '.main-menu-section-play@src': '#{common.pathPrefix}/#{common.play}',
                     '.main-menu-section-title': 'section.title',
                     '.main-menu-section-link@href': function(a) {
                         if (this.type == "projection") {
@@ -84,25 +83,25 @@ PureJS directive to display graphical elements on the page that don't
 depend on the menu elements
 */
 var displayDirective = {
-    '#droite@src': '#{menu.pathPrefix}/#{common.droite.main}',
-    '#droite_hover@src': '#{menu.pathPrefix}/#{common.droite.hover}',
-    '#gauche@src': '#{menu.pathPrefix}/#{common.gauche.main}',
-    '#gauche_hover@src': '#{menu.pathPrefix}/#{common.gauche.hover}',
-    '.main-menu-section-play@src': '#{menu.pathPrefix}/#{common.play}',
+    '#droite@src': '#{common.pathPrefix}/#{common.droite.main}',
+    '#droite_hover@src': '#{common.pathPrefix}/#{common.droite.hover}',
+    '#gauche@src': '#{common.pathPrefix}/#{common.gauche.main}',
+    '#gauche_hover@src': '#{common.pathPrefix}/#{common.gauche.hover}',
+    '.main-menu-section-play@src': '#{common.pathPrefix}/#{common.play}',
     '#titre@src': '#{menu.main.pathPrefix}/#{menu.main.title}',
     '#back-to-intro@src': '#{menu.main.pathPrefix}/#{menu.main.backToIntro.main}',
     '#back-to-intro-hover@src': '#{menu.main.pathPrefix}/#{menu.main.backToIntro.hover}'
 };
 //Depending on the number of slides, we do not display the same background
 if (type == "single") {
-    displayDirective['.isolated_zone@src'] = '#{menu.pathPrefix}/#{common.zone.isolated}';
+    displayDirective['.isolated_zone@src'] = '#{common.pathPrefix}/#{common.zone.isolated}';
 } else if (type == "double") {
-    displayDirective['.left_zone@src'] = '#{menu.pathPrefix}/#{common.zone.left}';
-    displayDirective['.right_zone@src'] = '#{menu.pathPrefix}/#{common.zone.right}';
+    displayDirective['.left_zone@src'] = '#{common.pathPrefix}/#{common.zone.left}';
+    displayDirective['.right_zone@src'] = '#{common.pathPrefix}/#{common.zone.right}';
 } else {
-    displayDirective['.center_zone@src'] = '#{menu.pathPrefix}/#{common.zone.center}';
-    displayDirective['.left_zone@src'] = '#{menu.pathPrefix}/#{common.zone.left}';
-    displayDirective['.right_zone@src'] = '#{menu.pathPrefix}/#{common.zone.right}';
+    displayDirective['.center_zone@src'] = '#{common.pathPrefix}/#{common.zone.center}';
+    displayDirective['.left_zone@src'] = '#{common.pathPrefix}/#{common.zone.left}';
+    displayDirective['.right_zone@src'] = '#{common.pathPrefix}/#{common.zone.right}';
 }
 //If some video containers are empty, delete the html nodes inside them
 if (emptySections) {
