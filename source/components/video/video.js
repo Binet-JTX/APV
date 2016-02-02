@@ -5,15 +5,15 @@ Controller for the video player
 /*
 Retrieving the parameters if they exist
 */
-if (QueryString.prev == undefined
-    ||QueryString.prevPrev == undefined
-    || QueryString.proj == undefined
+if (QueryString.proj == undefined
+    ||QueryString.prevMenu == undefined
+    || QueryString.projMode == undefined
     ) {
     window.location = "../main-menu/main-menu.html";
 } else {
-    var prevMenu = QueryString.prev;
-    var projMode = (QueryString.proj === 'true');
-    var prevPrevMenu = QueryString.prevPrev;
+    var projId = QueryString.proj;
+    var projMode = (QueryString.projMode === 'true');
+    var prevMenu = QueryString.prevMenu;
 }
 
 /*
@@ -36,11 +36,11 @@ if (projMode) {
     The player reads all the videos in the projection one after the otherwise
     then reverts to the projection menu
     */
-    if (videos[prevMenu] == undefined) {
+    if (videos[projId] == undefined) {
         window.location = "../main-menu/main-menu.html";
     }
-    var videosToPlay = videos[prevMenu].videos;
-    var pathPrefix = videos[prevMenu].videoPathPrefix;
+    var videosToPlay = videos[projId].videos;
+    var pathPrefix = videos[projId].videoPathPrefix;
     var currentVideoIndex = 0;
     var videoSrcDirective = {
         '#video-src@src': pathPrefix+videosToPlay[0].src
@@ -50,7 +50,7 @@ if (projMode) {
     var onEndedVideo = function() {
         currentVideoIndex++;
         if (currentVideoIndex == videosToPlay.length) {
-            window.location = "../projection/projection.html?id="+prevMenu+"&prev="+prevPrevMenu;
+            window.location = "../projection/projection.html?id="+projId+"&prev="+prevMenu;
         } else {
             var videoSrcDirective = {
                 '#video-src@src': pathPrefix+videosToPlay[currentVideoIndex].src
@@ -62,10 +62,12 @@ if (projMode) {
     /*
     The player reads one video then reverts to the associated projection menu
     */
-    if (QueryString.src == undefined) {
-        window.location = "../projection/projection.html?id="+prevMenu+"&prev="+prevPrevMenu;
+    if (QueryString.video == undefined) {
+        window.location = "../projection/projection.html?id="+projId+"&prev="+prevMenu;
     }
-    var videoSrc = QueryString.src;
+    var pathPrefix = videos[projId].videoPathPrefix;
+    var videoSrc = pathPrefix + videos[projId].videos[QueryString.video].src;
+    console.log(videoSrc);
     var videoSrcDirective = {
         '#video-src@src': videoSrc
     };
@@ -77,6 +79,6 @@ if (projMode) {
         } else {
             var prevSlide = 0;
         }
-        window.location = "../projection/projection.html?id="+prevMenu+"&prev="+prevPrevMenu+"&slide="+prevSlide;
+        window.location = "../projection/projection.html?id="+projId+"&prev="+prevMenu+"&slide="+prevSlide;
     }
 }

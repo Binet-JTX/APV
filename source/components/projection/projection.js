@@ -73,7 +73,8 @@ var videosDirective = {
                     '.projection-video-poster@src': '#{posterPathPrefix}/#{video.poster}',
                     '.projection-video-title': 'video.title',
                     '.projection-video-link@href+': function(a) {
-                        return "?prev=" + projId + "&prevPrev=" + prevMenu + "&prevSlide="+a.slide.pos + "&src=" + a.context.videoPathPrefix + this.src + "&proj=false";
+                        var video = a.slide.pos * videos_per_slide + a.pos;
+                        return "?proj=" + projId + "&prevMenu=" + prevMenu + "&prevSlide="+a.slide.pos + "&video="+ video + "&projMode=false";
                     },
                     '.@class+': function(a) {
                         if (a.item.empty == true) {
@@ -150,7 +151,7 @@ Function that redirects to the video player with the correct settings to player
 the whole projection
 */
 var playProj = function() {
-    window.location = "../video/video.html?prev=" + projId + "&prevPrev=" + prevMenu +"&prevSlide=0&proj=true";
+    window.location = "../video/video.html?proj=" + projId + "&prevMenu=" + prevMenu +"&prevSlide=0&projMode=true";
 }
 
 if (type == "single") {
@@ -170,7 +171,6 @@ if (type == "single") {
     */
     if (QueryString.slide != undefined) {
         var startSlide = QueryString.slide;
-            console.log("Coucou !",startSlide);
     } else {
         var startSlide = 0;
     }
