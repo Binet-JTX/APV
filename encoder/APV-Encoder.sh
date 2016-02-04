@@ -44,7 +44,7 @@ do
         video_bitrate=$(echo "($desired_size*$constant_quality_bitrate)/$total_size-$audio_bitrate" | bc )
         ffmpeg -i "$video" -codec:v libx264 -profile:v high -preset veryslow -b:v $video_bitrate -threads 0 -pass 1 -an -f mp4 -y /dev/null
         ffmpeg -i "$video" -strict -2 -c:v libx264 -preset veryslow -b:v $video_bitrate -threads 0 -pass 2 -c:a aac -b:a $audio_bitrate -y "$folder_to_encode/encoding_final_output/$filename"
-        printf "[%s] encodage n°2 de %s effectué." $(date +%H:%M:%S) $video >> ../APV-Encoder.log
+        printf "[%s] encodage n°2 de %s effectué.\n" $(date +%H:%M:%S) $video >> ../APV-Encoder.log
     else
         echo $(printf "Erreur : fichier %s non trouve dans le dossier %s/constant_quality_output !" "$filename" "$folder_to_encode")
     fi
