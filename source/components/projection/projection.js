@@ -21,9 +21,7 @@ if (QueryString.prev) {
 }
 
 var projection = videos[projId];
-var projectionDisplay = display.projection.projections[projId]
-projectionDisplay.pathPrefix = display.projection.pathPrefix;
-
+var projectionDisplay = display.projection[projId]
 /*
 The next passage rearranges the videos to make slides. slideify is
 defined in arrayToSlides.js
@@ -99,10 +97,10 @@ PureJSDirective to display graphical elements on the page that don't
 depend on the current projection
 */
 var displayDirective = {
-    '#droite@src': '#{projection.pathPrefix}/#{common.droite.main}',
-    '#droite_hover@src': '#{projection.pathPrefix}/#{common.droite.hover}',
-    '#gauche@src': '#{projection.pathPrefix}/#{common.gauche.main}',
-    '#gauche_hover@src': '#{projection.pathPrefix}/#{common.gauche.hover}',
+    '#droite@src': '#{common.pathPrefix}/#{common.droite.main}',
+    '#droite_hover@src': '#{common.pathPrefix}/#{common.droite.hover}',
+    '#gauche@src': '#{common.pathPrefix}/#{common.gauche.main}',
+    '#gauche_hover@src': '#{common.pathPrefix}/#{common.gauche.hover}',
     '#prevMenu@href': function(a) {
         if (prevMenu == "main") {
             return "../main-menu/main-menu.html";
@@ -110,24 +108,24 @@ var displayDirective = {
             return "../menu/menu.html?id=" + prevMenu;
         }
     },
-    '#prevMenuImg@src': '#{projection.pathPrefix}/#{common.accueil.main}',
-    '#prevMenuImg_hover@src': '#{projection.pathPrefix}/#{common.accueil.hover}',
-    '#proj@src': '#{projection.pathPrefix}/#{common.proj.main}',
-    '#proj_hover@src': '#{projection.pathPrefix}/#{common.proj.hover}',
-    '#equipe@src': '#{projection.pathPrefix}/#{common.equipe.main}',
-    '#equipe_hover@src': '#{projection.pathPrefix}/#{common.equipe.hover}',
-    '.playbutton@src': '#{projection.pathPrefix}/#{common.play}'
+    '#prevMenuImg@src': '#{common.pathPrefix}/#{common.accueil.main}',
+    '#prevMenuImg_hover@src': '#{common.pathPrefix}/#{common.accueil.hover}',
+    '#proj@src': '#{common.pathPrefix}/#{common.proj.main}',
+    '#proj_hover@src': '#{common.pathPrefix}/#{common.proj.hover}',
+    '#equipe@src': '#{common.pathPrefix}/#{common.equipe.main}',
+    '#equipe_hover@src': '#{common.pathPrefix}/#{common.equipe.hover}',
+    '.playbutton@src': '#{common.pathPrefix}/#{common.play}'
 };
 //Depending on the number of slides, we do not display the same background
 if (type == "single") {
-    displayDirective['.isolated_zone@src'] = '#{projection.pathPrefix}/#{common.zone.isolated}';
+    displayDirective['.isolated_zone@src'] = '#{common.pathPrefix}/#{common.zone.isolated}';
 } else if (type == "double") {
-    displayDirective['.left_zone@src'] = '#{projection.pathPrefix}/#{common.zone.left}';
-    displayDirective['.right_zone@src'] = '#{projection.pathPrefix}/#{common.zone.right}';
+    displayDirective['.left_zone@src'] = '#{common.pathPrefix}/#{common.zone.left}';
+    displayDirective['.right_zone@src'] = '#{common.pathPrefix}/#{common.zone.right}';
 } else {
-    displayDirective['.center_zone@src'] = '#{projection.pathPrefix}/#{common.zone.center}';
-    displayDirective['.left_zone@src'] = '#{projection.pathPrefix}/#{common.zone.left}';
-    displayDirective['.right_zone@src'] = '#{projection.pathPrefix}/#{common.zone.right}';
+    displayDirective['.center_zone@src'] = '#{common.pathPrefix}/#{common.zone.center}';
+    displayDirective['.left_zone@src'] = '#{common.pathPrefix}/#{common.zone.left}';
+    displayDirective['.right_zone@src'] = '#{common.pathPrefix}/#{common.zone.right}';
 }
 //If some video containers are empty, delete the html nodes inside them
 if (emptyVideos) {

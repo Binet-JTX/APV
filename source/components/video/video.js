@@ -67,11 +67,15 @@ if (projMode) {
     }
     var pathPrefix = videos[projId].videoPathPrefix;
     var videoSrc = pathPrefix + videos[projId].videos[QueryString.video].src;
-    console.log(videoSrc);
     var videoSrcDirective = {
-        '#video-src@src': videoSrc
+        '#video-src@src': videoSrc,
     };
     $('body').render({}, videoSrcDirective);
+    //TBelow is a trick in order to solve a bug where the video is played twice due to cache
+    //http://stackoverflow.com/questions/5927573/html5-video-playing-twice-audio-doubled-with-jquery-append
+    $(document).ready(function() {
+            $('#current-video').attr('autoplay','autoplay');
+    });
 
     var onEndedVideo = function() {
         if (QueryString.prevSlide != undefined) {
