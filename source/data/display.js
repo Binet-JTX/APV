@@ -63,6 +63,10 @@ var display = {
                 "background": "background.jpg"
             }
     },
+    "credits" : {
+        "pathPrefix" : "../../images/credits/",
+        "apj" : "Photo_APJ_APV.jpg"
+    },
     "common": {
         "pathPrefix" : "../../images/common/",
         "zone": {
