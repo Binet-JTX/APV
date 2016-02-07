@@ -47,12 +47,19 @@ var display = {
         "jtx": {
             "pathPrefix": "../../images/menus/jtx/",
             "background": "background.jpg",
+            "prev": "main",
             "title": "titre.png",
             "sections": [{
                 "type": "projection",
                 "poster": "jtx2012juin.png",
                 "title": "Aproj' du 18 juin",
                 "id": "jtx2012juin"
+            },
+            {
+                "type": "projection",
+                "poster": "jtx2012novembre.png",
+                "title": "Proj'de passation du JTX 2012",
+                "id": "jtx2012novembre"
             },]
         }
     },
@@ -60,6 +67,7 @@ var display = {
             "jtx2012juin": {
                 "pathPrefix": "../../images/projections/jtx2012juin/",
                 "titre": "titre.png",
+                "prev": "jtx",
                 "background": "background.png"
             }
     },

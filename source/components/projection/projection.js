@@ -14,11 +14,6 @@ if (QueryString.id) {
 } else {
     window.location = "../main-menu/main-menu.html";
 }
-if (QueryString.prev) {
-    var prevMenu = QueryString.prev;
-} else {
-    var prevMenu = "main";
-}
 
 var projection = videos[projId];
 var projectionDisplay = display.projection[projId]
@@ -101,13 +96,6 @@ var displayDirective = {
     '#droite_hover@src': '#{common.pathPrefix}/#{common.droite.hover}',
     '#gauche@src': '#{common.pathPrefix}/#{common.gauche.main}',
     '#gauche_hover@src': '#{common.pathPrefix}/#{common.gauche.hover}',
-    '#prevMenu@href': function(a) {
-        if (prevMenu == "main") {
-            return "../main-menu/main-menu.html";
-        } else {
-            return "../menu/menu.html?id=" + prevMenu;
-        }
-    },
     '#prevMenuImg@src': '#{common.pathPrefix}/#{common.accueil.main}',
     '#prevMenuImg_hover@src': '#{common.pathPrefix}/#{common.accueil.hover}',
     '#proj@src': '#{common.pathPrefix}/#{common.proj.main}',
@@ -141,6 +129,14 @@ var projectionDisplayDirective = {
         return "background-image: url(" + this.pathPrefix + this.background + ");"
     },
     '#titre@src': '#{pathPrefix}/#{titre}',
+    '#prevMenu@href': function(a) {
+        var prevMenu = a.context.prev;
+        if (prevMenu == "main") {
+            return "../main-menu/main-menu.html";
+        } else {
+            return "../menu/menu.html?id=" + prevMenu;
+        }
+    },
 }
 $('body').render(projectionDisplay, projectionDisplayDirective);
 

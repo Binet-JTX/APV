@@ -8,12 +8,7 @@ Retrives the parameters in the url and sets appropriated variables
 if (QueryString.id) {
     var menuId = QueryString.id;
 } else {
-    window.location("../main-menu/main-menu.html");
-}
-if (QueryString.prev) {
-    var prevMenu = QueryString.prev;
-} else {
-    window.location("../main-menu/main-menu.html");
+    window.location = "../main-menu/main-menu.html";
 }
 var menu = display.menu[menuId];
 
@@ -43,6 +38,15 @@ var menuDisplayDirective = {
     '#titre@src': '#{pathPrefix}/#{title}',
     '.bkgd@style+': function(a) {
         return "background-image: url(" + this.pathPrefix + this.background + ");"
+    },
+    '#prevMenu@href': function(a) {
+        var prevMenu = a.context.prev;
+        console.log(prevMenu);
+        if (prevMenu == "main") {
+            return "../main-menu/main-menu.html";
+        } else {
+            return "../menu/menu.html?id=" + prevMenu;
+        }
     },
     '.slidemenu': {
         'slide<-sections': {
@@ -74,9 +78,9 @@ var menuDisplayDirective = {
                     '.menu-section-title': 'section.title',
                     '.menu-section-link@href': function(a) {
                         if (this.type == "projection") {
-                            return "../projection/projection.html?prev=" + menuId + "&id=" + this.id;
+                            return "../projection/projection.html?id=" + this.id;
                         } else if (this.type == "menu") {
-                            return "../menu/menu.html?prev=" + menuId + "&id=" + this.id;
+                            return "../menu/menu.html?id=" + this.id;
                         } else {
                             return "../main-menu/main-menu.html";
                         }
@@ -109,13 +113,6 @@ var displayDirective = {
     '#droite_hover@src': '#{common.pathPrefix}/#{common.droite.hover}',
     '#gauche@src': '#{common.pathPrefix}/#{common.gauche.main}',
     '#gauche_hover@src': '#{common.pathPrefix}/#{common.gauche.hover}',
-    '#prevMenu@href': function(a) {
-        if (prevMenu == "main") {
-            return "../main-menu/main-menu.html";
-        } else {
-            return "../menu/menu.html?id=" + prevMenu;
-        }
-    },
     '#prevMenuImg@src': '#{common.pathPrefix}/#{common.accueil.main}',
     '#prevMenuImg_hover@src': '#{common.pathPrefix}/#{common.accueil.hover}',
     '#equipe@src': '#{common.pathPrefix}/#{common.equipe.main}',
