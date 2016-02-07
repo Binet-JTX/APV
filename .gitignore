@@ -1,4 +1,3 @@
-source/font
 videos/
 APV2012/
 encoder/test
@@ -8,6 +7,6 @@ encoder/tmp.*/
 03-Evenements/
 04-Interviews/
 05-Binets/
-06-Sections
+06-Sections/
 *.log
 *.mbtree
