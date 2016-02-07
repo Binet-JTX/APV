@@ -69,6 +69,12 @@ var display = {
                 "titre": "titre.png",
                 "prev": "jtx",
                 "background": "background.png"
+            },
+            "jtx2012novembre": {
+                "pathPrefix": "../../images/projections/jtx2012novembre/",
+                "titre": "titre.png",
+                "prev": "jtx",
+                "background": "background.png"
             }
     },
     "credits" : {
