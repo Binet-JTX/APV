@@ -67,7 +67,7 @@ var videosDirective = {
                     '.projection-video-title': 'video.title',
                     '.projection-video-link@href+': function(a) {
                         var video = a.slide.pos * videos_per_slide + a.pos;
-                        return "?proj=" + projId + "&prevMenu=" + prevMenu + "&prevSlide="+a.slide.pos + "&video="+ video + "&projMode=false";
+                        return "?proj=" + projId + "&prevSlide="+a.slide.pos + "&video="+ video + "&projMode=false";
                     },
                     '.@class+': function(a) {
                         if (a.item.empty == true) {
