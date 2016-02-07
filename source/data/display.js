@@ -60,7 +60,7 @@ var display = {
             "jtx2012juin": {
                 "pathPrefix": "../../images/projections/jtx2012juin/",
                 "titre": "titre.png",
-                "background": "background.jpg"
+                "background": "background.png"
             }
     },
     "credits" : {
