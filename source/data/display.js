@@ -72,6 +72,12 @@ var display = {
                 "poster": "jtx2013juin.png",
                 "title": "Action !",
                 "id": "jtx2013juin"
+            },
+            {
+                "type": "projection",
+                "poster": "courtine2015.png",
+                "title": "Proj' de la Courtine 2015",
+                "id": "courtine2015"
             }]
         }
     },
@@ -96,6 +102,12 @@ var display = {
             },
             "jtx2013juin": {
                 "pathPrefix": "../../images/projections/jtx2013juin/",
+                "titre": "titre.png",
+                "prev": "jtx",
+                "background": "background.png"
+            },
+            "courtine2015": {
+                "pathPrefix": "../../images/projections/courtine2015/",
                 "titre": "titre.png",
                 "prev": "jtx",
                 "background": "background.png"
