@@ -97,6 +97,12 @@ var display = {
                     "poster": "langues.png",
                     "title": "Fêtes des langues",
                     "id": "langues"
+                },
+                {
+                    "type": "projection",
+                    "poster": "binets2014.png",
+                    "title": "Amphi binets des 2014",
+                    "id": "binets2014"
                 }
             ]
         }
@@ -144,6 +150,12 @@ var display = {
             },
             "langues": {
                 "pathPrefix": "../../images/projections/langues/",
+                "titre": "titre.png",
+                "prev": "promo",
+                "background": "background.png"
+            },
+            "binets2014": {
+                "pathPrefix": "../../images/projections/binets2014/",
                 "titre": "titre.png",
                 "prev": "promo",
                 "background": "background.png"
