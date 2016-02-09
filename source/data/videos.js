@@ -615,11 +615,11 @@ var videos = {
         }, {
             "poster": "42_Artiste4.png",
             "src": "42_Artiste4.mp4",
-            "title": "PG artiste 5"
+            "title": "PG artiste 4"
         }, {
             "poster": "43_chapitre5lanarchie.png",
             "src": "43_chapitre5lanarchie.mp4",
-            "title": "Chap. 6 : L'anarchie"
+            "title": "Chap. 5 : L'anarchie"
         }, {
             "poster": "44_burger kebab.png",
             "src": "44_burger kebab.mp4",
