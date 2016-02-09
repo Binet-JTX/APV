@@ -1,4 +1,4 @@
-var videos = {
+﻿var videos = {
     "intro": {
         "pathPrefix": "../../../videos/",
         "src": "intro.mp4"
@@ -949,7 +949,7 @@ var videos = {
         }]
     },
     "jtx2013novembre": {
-        "videoPathPrefix": "../../../01-Projs_JTX/2015-12-11_Proj_novembre_JTX_2013/",
+        "videoPathPrefix": "../../../01-Projs_JTX/2015-11-12_Proj_novembre_JTX_2013/",
         "posterPathPrefix": "../../images/posters/jtx2013novembre/",
         "videos": [{
             "poster": "00a_Pub_APV.png",
