@@ -66,6 +66,12 @@ var display = {
                 "poster": "jtx2013fevrier.png",
                 "title": "Des traditions à l'anarchie",
                 "id": "jtx2013fevrier"
+            },
+            {
+                "type": "projection",
+                "poster": "jtx2013juin.png",
+                "title": "Action !",
+                "id": "jtx2013juin"
             }]
         }
     },
@@ -84,6 +90,12 @@ var display = {
             },
             "jtx2013fevrier": {
                 "pathPrefix": "../../images/projections/jtx2013fevrier/",
+                "titre": "titre.png",
+                "prev": "jtx",
+                "background": "background.png"
+            },
+            "jtx2013juin": {
+                "pathPrefix": "../../images/projections/jtx2013juin/",
                 "titre": "titre.png",
                 "prev": "jtx",
                 "background": "background.png"

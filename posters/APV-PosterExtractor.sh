@@ -27,7 +27,7 @@ IFS=$(echo -en "\n\b")
 
 #The first loop : encodes with constant quality
 for video in $(find "$videos_folder" -maxdepth 1 -type f -name "*.mp4" | sort)
-do 
+do
     filename=$(basename $video)
     echo "Nom du fichier : "$filename
     poster="$posters_folder/${filename%.mp4}.png"
@@ -40,7 +40,7 @@ do
     "poster": "%s",\r
     "src": "%s",\r
     "title": "%s"\r
-},' $poster $video $title) >> $json_file
+},' ${filename%.mp4}.png $filename $title) >> $json_file
 done
 
 echo $(printf ']\n') >> $json_file
