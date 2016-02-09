@@ -85,7 +85,25 @@ var display = {
                 "title": "Mythologie",
                 "id": "jtx2013novembre"
             }]
+        },
+        "promo": {
+            "pathPrefix": "../../images/menus/promo/",
+            "background": "background.jpg",
+            "prev": "main",
+            "title": "titre.png",
+            "sections": [
+                {
+                    "type": "projection",
+                    "poster": "langues.png",
+                    "title": "Fêtes des langues",
+                    "id": "langues"
+                }
+            ]
         }
+    },
+    "credits" : {
+        "pathPrefix" : "../../images/credits/",
+        "apj" : "Photo_APJ_APV.jpg"
     },
     "projection": {
             "jtx2012juin": {
@@ -123,11 +141,13 @@ var display = {
                 "titre": "titre.png",
                 "prev": "jtx",
                 "background": "background.png"
+            },
+            "langues": {
+                "pathPrefix": "../../images/projections/langues/",
+                "titre": "titre.png",
+                "prev": "promo",
+                "background": "background.png"
             }
-    },
-    "credits" : {
-        "pathPrefix" : "../../images/credits/",
-        "apj" : "Photo_APJ_APV.jpg"
     },
     "common": {
         "pathPrefix" : "../../images/common/",

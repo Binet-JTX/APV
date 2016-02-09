@@ -1124,5 +1124,50 @@ var videos = {
             "src": "32_Credits.mp4",
             "title": "Crédits"
         }, ]
+    },
+    "langues": {
+        "videoPathPrefix": "../../../02_Vie_de_promo/2015-06-048proj_fete_des_langues/",
+        "posterPathPrefix": "../../images/posters/langues/",
+        "videos": [{
+            "poster": "01-Batmans_choice.png",
+            "src": "01-Batmans_choice.mp4",
+            "title": "Batmans Choice"
+        }, {
+            "poster": "02-Final_Face-off.png",
+            "src": "02-Final_Face-off.mp4",
+            "title": "Final Face-off"
+        }, {
+            "poster": "03-The_Polytechnique_Ninja_Turtles.png",
+            "src": "03-The_Polytechnique_Ninja_Turtles.mp4",
+            "title": "The Polytechnique Ninja Turtle"
+        }, {
+            "poster": "07-Sketch_chinois.png",
+            "src": "07-Sketch_chinois.mp4",
+            "title": "Sketch Chinois"
+        }, {
+            "poster": "08-Clip_italien.png",
+            "src": "08-Clip_italien.mp4",
+            "title": "In Italia"
+        }, {
+            "poster": "10-OSS133.png",
+            "src": "10-OSS133.mp4",
+            "title": "OSS133"
+        }, {
+            "poster": "11-Berlin_jules.png",
+            "src": "11-Berlin_jules.mp4",
+            "title": "Liebesgrüsse aus Berlin"
+        }, {
+            "poster": "14-Devotion.png",
+            "src": "14-Devotion.mp4",
+            "title": "Devotion"
+        }, {
+            "poster": "15-Mon_film.png",
+            "src": "15-Mon_film.mp4",
+            "title": "I forgive you Bruce"
+        }, {
+            "poster": "16-Killer_projection.png",
+            "src": "16-Killer_projection.mp4",
+            "title": "Killer projection"
+        }]
     }
 }
