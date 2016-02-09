@@ -223,221 +223,431 @@ var videos = {
             "poster": "00a_Ne pas voler c est du vol.png",
             "src": "00a_Ne pas voler c est du vol.mp4",
             "title": "Préproj - Ne pas logguer c'est du vol"
-        },
-        {
+        }, {
             "poster": "00b_trailer épique.png",
             "src": "00b_trailer épique.mp4",
             "title": "Préproj - Trailer SYWoC"
-        },
-        {
+        }, {
             "poster": "00c_detachguerre.png",
             "src": "00c_detachguerre.mp4",
             "title": "Préproj - Détachement de la guerre"
-        },
-        {
+        }, {
             "poster": "00d_La Litiere.png",
             "src": "00d_La Litiere.mp4",
             "title": "Préproj - La litière"
-        },
-        {
+        }, {
             "poster": "00e_Pub JSP.png",
             "src": "00e_Pub JSP.mp4",
             "title": "Préproj - Pub JSP"
-        },
-        {
+        }, {
             "poster": "00f_cache-cache.png",
             "src": "00f_cache-cache.mp4",
             "title": "Préproj - Cache cache TOS"
-        },
-        {
+        }, {
             "poster": "00g_Détournement interview BFM.png",
             "src": "00g_Détournement interview BFM.mp4",
             "title": "Préproj - Détournement BFMTV"
-        },
-        {
+        }, {
             "poster": "00h_Koh_LanTOS.png",
             "src": "00h_Koh_LanTOS.mp4",
             "title": "Préproj - Kho LanTOS"
-        },
-        {
+        }, {
             "poster": "00i_retro xforum.png",
             "src": "00i_retro xforum.mp4",
             "title": "Préproj - Rétro X-Forum"
-        },
-        {
+        }, {
             "poster": "01_Intro.png",
             "src": "01_Intro.mp4",
             "title": "Générique de début"
-        },
-        {
+        }, {
             "poster": "02_movember.png",
             "src": "02_movember.mp4",
             "title": "Movember"
-        },
-        {
+        }, {
             "poster": "03_Rains of SDDX.png",
             "src": "03_Rains of SDDX.mp4",
             "title": "Rains of SDDX"
-        },
-        {
+        }, {
             "poster": "04_ils ont osé!.png",
             "src": "04_ils ont osé!.mp4",
             "title": "Ils ont osé !"
-        },
-        {
+        }, {
             "poster": "05_JSPSerieux.png",
             "src": "05_JSPSerieux.mp4",
             "title": "Pub JSP"
-        },
-        {
+        }, {
             "poster": "06_sergent poinsard.png",
             "src": "06_sergent poinsard.mp4",
             "title": "Sergent Poinsard"
-        },
-        {
+        }, {
             "poster": "07_Les Mouflons - Archives 1994 V2.png",
             "src": "07_Les Mouflons - Archives 1994 V2.mp4",
             "title": "Les mouflons"
-        },
-        {
+        }, {
             "poster": "08_complot.png",
             "src": "08_complot.mp4",
             "title": "Le complot"
-        },
-        {
+        }, {
             "poster": "09_FUERZA del AMOR 1.png",
             "src": "09_FUERZA del AMOR 1.mp4",
             "title": "La fuerza del amor S01E01"
-        },
-        {
+        }, {
             "poster": "10_transition pub début.png",
             "src": "10_transition pub début.mp4",
             "title": "Transition pub début"
-        },
-        {
+        }, {
             "poster": "11_Pub APV.png",
             "src": "11_Pub APV.mp4",
             "title": "Pub APV"
-        },
-        {
+        }, {
             "poster": "12_pub astérix.png",
             "src": "12_pub astérix.mp4",
             "title": "Pub banquet Astérix"
-        },
-        {
+        }, {
             "poster": "13_Pub_APR.png",
             "src": "13_Pub_APR.mp4",
             "title": "Pub APR"
-        },
-        {
+        }, {
             "poster": "14_maDSI.png",
             "src": "14_maDSI.mp4",
             "title": "Ma DSI"
-        },
-        {
+        }, {
             "poster": "15_pub titus.png",
             "src": "15_pub titus.mp4",
             "title": "Pub Titus"
-        },
-        {
+        }, {
             "poster": "16_Fausse pub oi-ol.png",
             "src": "16_Fausse pub oi-ol.mp4",
             "title": "Pub OI-OL"
-        },
-        {
+        }, {
             "poster": "17_transition pub fin.png",
             "src": "17_transition pub fin.mp4",
             "title": "Transition pub fin"
-        },
-        {
+        }, {
             "poster": "18_La FUERZA del AMOR 2.png",
             "src": "18_La FUERZA del AMOR 2.mp4",
             "title": "La fuerza del amor S01E02"
-        },
-        {
+        }, {
             "poster": "19_Ne pas montrer au BOB2012.png",
             "src": "19_Ne pas montrer au BOB2012.mp4",
             "title": "Pub BôB"
-        },
-        {
+        }, {
             "poster": "20a_Secrets d histoire V2.png",
             "src": "20a_Secrets d histoire V2.mp4",
             "title": "Secrets d'histoire"
-        },
-        {
+        }, {
             "poster": "20b_StarTrek_v2.png",
             "src": "20b_StarTrek_v2.mp4",
             "title": "Star Trek"
-        },
-        {
+        }, {
             "poster": "21_Inception.png",
             "src": "21_Inception.mp4",
             "title": "Validation"
-        },
-        {
+        }, {
             "poster": "22_C'est pas ce que vous croivez (2).png",
             "src": "22_C'est pas ce que vous croivez (2).mp4",
             "title": "C'est pas ce que vous croivez"
-        },
-        {
+        }, {
             "poster": "23_Friends Kès.png",
             "src": "23_Friends Kès.mp4",
             "title": "Friends Kès"
-        },
-        {
+        }, {
             "poster": "24_Miniclip bk.png",
             "src": "24_Miniclip bk.mp4",
             "title": "Passation BK"
-        },
-        {
+        }, {
             "poster": "25_Sin City_v3.png",
             "src": "25_Sin City_v3.mp4",
             "title": "Sin City"
-        },
-        {
+        }, {
             "poster": "26_rétrospective.png",
             "src": "26_rétrospective.mp4",
             "title": "Rétrospective"
-        },
-        {
+        }, {
             "poster": "27_VaneauxDOr.png",
             "src": "27_VaneauxDOr.mp4",
             "title": "Vaneaux d'Or"
-        },
-        {
+        }, {
             "poster": "28_PY_Agent.png",
             "src": "28_PY_Agent.mp4",
             "title": "PY Agent"
-        },
-        {
+        }, {
             "poster": "29_Un X stressé.png",
             "src": "29_Un X stressé.mp4",
             "title": "Un X stressé"
-        },
-        {
+        }, {
             "poster": "30_poopmember.png",
             "src": "30_poopmember.mp4",
             "title": "Poopmember"
-        },
-        {
+        }, {
             "poster": "31_zappingv2.png",
             "src": "31_zappingv2.mp4",
             "title": "Zapping"
-        },
-        {
+        }, {
             "poster": "32_jtx stories.png",
             "src": "32_jtx stories.mp4",
             "title": "JTX Stories"
-        },
-        {
+        }, {
             "poster": "33_Générique de fin.png",
             "src": "33_Générique de fin.mp4",
             "title": "Générique de fin"
-        },
-        {
+        }, {
             "poster": "34_Crédits.png",
             "src": "34_Crédits.mp4",
             "title": "Crédits"
         }, ]
+    },
+    "jtx2013fevrier": {
+        "videoPathPrefix": "../../../01-Projs_JTX/2015-02-18_Proj_fevrier_JTX_2013/",
+        "posterPathPrefix": "../../images/posters/jtx2013fevrier/",
+        "videos": [{
+            "poster": "001a_Red Bull PW short teaser X.png",
+            "src": "001a_Red Bull PW short teaser X.mp4",
+            "title": "Préproj - Paper Wings"
+        }, {
+            "poster": "001b_para_preproj.png",
+            "src": "001b_para_preproj.mp4",
+            "title": "Préproj - X-Para"
+        }, {
+            "poster": "001c_Bobchiotte.png",
+            "src": "001c_Bobchiotte.mp4",
+            "title": "Préproj - Les chiottes du BôB"
+        }, {
+            "poster": "001d_Clip musicaux.png",
+            "src": "001d_Clip musicaux.mp4",
+            "title": "Préproj - Clips musicaux"
+        }, {
+            "poster": "001e_Publicite theatre.png",
+            "src": "001e_Publicite theatre.mp4",
+            "title": "Préproj - Théâtre"
+        }, {
+            "poster": "001f_pub_amphi_binet.png",
+            "src": "001f_pub_amphi_binet.mp4",
+            "title": "Préproj - Pub Amphi binet"
+        }, {
+            "poster": "001g_TrailerSupérette.png",
+            "src": "001g_TrailerSupérette.mp4",
+            "title": "Préproj - Trailer supérette"
+        }, {
+            "poster": "001h_Teaser 24 natation.png",
+            "src": "001h_Teaser 24 natation.mp4",
+            "title": "Préproj - 24 h natation"
+        }, {
+            "poster": "001x_teaser-nouveau-site-bar-v2.png",
+            "src": "001x_teaser-nouveau-site-bar-v2.mp4",
+            "title": "Préproj - Chocapix"
+        }, {
+            "poster": "001y_Chanson Thème ADD (Lobat_à passer plus tard que le clip de Marc).png",
+            "src": "001y_Chanson Thème ADD (Lobat_à passer plus tard que le clip de Marc).mp4",
+            "title": "Préproj - Thème ADD"
+        }, {
+            "poster": "001z_Operation Orleans.png",
+            "src": "001z_Operation Orleans.mp4",
+            "title": "Préproj - Opération Orléans"
+        }, {
+            "poster": "01_generique ultime de debut.png",
+            "src": "01_generique ultime de debut.mp4",
+            "title": "Générique de début"
+        }, {
+            "poster": "02_chapitre1lestraditions.png",
+            "src": "02_chapitre1lestraditions.mp4",
+            "title": "Chap. 1 : Les traditions"
+        }, {
+            "poster": "03_HelloStartup.png",
+            "src": "03_HelloStartup.mp4",
+            "title": "Détournement BFMTV"
+        }, {
+            "poster": "04_ASK vs CCX.png",
+            "src": "04_ASK vs CCX.mp4",
+            "title": "ERB ASK vs. CCX"
+        }, {
+            "poster": "05_Aigles_foudroyes (Denis).png",
+            "src": "05_Aigles_foudroyes (Denis).mp4",
+            "title": "Les aigles foudroyés"
+        }, {
+            "poster": "06_clip retrospective.png",
+            "src": "06_clip retrospective.mp4",
+            "title": "Rétrospective"
+        }, {
+            "poster": "07_Naked man.png",
+            "src": "07_Naked man.mp4",
+            "title": "Naked man"
+        }, {
+            "poster": "08_VousEtesIci(Augustin).png",
+            "src": "08_VousEtesIci(Augustin).mp4",
+            "title": "Vous êtes ici"
+        }, {
+            "poster": "09_Artiste1.png",
+            "src": "09_Artiste1.mp4",
+            "title": "PG artiste 1"
+        }, {
+            "poster": "10_chapitre2laroutine.png",
+            "src": "10_chapitre2laroutine.mp4",
+            "title": "Chap. 2 : La routine"
+        }, {
+            "poster": "11_Respecte toi.png",
+            "src": "11_Respecte toi.mp4",
+            "title": "Respecte-toi !"
+        }, {
+            "poster": "12_La dernière_Censier_ Première Partie (Antoine).png",
+            "src": "12_La dernière_Censier_ Première Partie (Antoine).mp4",
+            "title": "La dernière (1/2)"
+        }, {
+            "poster": "13_SaintValentin.png",
+            "src": "13_SaintValentin.mp4",
+            "title": "Saint-Valentin"
+        }, {
+            "poster": "14_man_vs_bar.png",
+            "src": "14_man_vs_bar.mp4",
+            "title": "Man vs. bar"
+        }, {
+            "poster": "16_Quiproquo(Florent).png",
+            "src": "16_Quiproquo(Florent).mp4",
+            "title": "Quiproquo"
+        }, {
+            "poster": "17_FondVertForum (Marc).png",
+            "src": "17_FondVertForum (Marc).mp4",
+            "title": "Fond vert Forum"
+        }, {
+            "poster": "18_Respos_bar (Denis).png",
+            "src": "18_Respos_bar (Denis).mp4",
+            "title": "Pour le plaisir"
+        }, {
+            "poster": "19_Artiste2.png",
+            "src": "19_Artiste2.mp4",
+            "title": "PG artiste 2"
+        }, {
+            "poster": "20_ADD(Marc).png",
+            "src": "20_ADD(Marc).mp4",
+            "title": "ADD"
+        }, {
+            "poster": "21_chapitre3latentation.png",
+            "src": "21_chapitre3latentation.mp4",
+            "title": "Chap. 3 : La tentation"
+        }, {
+            "poster": "22_SPPSC.png",
+            "src": "22_SPPSC.mp4",
+            "title": "SPPSC"
+        }, {
+            "poster": "23_Clip de Gu (Antoine).png",
+            "src": "23_Clip de Gu (Antoine).mp4",
+            "title": "Clip de GU"
+        }, {
+            "poster": "24_Buy my 4L.png",
+            "src": "24_Buy my 4L.mp4",
+            "title": "Buy my 4L"
+        }, {
+            "poster": "25a_porn(Djerby)_0.png",
+            "src": "25a_porn(Djerby)_0.mp4",
+            "title": "Resporn approved"
+        }, {
+            "poster": "25b_porn(Djerby)_1.png",
+            "src": "25b_porn(Djerby)_1.mp4",
+            "title": "Making of porn"
+        }, {
+            "poster": "26_Bob Styx.png",
+            "src": "26_Bob Styx.mp4",
+            "title": "ERB BôB vs. Styx"
+        }, {
+            "poster": "27_DroneBallTrap (Marc).png",
+            "src": "27_DroneBallTrap (Marc).mp4",
+            "title": "Drone ball-trap"
+        }, {
+            "poster": "28_dora.png",
+            "src": "28_dora.mp4",
+            "title": "Léa la prédatrice"
+        }, {
+            "poster": "29_Cross-Fist.png",
+            "src": "29_Cross-Fist.mp4",
+            "title": "Cross-fist"
+        }, {
+            "poster": "30b_Cest_pas_grave.png",
+            "src": "30b_Cest_pas_grave.mp4",
+            "title": "C'est pas grave"
+        }, {
+            "poster": "30_Clip_Reac.png",
+            "src": "30_Clip_Reac.mp4",
+            "title": "Clip Réac'"
+        }, {
+            "poster": "32_Artiste3.png",
+            "src": "32_Artiste3.mp4",
+            "title": "PG artiste 3"
+        }, {
+            "poster": "33b_ProjPayante.png",
+            "src": "33b_ProjPayante.mp4",
+            "title": "Proj' payante"
+        }, {
+            "poster": "33_chapitre4lamachination.png",
+            "src": "33_chapitre4lamachination.mp4",
+            "title": "Chap. 4 : La machination"
+        }, {
+            "poster": "34_Reak(Djerby).png",
+            "src": "34_Reak(Djerby).mp4",
+            "title": "Les réaks'"
+        }, {
+            "poster": "35_Cluedo.png",
+            "src": "35_Cluedo.mp4",
+            "title": "Cluedo"
+        }, {
+            "poster": "36_LeTallec (Djerby-Antoine).png",
+            "src": "36_LeTallec (Djerby-Antoine).mp4",
+            "title": "Le Tallec"
+        }, {
+            "poster": "37_pendantCeTemps(Florent).png",
+            "src": "37_pendantCeTemps(Florent).mp4",
+            "title": "Pendant ce temps"
+        }, {
+            "poster": "38_Le_Cliché.png",
+            "src": "38_Le_Cliché.mp4",
+            "title": "Le cliché"
+        }, {
+            "poster": "39_Kes (Antoine).png",
+            "src": "39_Kes (Antoine).mp4",
+            "title": "Kès"
+        }, {
+            "poster": "40_50Nuances.png",
+            "src": "40_50Nuances.mp4",
+            "title": "50 nuances de Legrix"
+        }, {
+            "poster": "41_Le Complot (Come).png",
+            "src": "41_Le Complot (Come).mp4",
+            "title": "Le complot"
+        }, {
+            "poster": "42_Artiste4.png",
+            "src": "42_Artiste4.mp4",
+            "title": "PG artiste 5"
+        }, {
+            "poster": "43_chapitre5lanarchie.png",
+            "src": "43_chapitre5lanarchie.mp4",
+            "title": "Chap. 6 : L'anarchie"
+        }, {
+            "poster": "44_burger kebab.png",
+            "src": "44_burger kebab.mp4",
+            "title": "ERB Burger vs. Kebab"
+        }, {
+            "poster": "45_clip_IK.png",
+            "src": "45_clip_IK.mp4",
+            "title": "Attentat IK"
+        }, {
+            "poster": "46_hardcore.png",
+            "src": "46_hardcore.mp4",
+            "title": "Hardcore"
+        }, {
+            "poster": "47_PrésiPoop.png",
+            "src": "47_PrésiPoop.mp4",
+            "title": "Présipoop"
+        }, {
+            "poster": "48_La dernière_Censier_ Deuxième Partie (Antoine).png",
+            "src": "48_La dernière_Censier_ Deuxième Partie (Antoine).mp4",
+            "title": "La dernière (2/2)"
+        }, {
+            "poster": "49_klub.png",
+            "src": "49_klub.mp4",
+            "title": "Klubbers"
+        }, {
+            "poster": "50_Trainspotting.png",
+            "src": "50_Trainspotting.mp4",
+            "title": "Trainspotting - Générique de fin"
+        }]
     }
 }

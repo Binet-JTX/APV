@@ -60,7 +60,13 @@ var display = {
                 "poster": "jtx2012novembre.png",
                 "title": "Proj'de passation du JTX 2012",
                 "id": "jtx2012novembre"
-            },]
+            },
+            {
+                "type": "projection",
+                "poster": "jtx2013fevrier.png",
+                "title": "Des traditions à l'anarchie",
+                "id": "jtx2013fevrier"
+            }]
         }
     },
     "projection": {
@@ -72,6 +78,12 @@ var display = {
             },
             "jtx2012novembre": {
                 "pathPrefix": "../../images/projections/jtx2012novembre/",
+                "titre": "titre.png",
+                "prev": "jtx",
+                "background": "background.png"
+            },
+            "jtx2013fevrier": {
+                "pathPrefix": "../../images/projections/jtx2013fevrier/",
                 "titre": "titre.png",
                 "prev": "jtx",
                 "background": "background.png"
