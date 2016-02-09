@@ -78,6 +78,12 @@ var display = {
                 "poster": "courtine2015.png",
                 "title": "Proj' de la Courtine 2015",
                 "id": "courtine2015"
+            },
+            {
+                "type": "projection",
+                "poster": "jtx2013novembre.png",
+                "title": "Mythologies",
+                "id": "jtx2013novembre"
             }]
         }
     },
@@ -108,6 +114,12 @@ var display = {
             },
             "courtine2015": {
                 "pathPrefix": "../../images/projections/courtine2015/",
+                "titre": "titre.png",
+                "prev": "jtx",
+                "background": "background.png"
+            },
+            "jtx2013novembre": {
+                "pathPrefix": "../../images/projections/jtx2013novembre/",
                 "titre": "titre.png",
                 "prev": "jtx",
                 "background": "background.png"

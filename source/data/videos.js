@@ -947,5 +947,182 @@ var videos = {
             "src": "032a_Diapo final.mp4",
             "title": "Diaporama final"
         }]
+    },
+    "jtx2013novembre": {
+        "videoPathPrefix": "../../../01-Projs_JTX/2015-12-11_Proj_novembre_JTX_2013/",
+        "posterPathPrefix": "../../images/posters/jtx2013novembre/",
+        "videos": [{
+            "poster": "00a_Pub_APV.png",
+            "src": "00a_Pub_APV.mp4",
+            "title": "Préproj - APV"
+        }, {
+            "poster": "00b_VousMeSubirez.png",
+            "src": "00b_VousMeSubirez.mp4",
+            "title": "Préproj - Vous me subirez"
+        }, {
+            "poster": "00c_TeaserPhoenix.png",
+            "src": "00c_TeaserPhoenix.mp4",
+            "title": "Préproj - Phoenix"
+        }, {
+            "poster": "00d_Pub_APJ.png",
+            "src": "00d_Pub_APJ.mp4",
+            "title": "Préproj - APJ"
+        }, {
+            "poster": "00e_Biscotte.png",
+            "src": "00e_Biscotte.mp4",
+            "title": "Préproj - Biscotte"
+        }, {
+            "poster": "00f_Annonce_Banquet.png",
+            "src": "00f_Annonce_Banquet.mp4",
+            "title": "Préproj - Banquet Astérix"
+        }, {
+            "poster": "00g__Lexcordiste.png",
+            "src": "00g__Lexcordiste.mp4",
+            "title": "Préproj - L'exçordiste"
+        }, {
+            "poster": "00h_Annonce_date_ADD.png",
+            "src": "00h_Annonce_date_ADD.mp4",
+            "title": "Préproj - ADD"
+        }, {
+            "poster": "00i_TrailerClipFeminin.png",
+            "src": "00i_TrailerClipFeminin.mp4",
+            "title": "Préproj - Trailer clip féminin"
+        }, {
+            "poster": "00z_AnnonceProjParNiel.png",
+            "src": "00z_AnnonceProjParNiel.mp4",
+            "title": "Préproj - Annonce Niel"
+        }, {
+            "poster": "01_GeneriqueDebut.png",
+            "src": "01_GeneriqueDebut.mp4",
+            "title": "Générique de début"
+        }, {
+            "poster": "02_Hydrolique.png",
+            "src": "02_Hydrolique.mp4",
+            "title": "Hydrolique"
+        }, {
+            "poster": "03_Visions_Mortelles.png",
+            "src": "03_Visions_Mortelles.mp4",
+            "title": "Visions mortelles"
+        }, {
+            "poster": "04_Pulpeuse.png",
+            "src": "04_Pulpeuse.mp4",
+            "title": "Pulpeuse"
+        }, {
+            "poster": "05_Notre_Dame_de_Gimps.png",
+            "src": "05_Notre_Dame_de_Gimps.mp4",
+            "title": "Notre Dame de Gimps"
+        }, {
+            "poster": "06_Clip_de_GU_3.png",
+            "src": "06_Clip_de_GU_3.mp4",
+            "title": "Clip de GU 3"
+        }, {
+            "poster": "07_Tuto_Appro.png",
+            "src": "07_Tuto_Appro.mp4",
+            "title": "Tuto appro"
+        }, {
+            "poster": "08_L_Aube_episode_1.png",
+            "src": "08_L_Aube_episode_1.mp4",
+            "title": "l'Aube (1/3)"
+        }, {
+            "poster": "09_Camera_Cachee_HEC.png",
+            "src": "09_Camera_Cachee_HEC.mp4",
+            "title": "Caméra cachée HEC"
+        }, {
+            "poster": "10_Epic_JTX_Dance_Mashup.png",
+            "src": "10_Epic_JTX_Dance_Mashup.mp4",
+            "title": "Epic JTX Dance Mashup"
+        }, {
+            "poster": "11_Star_Wars.png",
+            "src": "11_Star_Wars.mp4",
+            "title": "Star Wars"
+        }, {
+            "poster": "13_SkateX.png",
+            "src": "13_SkateX.mp4",
+            "title": "SkateX"
+        }, {
+            "poster": "14_Making_Of_Porno.png",
+            "src": "14_Making_Of_Porno.mp4",
+            "title": "Making of porn 2"
+        }, {
+            "poster": "15_Polytechniman_VII.png",
+            "src": "15_Polytechniman_VII.mp4",
+            "title": "Polytechniman VII"
+        }, {
+            "poster": "16_L_Aube_episode_2.png",
+            "src": "16_L_Aube_episode_2.mp4",
+            "title": "l'Aube (2/3)"
+        }, {
+            "poster": "17_Ceremonie_Vaneaux_d_Or.png",
+            "src": "17_Ceremonie_Vaneaux_d_Or.mp4",
+            "title": "Vaneaux d'Or"
+        }, {
+            "poster": "18a_Meilleur_Acteur.png",
+            "src": "18a_Meilleur_Acteur.mp4",
+            "title": "Meilleur acteur"
+        }, {
+            "poster": "18b_Meilleure_Replique.png",
+            "src": "18b_Meilleure_Replique.mp4",
+            "title": "Meilleure réplique"
+        }, {
+            "poster": "18c_Meilleur_Musical.png",
+            "src": "18c_Meilleur_Musical.mp4",
+            "title": "Meilleur musical"
+        }, {
+            "poster": "19a_L_Aube_episode_3.png",
+            "src": "19a_L_Aube_episode_3.mp4",
+            "title": "l'Aube (3/3)"
+        }, {
+            "poster": "20_Fissure_4A.png",
+            "src": "20_Fissure_4A.mp4",
+            "title": "Fissure 4A"
+        }, {
+            "poster": "21_L_Affaire_Vaneau.png",
+            "src": "21_L_Affaire_Vaneau.mp4",
+            "title": "L'affaire Vaneau"
+        }, {
+            "poster": "22_Man_VS_Styx.png",
+            "src": "22_Man_VS_Styx.mp4",
+            "title": "Man vs. Styx"
+        }, {
+            "poster": "23_Knacky_Vendetta.png",
+            "src": "23_Knacky_Vendetta.mp4",
+            "title": "Knacky Vendetta"
+        }, {
+            "poster": "24_Mission_Cleopatre.png",
+            "src": "24_Mission_Cleopatre.mp4",
+            "title": "Mission Cléopâtre"
+        }, {
+            "poster": "25_Le_suicide.png",
+            "src": "25_Le_suicide.mp4",
+            "title": "Le suicide"
+        }, {
+            "poster": "26_Parodie_Clip_de_GU.png",
+            "src": "26_Parodie_Clip_de_GU.mp4",
+            "title": "Parodie clip de GU"
+        }, {
+            "poster": "27_Mytholopoop.png",
+            "src": "27_Mytholopoop.mp4",
+            "title": "Mytholopoop"
+        }, {
+            "poster": "28_Kung_Fighter.png",
+            "src": "28_Kung_Fighter.mp4",
+            "title": "Kung Fighter"
+        }, {
+            "poster": "29_Viala_Demission.png",
+            "src": "29_Viala_Demission.mp4",
+            "title": "Viala démission"
+        }, {
+            "poster": "30_GeneriqueFin.png",
+            "src": "30_GeneriqueFin.mp4",
+            "title": "Générique de fin"
+        }, {
+            "poster": "31_Clip_d_Annonce_du_JTX2014.png",
+            "src": "31_Clip_d_Annonce_du_JTX2014.mp4",
+            "title": "Annonce du JTX 2014"
+        }, {
+            "poster": "32_Credits.png",
+            "src": "32_Credits.mp4",
+            "title": "Crédits"
+        }, ]
     }
 }
