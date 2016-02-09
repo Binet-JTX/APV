@@ -82,7 +82,7 @@ var display = {
             {
                 "type": "projection",
                 "poster": "jtx2013novembre.png",
-                "title": "Mythologies",
+                "title": "Mythologie",
                 "id": "jtx2013novembre"
             }]
         }
