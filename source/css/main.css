@@ -431,13 +431,13 @@ img {
     padding: 1;
     z-index: 1000;
     text-align: center;
-    background: rgba(255, 0, 0, 0.56);
-    background: -moz-radial-gradient(center, ellipse cover, rgba(255, 0, 0, 0.56) 0%, rgba(0, 0, 0, 1) 100%);
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255, 0, 0, 0.56)), color-stop(100%, rgba(0, 0, 0, 1)));
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 0, 0, 0.56) 0%, rgba(0, 0, 0, 1) 100%);
-    background: -o-radial-gradient(center, ellipse cover, rgba(255, 0, 0, 0.56) 0%, rgba(0, 0, 0, 1) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, rgba(255, 0, 0, 0.56) 0%, rgba(0, 0, 0, 1) 100%);
-    background: radial-gradient(center, ellipse cover, rgba(255, 0, 0, 0.56) 0%, rgba(0, 0, 0, 1) 100%);
+    background: rgba(255, 233, 41, 0.56);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255, 233, 41, 0.56) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255, 233, 41, 0.56)), color-stop(100%, rgba(0, 0, 0, 1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 233, 41, 0.56) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(255, 233, 41, 0.56) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(255, 233, 41, 0.56) 0%, rgba(0, 0, 0, 1) 100%);
+    background: radial-gradient(center, ellipse cover, rgba(255, 233, 41, 0.56) 0%, rgba(0, 0, 0, 1) 100%);
 }
 .lb-overlay a:nth-child(2) {
     width: 0px;
@@ -571,7 +571,7 @@ img {
     text-decoration: none;
     text-align: center;
     padding: 1%;
-    background: rgb(150, 0, 50);
+    background: rgb(255, 233, 41);
     -webkit-box-shadow: 1px 1px 2px #fff, 1px 1px 2px rgba(158, 111, 86, 0.3) inset;
     -moz-box-shadow: 1px 1px 2px #fff, 1px 1px 2px rgba(158, 111, 86, 0.3) inset;
     box-shadow: 1px 1px 2px #fff, 1px 1px 2px rgba(158, 111, 86, 0.3) inset;
@@ -606,11 +606,11 @@ img {
     -webkit-border-radius: 0.4vw;
     border-radius: 0.4vw 0.4vw 0.4vw 0.4vw;
     filter: alpha(opacity=0);
-    background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.26) 0%, rgba(136, 6, 6, 0.5) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.26) 0%, rgba(136, 6, 6, 0.5) 100%);
-    background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.26) 0%, rgba(136, 6, 6, 0.5) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.26) 0%, rgba(136, 6, 6, 0.5) 100%);
-    background: radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.26) 0%, rgba(136, 6, 6, 0.5) 100%);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.26) 0%, rgba(255, 233, 41, 0.5) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.26) 0%, rgba(255, 233, 41, 0.5) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.26) 0%, rgba(255, 233, 41, 0.5) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.26) 0%, rgba(255, 233, 41, 0.5) 100%);
+    background: radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.26) 0%, rgba(255, 233, 41, 0.5) 100%);
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -634,7 +634,7 @@ img {
     transition: all 0.3s ease-in-out;
 }
 .lb-album li > a:hover span {
-    color: rgb(100, 0, 0);
+    color: rgb(214,182,0);
 }
 
 /*------------------Texte Equipe------------------*/
@@ -670,7 +670,7 @@ img {
 }
 .textbox li:hover > a span.texttitle:nth-child(1) {
     color: rgba(255, 255, 255, 1) !important;
-    text-shadow: 2px 0 0 rgb(150, 0, 0), -2px 0 0 rgb(150, 0, 0), 0 2px 0 rgb(150, 0, 0), 0 -2px 0 rgb(150, 0, 0), 1px 1px rgb(150, 0, 0), -1px -1px 0 rgb(150, 0, 0), 1px -1px 0 rgb(150, 0, 0), -1px 1px 0 rgb(150, 0, 0);
+    text-shadow: 2px 0 0 rgb(255, 233, 41), -2px 0 0 rgb(255, 233, 41), 0 2px 0 rgb(255, 233, 41), 0 -2px 0 rgb(255, 233, 41), 1px 1px rgb(255, 233, 41), -1px -1px 0 rgb(255, 233, 41), 1px -1px 0 rgb(255, 233, 41), -1px 1px 0 rgb(255, 233, 41);
 }
 .textbox li a span:nth-child(2) {
     background: -moz-radial-gradient(center, ellipse cover, rgba(255, 100, 100, 0.15) 0%, rgba(255, 255, 255, 0) 50%);
@@ -694,7 +694,7 @@ img {
     font-size: 3vw;
     text-align: center;
     line-height: 120%;
-    color: rgb(150, 0, 50);
+    color: rgb(255, 233, 41);
     text-align: center;
     vertical-align: middle;
 }
