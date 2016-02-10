@@ -1678,5 +1678,412 @@ var videos = {
                     "title": "Binet Subaïsse"
                 }
             ]
+        },
+        "incorpo2013mardi": {
+            "videoPathPrefix": "../../../02_Vie_de_promo/2013-09-02_Incorpo_des_2k13/2013-09-03_Proj_de_mardi/",
+            "posterPathPrefix": "../../images/posters/incorpo2013mardi/",
+            "videos": [
+                {
+                    "poster": "00_après_pompom.png",
+                    "src": "00_après_pompom.mp4",
+                    "title": "Intro - après le show Pom-Pom"
+                },
+                {
+                    "poster": "01_GOT_HD_version_incorpo.png",
+                    "src": "01_GOT_HD_version_incorpo.mp4",
+                    "title": "Générique Game of Thrones"
+                },
+                {
+                    "poster": "02a_Clip Khômiss.png",
+                    "src": "02a_Clip Khômiss.mp4",
+                    "title": "Khômiss"
+                },
+                {
+                    "poster": "02b-Kes.png",
+                    "src": "02b-Kes.mp4",
+                    "title": "Kès"
+                },
+                {
+                    "poster": "04_Bob.png",
+                    "src": "04_Bob.mp4",
+                    "title": "BôBar"
+                },
+                {
+                    "poster": "06a-Styx.png",
+                    "src": "06a-Styx.mp4",
+                    "title": "Styx"
+                },
+                {
+                    "poster": "06b_après_Styx.png",
+                    "src": "06b_après_Styx.mp4",
+                    "title": "Après Styx"
+                },
+                {
+                    "poster": "07-Tennis2012.png",
+                    "src": "07-Tennis2012.mp4",
+                    "title": "Section tennis"
+                },
+                {
+                    "poster": "08_ClipSectionNatationf.png",
+                    "src": "08_ClipSectionNatationf.mp4",
+                    "title": "Section natation (1/3)"
+                },
+                {
+                    "poster": "10c_Inkhorpo VentrigliX Marre d'être un TOS.png",
+                    "src": "10c_Inkhorpo VentrigliX Marre d'être un TOS.mp4",
+                    "title": "VentrigliX"
+                },
+                {
+                    "poster": "10_final clip basket (1).png",
+                    "src": "10_final clip basket (1).mp4",
+                    "title": "Section basket (1/5)"
+                },
+                {
+                    "poster": "10_venez comme vous êtes 1.png",
+                    "src": "10_venez comme vous êtes 1.mp4",
+                    "title": "Section basket (2/5)"
+                },
+                {
+                    "poster": "11b_Section Escrime vidéo 1.png",
+                    "src": "11b_Section Escrime vidéo 1.mp4",
+                    "title": "Section escrime (1/4)"
+                },
+                {
+                    "poster": "11c_ Raid.png",
+                    "src": "11c_ Raid.mp4",
+                    "title": "Section raid (1/3)"
+                },
+                {
+                    "poster": "12_FootAXE2.png",
+                    "src": "12_FootAXE2.mp4",
+                    "title": "Section foot (1/2)"
+                },
+                {
+                    "poster": "13_Boxix.png",
+                    "src": "13_Boxix.mp4",
+                    "title": "Section boxe (1/3)"
+                },
+                {
+                    "poster": "14b_ stand.png",
+                    "src": "14b_ stand.mp4",
+                    "title": "Section raid (2/3)"
+                },
+                {
+                    "poster": "14_venez comme vous etes 2 (1).png",
+                    "src": "14_venez comme vous etes 2 (1).mp4",
+                    "title": "Section basket (3/5)"
+                },
+                {
+                    "poster": "15b_Le peignoir.png",
+                    "src": "15b_Le peignoir.mp4",
+                    "title": "Section boxe (2/3)"
+                },
+                {
+                    "poster": "15_Section Escrime vidéo 2.png",
+                    "src": "15_Section Escrime vidéo 2.mp4",
+                    "title": "Section escrime (2/4)"
+                },
+                {
+                    "poster": "16_Clip bad 2012.png",
+                    "src": "16_Clip bad 2012.mp4",
+                    "title": "Section badminton"
+                },
+                {
+                    "poster": "17b_Inkhorpo Judo Pulp Fiction Remix.png",
+                    "src": "17b_Inkhorpo Judo Pulp Fiction Remix.mp4",
+                    "title": "Section judo"
+                },
+                {
+                    "poster": "17b_Kro.png",
+                    "src": "17b_Kro.mp4",
+                    "title": "Krômiss"
+                },
+                {
+                    "poster": "17_venez commez vous êtes 2.png",
+                    "src": "17_venez commez vous êtes 2.mp4",
+                    "title": "Section basket (4/5)"
+                },
+                {
+                    "poster": "18_reveil.png",
+                    "src": "18_reveil.mp4",
+                    "title": "Section natation (2/3)"
+                },
+                {
+                    "poster": "19a_FOOTMouba.png",
+                    "src": "19a_FOOTMouba.mp4",
+                    "title": "Section foot (2/2)"
+                },
+                {
+                    "poster": "19b_ridemyponey.png",
+                    "src": "19b_ridemyponey.mp4",
+                    "title": "Section équitation (1/2)"
+                },
+                {
+                    "poster": "21a_Section Escrime vidéo 3.png",
+                    "src": "21a_Section Escrime vidéo 3.mp4",
+                    "title": "Section escrime (3/4)"
+                },
+                {
+                    "poster": "21a_Section hand.png",
+                    "src": "21a_Section hand.mp4",
+                    "title": "Section handball (1/2)"
+                },
+                {
+                    "poster": "23b_Aviron.png",
+                    "src": "23b_Aviron.mp4",
+                    "title": "Section aviron"
+                },
+                {
+                    "poster": "23c_Jaune Bite.png",
+                    "src": "23c_Jaune Bite.mp4",
+                    "title": "Jône Bite"
+                },
+                {
+                    "poster": "23_VdTOS - Poney Version.png",
+                    "src": "23_VdTOS - Poney Version.mp4",
+                    "title": "Section équitation (2/2)"
+                },
+                {
+                    "poster": "27_TicTo7.png",
+                    "src": "27_TicTo7.mp4",
+                    "title": "TicTO7"
+                },
+                {
+                    "poster": "29_Tossitude Finale.png",
+                    "src": "29_Tossitude Finale.mp4",
+                    "title": "La tossitude"
+                },
+                {
+                    "poster": "30_Clip hand filles.dib.png",
+                    "src": "30_Clip hand filles.dib.mp4",
+                    "title": "Section handball (2/2)"
+                },
+                {
+                    "poster": "32_raidfille.png",
+                    "src": "32_raidfille.mp4",
+                    "title": "Section raid (3/3)"
+                },
+                {
+                    "poster": "34_X Pendables.png",
+                    "src": "34_X Pendables.mp4",
+                    "title": "X-Pendables"
+                },
+                {
+                    "poster": "35Section Escrime vidéo 4.png",
+                    "src": "35Section Escrime vidéo 4.mp4",
+                    "title": "Section escrime (4/4)"
+                },
+                {
+                    "poster": "36_vidéo escalade.png",
+                    "src": "36_vidéo escalade.mp4",
+                    "title": "Section escalade"
+                },
+                {
+                    "poster": "37_telephone.png",
+                    "src": "37_telephone.mp4",
+                    "title": "Téléphone"
+                },
+                {
+                    "poster": "38_perception.png",
+                    "src": "38_perception.mp4",
+                    "title": "Perception"
+                }
+            ]
+        },
+        "incorpo2013samedi": {
+            "videoPathPrefix": "../../../02_Vie_de_promo/2013-09-02_Incorpo_des_2k13/2013-09-07_Proj_de_samedi/",
+            "posterPathPrefix": "../../images/posters/incorpo2013samedi/",
+            "videos": [
+                {
+                    "poster": "00_Platal.png",
+                    "src": "00_Platal.mp4",
+                    "title": "Plâtal style"
+                },
+                {
+                    "poster": "01-Logo_JTX_Palaisal.png",
+                    "src": "01-Logo_JTX_Palaisal.mp4",
+                    "title": "Générique de début"
+                },
+                {
+                    "poster": "04_Qui sauve une TO7 n'amasse pas mousse.png",
+                    "src": "04_Qui sauve une TO7 n'amasse pas mousse.mp4",
+                    "title": "Qui sauve une TO7..."
+                },
+                {
+                    "poster": "05_binet de la rue.png",
+                    "src": "05_binet de la rue.mp4",
+                    "title": "Binet de la rue"
+                },
+                {
+                    "poster": "05b_quelques définitions.jpg.png",
+                    "src": "05b_quelques définitions.jpg.mp4",
+                    "title": "Quelques corrections"
+                },
+                {
+                    "poster": "06_film gd.png",
+                    "src": "06_film gd.mp4",
+                    "title": "Gendarmerie"
+                },
+                {
+                    "poster": "07a_Interview Mindef.png",
+                    "src": "07a_Interview Mindef.mp4",
+                    "title": "Ministre de la Défense"
+                },
+                {
+                    "poster": "07_Matériel-transition.png",
+                    "src": "07_Matériel-transition.mp4",
+                    "title": "Transition matériel"
+                },
+                {
+                    "poster": "07a_Matériel.png",
+                    "src": "07a_Matériel.mp4",
+                    "title": "Service matériel"
+                },
+                {
+                    "poster": "08_TOS devenez PARA_4.png",
+                    "src": "08_TOS devenez PARA_4.mp4",
+                    "title": "Devenez para !"
+                },
+                {
+                    "poster": "09_Chasse aux TOS-transition.png",
+                    "src": "09_Chasse aux TOS-transition.mp4",
+                    "title": "Transition chasse aux TOS"
+                },
+                {
+                    "poster": "09a_Chasse aux TOS.png",
+                    "src": "09a_Chasse aux TOS.mp4",
+                    "title": "Chasse aux TOS"
+                },
+                {
+                    "poster": "10_Chic à la rouge version 1.0.png",
+                    "src": "10_Chic à la rouge version 1.0.mp4",
+                    "title": "Chic à la roûje"
+                },
+                {
+                    "poster": "11_Coët(version courte).png",
+                    "src": "11_Coët(version courte).mp4",
+                    "title": "Coëtquidan"
+                },
+                {
+                    "poster": "12a_interview TO7.png",
+                    "src": "12a_interview TO7.mp4",
+                    "title": "Interview TO7"
+                },
+                {
+                    "poster": "12b_Interview vraiment que des tosalasuite.png",
+                    "src": "12b_Interview vraiment que des tosalasuite.mp4",
+                    "title": "TOS khôtes"
+                },
+                {
+                    "poster": "12_-transition_OS.png",
+                    "src": "12_-transition_OS.mp4",
+                    "title": "Transition OS"
+                },
+                {
+                    "poster": "12_OS.png",
+                    "src": "12_OS.mp4",
+                    "title": "OS"
+                },
+                {
+                    "poster": "13_BSPP2.png",
+                    "src": "13_BSPP2.mp4",
+                    "title": "BSPP"
+                },
+                {
+                    "poster": "14-0_transition_coiffeur.png",
+                    "src": "14-0_transition_coiffeur.mp4",
+                    "title": "Transition coiffeur"
+                },
+                {
+                    "poster": "14_coiffeur.png",
+                    "src": "14_coiffeur.mp4",
+                    "title": "Coiffeur"
+                },
+                {
+                    "poster": "14_Video Armee de l'Air.png",
+                    "src": "14_Video Armee de l'Air.mp4",
+                    "title": "Armée de l'Air"
+                },
+                {
+                    "poster": "15b_Nuit des souts.png",
+                    "src": "15b_Nuit des souts.mp4",
+                    "title": "Nuit des souts'"
+                },
+                {
+                    "poster": "15_Teaser FUMACO court FINAL_à_désentrelacer.png",
+                    "src": "15_Teaser FUMACO court FINAL_à_désentrelacer.mp4",
+                    "title": "FUMACO"
+                },
+                {
+                    "poster": "16_0-transition_Nuitdugrandhall.png",
+                    "src": "16_0-transition_Nuitdugrandhall.mp4",
+                    "title": "Transition nuit du Grand Hall"
+                },
+                {
+                    "poster": "16_Nuitdugrandhall.png",
+                    "src": "16_Nuitdugrandhall.mp4",
+                    "title": "Nuit du Grand Hall"
+                },
+                {
+                    "poster": "17_Inkhorpo VentrigliX Bowling.png",
+                    "src": "17_Inkhorpo VentrigliX Bowling.mp4",
+                    "title": "Ventriglix bowling"
+                },
+                {
+                    "poster": "18a_Chic_a_la_jone.png",
+                    "src": "18a_Chic_a_la_jone.mp4",
+                    "title": "Chic à la jône !"
+                },
+                {
+                    "poster": "18b_Blurred Lines.png",
+                    "src": "18b_Blurred Lines.mp4",
+                    "title": "Blurred Lines"
+                },
+                {
+                    "poster": "18_Incorpoop.png",
+                    "src": "18_Incorpoop.mp4",
+                    "title": "Incorpoop"
+                },
+                {
+                    "poster": "18c-IntroChasseTresor.png",
+                    "src": "18c-IntroChasseTresor.mp4",
+                    "title": "Intro chasse au trésor"
+                },
+                {
+                    "poster": "19a-Transition1e.png",
+                    "src": "19a-Transition1e.mp4",
+                    "title": "Transition 1re compagnie"
+                },
+                {
+                    "poster": "19b_1e Compagnie.png",
+                    "src": "19b_1e Compagnie.mp4",
+                    "title": "1re compagnie"
+                },
+                {
+                    "poster": "20a-Transition2e.png",
+                    "src": "20a-Transition2e.mp4",
+                    "title": "Transition 2e compagnie"
+                },
+                {
+                    "poster": "20b_2ème.png",
+                    "src": "20b_2ème.mp4",
+                    "title": "2e compagnie"
+                },
+                {
+                    "poster": "21a-Transition3e.png",
+                    "src": "21a-Transition3e.mp4",
+                    "title": "Transition 3e compagnie"
+                },
+                {
+                    "poster": "21b_3ème.png",
+                    "src": "21b_3ème.mp4",
+                    "title": "3e compagnie"
+                },
+                {
+                    "poster": "22a-Transition4e.png",
+                    "src": "22a-Transition4e.mp4",
+                    "title": "Transition 4e compagnie"
+                }
+            ]
         }
     }

@@ -93,16 +93,42 @@ var display = {
             "title": "titre.png",
             "sections": [
                 {
-                    "type": "projection",
-                    "poster": "langues.png",
-                    "title": "Fêtes des langues",
-                    "id": "langues"
+                    "type": "menu",
+                    "poster": "incorpo2013.png",
+                    "title": "Incorpo des 2013",
+                    "id": "incorpo2013"
                 },
                 {
                     "type": "projection",
                     "poster": "binets2014.png",
                     "title": "Amphi binets des 2014",
                     "id": "binets2014"
+                },
+                {
+                    "type": "projection",
+                    "poster": "langues.png",
+                    "title": "Fêtes des langues",
+                    "id": "langues"
+                }
+            ]
+        },
+        "incorpo2013": {
+            "pathPrefix": "../../images/menus/incorpo2013/",
+            "background": "background.png",
+            "prev": "promo",
+            "title": "titre.png",
+            "sections": [
+                {
+                    "type": "projection",
+                    "poster": "incorpo2013mardi.png",
+                    "title": "Proj' de mardi",
+                    "id": "incorpo2013mardi"
+                },
+                {
+                    "type": "projection",
+                    "poster": "incorpo2013samedi.png",
+                    "title": "Proj' de samedi",
+                    "id": "incorpo2013samedi"
                 }
             ]
         }
@@ -158,6 +184,18 @@ var display = {
                 "pathPrefix": "../../images/projections/binets2014/",
                 "titre": "titre.png",
                 "prev": "promo",
+                "background": "background.png"
+            },
+            "incorpo2013mardi": {
+                "pathPrefix": "../../images/projections/incorpo2013mardi/",
+                "titre": "titre.png",
+                "prev": "incorpo2013",
+                "background": "background.png"
+            },
+            "incorpo2013samedi": {
+                "pathPrefix": "../../images/projections/incorpo2013samedi/",
+                "titre": "titre.png",
+                "prev": "incorpo2013",
                 "background": "background.png"
             }
     },
