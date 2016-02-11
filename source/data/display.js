@@ -118,6 +118,12 @@ var display = {
                 },
                 {
                     "type": "projection",
+                    "poster": "wei2013.png",
+                    "title": "WEI des 2013",
+                    "id": "wei2013"
+                },
+                {
+                    "type": "projection",
                     "poster": "langues.png",
                     "title": "Fêtes des langues",
                     "id": "langues"
@@ -244,6 +250,12 @@ var display = {
             },
             "binets2013": {
                 "pathPrefix": "../../images/projections/binets2013/",
+                "titre": "titre.png",
+                "prev": "promo",
+                "background": "background.png"
+            },
+            "wei2013": {
+                "pathPrefix": "../../images/projections/wei2013/",
                 "titre": "titre.png",
                 "prev": "promo",
                 "background": "background.png"
