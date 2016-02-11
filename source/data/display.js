@@ -129,6 +129,12 @@ var display = {
                     "id": "ca2013"
                 },
                 {
+                    "type": "menu",
+                    "poster": "incorpo2014.png",
+                    "title": "Incorpo des 2014",
+                    "id": "incorpo2014"
+                },
+                {
                     "type": "projection",
                     "poster": "binets2014.png",
                     "title": "Amphi binets des 2014",
@@ -179,6 +185,26 @@ var display = {
                     "poster": "courtine2013.png",
                     "title": "Proj' de la Courtine",
                     "id": "courtine2013"
+                }
+            ]
+        },
+        "incorpo2014": {
+            "pathPrefix": "../../images/menus/incorpo2014/",
+            "background": "background.png",
+            "prev": "promo",
+            "title": "titre.png",
+            "sections": [
+                {
+                    "type": "projection",
+                    "poster": "incorpo2014mardi.png",
+                    "title": "Proj' de mardi",
+                    "id": "incorpo2014mardi"
+                },
+                {
+                    "type": "projection",
+                    "poster": "incorpo2014samedi.png",
+                    "title": "Proj' de samedi",
+                    "id": "incorpo2014samedi"
                 }
             ]
         }
@@ -282,6 +308,18 @@ var display = {
                 "pathPrefix": "../../images/projections/ca2013/",
                 "titre": "titre.png",
                 "prev": "promo",
+                "background": "background.png"
+            },
+            "incorpo2014mardi": {
+                "pathPrefix": "../../images/projections/incorpo2014mardi/",
+                "titre": "titre.png",
+                "prev": "incorpo2014",
+                "background": "background.png"
+            },
+            "incorpo2014samedi": {
+                "pathPrefix": "../../images/projections/incorpo2014samedi/",
+                "titre": "titre.png",
+                "prev": "incorpo2014",
                 "background": "background.png"
             }
     },
