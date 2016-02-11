@@ -99,6 +99,12 @@ var display = {
                     "id": "incorpo2013"
                 },
                 {
+                    "type": "menu",
+                    "poster": "courtine2013.png",
+                    "title": "Courtine des 2013",
+                    "id": "courtine2013"
+                },
+                {
                     "type": "projection",
                     "poster": "binets2014.png",
                     "title": "Amphi binets des 2014",
@@ -129,6 +135,26 @@ var display = {
                     "poster": "incorpo2013samedi.png",
                     "title": "Proj' de samedi",
                     "id": "incorpo2013samedi"
+                }
+            ]
+        },
+        "courtine2013": {
+            "pathPrefix": "../../images/menus/courtine2013/",
+            "background": "background.png",
+            "prev": "promo",
+            "title": "titre.png",
+            "sections": [
+                {
+                    "type": "projection",
+                    "poster": "wed2013.png",
+                    "title": "Proj' du WED",
+                    "id": "wed2013"
+                },
+                {
+                    "type": "projection",
+                    "poster": "courtine2013.png",
+                    "title": "Proj' de la Courtine",
+                    "id": "courtine2013"
                 }
             ]
         }
@@ -196,6 +222,18 @@ var display = {
                 "pathPrefix": "../../images/projections/incorpo2013samedi/",
                 "titre": "titre.png",
                 "prev": "incorpo2013",
+                "background": "background.png"
+            },
+            "wed2013": {
+                "pathPrefix": "../../images/projections/wed2013/",
+                "titre": "titre.png",
+                "prev": "courtine2013",
+                "background": "background.png"
+            },
+            "courtine2013": {
+                "pathPrefix": "../../images/projections/courtine2013/",
+                "titre": "titre.png",
+                "prev": "courtine2013",
                 "background": "background.png"
             }
     },

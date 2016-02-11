@@ -171,7 +171,7 @@ if (type=="single") {
             next: '#next',
             prev: '#prev',
             fx: 'scrollHorz',
-            speed: 500,
+            speed: 200,
             timeout: 0,
             startingSlide: 0
         });
