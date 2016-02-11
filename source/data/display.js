@@ -135,6 +135,12 @@ var display = {
                     "id": "incorpo2014"
                 },
                 {
+                    "type": "menu",
+                    "poster": "kes2013.png",
+                    "title": "Campagne Kès des 2013",
+                    "id": "kes2013"
+                },
+                {
                     "type": "projection",
                     "poster": "binets2014.png",
                     "title": "Amphi binets des 2014",
@@ -206,6 +212,38 @@ var display = {
                     "title": "Proj' de samedi",
                     "id": "incorpo2014samedi"
                 }
+            ]
+        },
+        "kes2013": {
+            "pathPrefix": "../../images/menus/kes2013/",
+            "background": "background.png",
+            "prev": "promo",
+            "title": "titre.png",
+            "sections": [
+                {
+                    "type": "projection",
+                    "poster": "kes2013amphi.png",
+                    "title": "Amphi des listes Kès",
+                    "id": "kes2013amphi"
+                },
+                {
+                    "type": "projection",
+                    "poster": "kes2013jeudi.png",
+                    "title": "Proj' de jeudi",
+                    "id": "kes2013jeudi"
+                },
+                {
+                    "type": "projection",
+                    "poster": "kes2013premier.png",
+                    "title": "Proj' du premier tour",
+                    "id": "kes2013premier"
+                },
+                {
+                    "type": "projection",
+                    "poster": "kes2013deuxieme.png",
+                    "title": "Proj' du deuxième tour",
+                    "id": "kes2013deuxieme"
+                },
             ]
         }
     },
@@ -320,6 +358,30 @@ var display = {
                 "pathPrefix": "../../images/projections/incorpo2014samedi/",
                 "titre": "titre.png",
                 "prev": "incorpo2014",
+                "background": "background.png"
+            },
+            "kes2013amphi": {
+                "pathPrefix": "../../images/projections/kes2013amphi/",
+                "titre": "titre.png",
+                "prev": "kes2013",
+                "background": "background.png"
+            },
+            "kes2013jeudi": {
+                "pathPrefix": "../../images/projections/kes2013jeudi/",
+                "titre": "titre.png",
+                "prev": "kes2013",
+                "background": "background.png"
+            },
+            "kes2013premier": {
+                "pathPrefix": "../../images/projections/kes2013premier/",
+                "titre": "titre.png",
+                "prev": "kes2013",
+                "background": "background.png"
+            },
+            "kes2013deuxieme": {
+                "pathPrefix": "../../images/projections/kes2013deuxieme/",
+                "titre": "titre.png",
+                "prev": "kes2013",
                 "background": "background.png"
             }
     },

@@ -3559,6 +3559,338 @@ var videos = {
             "poster": "29_4eme_compagnie.png",
             "src": "29_4eme_compagnie.mp4",
             "title": "4e compagnie"
-        } ]
+        }]
+    },
+    "kes2013amphi": {
+        "videoPathPrefix": "../../../02_Vie_de_promo/2014-11-24_Campagne_Kes_des_2k13/2014-11-23_Amphi_des_listes_Kes/",
+        "posterPathPrefix": "../../images/posters/kes2013amphi/",
+        "videos": [{
+            "poster": "01a_VraieIntro.png",
+            "src": "01a_VraieIntro.mp4",
+            "title": "Introduction"
+        }, {
+            "poster": "01b_UKès musical.png",
+            "src": "01b_UKès musical.mp4",
+            "title": "UKès"
+        }, {
+            "poster": "02_Enkhûlemoiakes.png",
+            "src": "02_Enkhûlemoiakes.mp4",
+            "title": "Enkhûle moi à Kès"
+        }, {
+            "poster": "03_laukesmatuer_new.png",
+            "src": "03_laukesmatuer_new.mp4",
+            "title": "La Kès m'a tuer"
+        }, {
+            "poster": "04_Kes'Trelle Trophy-1.png",
+            "src": "04_Kes'Trelle Trophy-1.mp4",
+            "title": "Kès'trelle Trophy (1/2)"
+        }, {
+            "poster": "05_Kès_My_Ass_01_Intro.png",
+            "src": "05_Kès_My_Ass_01_Intro.mp4",
+            "title": "Kès my ass (1/3)"
+        }, {
+            "poster": "06_KesKonéKron1.png",
+            "src": "06_KesKonéKron1.mp4",
+            "title": "KèsKonÉKron (1/2)"
+        }, {
+            "poster": "08_elsekes.png",
+            "src": "08_elsekes.mp4",
+            "title": "ELSEKès (1/2)"
+        }, {
+            "poster": "09_Toutankesmon.png",
+            "src": "09_Toutankesmon.mp4",
+            "title": "ToutanKèsmon"
+        }, {
+            "poster": "10_choré toutankesmon2.png",
+            "src": "10_choré toutankesmon2.mp4",
+            "title": "Choré ToutanKèsmon"
+        }, {
+            "poster": "11_Monarkès Absolue 1.png",
+            "src": "11_Monarkès Absolue 1.mp4",
+            "title": "MonarKès absolue (1/2)"
+        }, {
+            "poster": "11_PoKesMon 1.png",
+            "src": "11_PoKesMon 1.mp4",
+            "title": "PoKèsmon (1/3)"
+        }, {
+            "poster": "12_burKes1_.png",
+            "src": "12_burKes1_.mp4",
+            "title": "BurKès (1/2)"
+        }, {
+            "poster": "13_Kès_My_Ass_02_SiJEtaisUnKessier.png",
+            "src": "13_Kès_My_Ass_02_SiJEtaisUnKessier.mp4",
+            "title": "Kès my ass (2/3) : si j'étais un kessier"
+        }, {
+            "poster": "14_Kes'Trelle Trophy-2.png",
+            "src": "14_Kes'Trelle Trophy-2.mp4",
+            "title": "Kès'trelle Trophy (2/2)"
+        }, {
+            "poster": "15_WaltDiskes.png",
+            "src": "15_WaltDiskes.mp4",
+            "title": "Walt DisKès"
+        }, {
+            "poster": "16_choré waltkes2.png",
+            "src": "16_choré waltkes2.mp4",
+            "title": "Choré Walt DisKès"
+        }, {
+            "poster": "17a_BurKes 2.png",
+            "src": "17a_BurKes 2.mp4",
+            "title": "BurKès (2/2)"
+        }, {
+            "poster": "17b_alors kes qu on attend.png",
+            "src": "17b_alors kes qu on attend.mp4",
+            "title": "Alors Kès qu'on attend ?"
+        }, {
+            "poster": "18_LegionKestrange.png",
+            "src": "18_LegionKestrange.mp4",
+            "title": "Légion Kèstrangère"
+        }, {
+            "poster": "19_PoKesMon 2.png",
+            "src": "19_PoKesMon 2.mp4",
+            "title": "PoKèsmon (2/3)"
+        }, {
+            "poster": "20_Ah Kès qu on est serré.png",
+            "src": "20_Ah Kès qu on est serré.mp4",
+            "title": "Ah Kès qu'on est serré !"
+        }, {
+            "poster": "21_Kès_My_Ass_03_JoachimNassar.png",
+            "src": "21_Kès_My_Ass_03_JoachimNassar.mp4",
+            "title": "Kès my ass (3/3)"
+        }, {
+            "poster": "22_Monarkès Absolue 2.png",
+            "src": "22_Monarkès Absolue 2.mp4",
+            "title": "MonarKès absolue (2/2)"
+        }, {
+            "poster": "23_PoKesMon 3.png",
+            "src": "23_PoKesMon 3.mp4",
+            "title": "PoKèsmon (3/3)"
+        }, {
+            "poster": "24_Kèsquonfoutencorelà.png",
+            "src": "24_Kèsquonfoutencorelà.mp4",
+            "title": "Kès qu'on fout encore là..."
+        }, {
+            "poster": "25_Clip_LuckyLukes.png",
+            "src": "25_Clip_LuckyLukes.mp4",
+            "title": "Lucky LuKès"
+        }, {
+            "poster": "26_choré lucky lukès.png",
+            "src": "26_choré lucky lukès.mp4",
+            "title": "Choré Lucky LuKès"
+        }, {
+            "poster": "27_Team Rockès.png",
+            "src": "27_Team Rockès.mp4",
+            "title": "Team RocKès"
+        }, {
+            "poster": "28_kickes.png",
+            "src": "28_kickes.mp4",
+            "title": "KicKès"
+        }, {
+            "poster": "29_KesKonéKron2.png",
+            "src": "29_KesKonéKron2.mp4",
+            "title": "KèsKonÉKron (2/2)"
+        }, {
+            "poster": "30a_elsekes 2.png",
+            "src": "30a_elsekes 2.mp4",
+            "title": "ELSEKès (2/2)"
+        }, {
+            "poster": "31_DisKesLique.png",
+            "src": "31_DisKesLique.mp4",
+            "title": "DisKèslique"
+        }, {
+            "poster": "32_Rickesley.png",
+            "src": "32_Rickesley.mp4",
+            "title": "RicKèsley"
+        }, {
+            "poster": "33_StanleyKèsbrick.png",
+            "src": "33_StanleyKèsbrick.mp4",
+            "title": "Stanley Kèsbrick"
+        }, {
+            "poster": "34_Alakesam.png",
+            "src": "34_Alakesam.mp4",
+            "title": "AlaKèsam"
+        }, {
+            "poster": "35_teaser_acti_jeudi.png",
+            "src": "35_teaser_acti_jeudi.mp4",
+            "title": "Teaser Laser Game"
+        }, {
+            "poster": "36_CountDown_Final_v1.png",
+            "src": "36_CountDown_Final_v1.mp4",
+            "title": "Countdown final"
+        }, ]
+    },
+    "kes2013jeudi": {
+        "videoPathPrefix": "../../../02_Vie_de_promo/2014-11-24_Campagne_Kes_des_2k13/2014-11-27_Proj_jeudi/",
+        "posterPathPrefix": "../../images/posters/kes2013jeudi/",
+        "videos": [{
+            "poster": "01_intro.png",
+            "src": "01_intro.mp4",
+            "title": "Introduction"
+        }, {
+            "poster": "02_SexyRandom.png",
+            "src": "02_SexyRandom.mp4",
+            "title": "Sexy Kès contest"
+        }, {
+            "poster": "03a_Lundi.png",
+            "src": "03a_Lundi.mp4",
+            "title": "Transition lundi"
+        }, {
+            "poster": "03b_Rétrospective lundi journée.png",
+            "src": "03b_Rétrospective lundi journée.mp4",
+            "title": "Rétrospective lundi"
+        }, {
+            "poster": "04_Rétrospective lundi soir.png",
+            "src": "04_Rétrospective lundi soir.mp4",
+            "title": "Rétrospective lundi soir"
+        }, {
+            "poster": "05_Nom Kès.png",
+            "src": "05_Nom Kès.mp4",
+            "title": "Nom de liste Kès"
+        }, {
+            "poster": "06_Pique-Kessiette.png",
+            "src": "06_Pique-Kessiette.mp4",
+            "title": "Pique-Kèssiette"
+        }, {
+            "poster": "07a_Mardi.png",
+            "src": "07a_Mardi.mp4",
+            "title": "Transition mardi"
+        }, {
+            "poster": "07b_Retrospective mardi journée.png",
+            "src": "07b_Retrospective mardi journée.mp4",
+            "title": "Rétrospective mardi"
+        }, {
+            "poster": "08_Rétrospective mardi soir.png",
+            "src": "08_Rétrospective mardi soir.mp4",
+            "title": "Rétrospective mardi soir"
+        }, {
+            "poster": "09_Kesnartichaud - Version encore plus courte.png",
+            "src": "09_Kesnartichaud - Version encore plus courte.mp4",
+            "title": "Kèsnartichaud"
+        }, {
+            "poster": "10_manvskes 1ere partie.png",
+            "src": "10_manvskes 1ere partie.mp4",
+            "title": "Man vs. Kès (1/2)"
+        }, {
+            "poster": "11_Pedofulchiron.png",
+            "src": "11_Pedofulchiron.mp4",
+            "title": "PedoFulchiron"
+        }, {
+            "poster": "12a_Mercredi.png",
+            "src": "12a_Mercredi.mp4",
+            "title": "Transition mercredi"
+        }, {
+            "poster": "12b_Retrospective mercredi.png",
+            "src": "12b_Retrospective mercredi.mp4",
+            "title": "Rétrospective mercredi"
+        }, {
+            "poster": "13_Retrospective mercredi soir.png",
+            "src": "13_Retrospective mercredi soir.mp4",
+            "title": "Rétrospective mercredi soir"
+        }, {
+            "poster": "14_manvskes 2eme partie.png",
+            "src": "14_manvskes 2eme partie.mp4",
+            "title": "Man vs. Kès (2/2)"
+        }, {
+            "poster": "15_Poopagne Kès.png",
+            "src": "15_Poopagne Kès.mp4",
+            "title": "Poopagne Kès"
+        }, {
+            "poster": "16_KES FACTOR.png",
+            "src": "16_KES FACTOR.mp4",
+            "title": "Kès Factor"
+        }, {
+            "poster": "17_Roméo et Juliette.png",
+            "src": "17_Roméo et Juliette.mp4",
+            "title": "Roméo et Juliette"
+        }, {
+            "poster": "18_zapping.png",
+            "src": "18_zapping.mp4",
+            "title": "Zapping"
+        }, {
+            "poster": "19_epic rap kes.png",
+            "src": "19_epic rap kes.mp4",
+            "title": "Epic Rap Kès"
+        }]
+    },
+    "kes2013premier": {
+        "videoPathPrefix": "../../../02_Vie_de_promo/2014-11-24_Campagne_Kes_des_2k13/2014-12-01_Resultats_premier_tour/",
+        "posterPathPrefix": "../../images/posters/kes2013premier/",
+        "videos": [{
+            "poster": "01_Faux direct.png",
+            "src": "01_Faux direct.mp4",
+            "title": "Faux direct"
+        }, {
+            "poster": "02_LobatoRelou.png",
+            "src": "02_LobatoRelou.mp4",
+            "title": "Lobato Relou"
+        }, {
+            "poster": "03_GénériqueRemerciements.png",
+            "src": "03_GénériqueRemerciements.mp4",
+            "title": "Générique remerciements"
+        }, {
+            "poster": "04_Resultats.png",
+            "src": "04_Resultats.mp4",
+            "title": "Résultats"
+        }, ]
+    },
+    "kes2013deuxieme": {
+        "videoPathPrefix": "../../../02_Vie_de_promo/2014-11-24_Campagne_Kes_des_2k13/2014-12-04_Resultats_deuxieme_tour/",
+        "posterPathPrefix": "../../images/posters/kes2013deuxieme/",
+        "videos": [{
+            "poster": "01_RageX.png",
+            "src": "01_RageX.mp4",
+            "title": "Pub RageX"
+        }, {
+            "poster": "02_trailer BB.png",
+            "src": "02_trailer BB.mp4",
+            "title": "Trailer BB"
+        }, {
+            "poster": "03_Intro.png",
+            "src": "03_Intro.mp4",
+            "title": "Introduction"
+        }, {
+            "poster": "04_Monarkès - prise de pouvoir.png",
+            "src": "04_Monarkès - prise de pouvoir.mp4",
+            "title": "Prise de pouvoir de la MonarKès absolue"
+        }, {
+            "poster": "05_les chat sans abris.png",
+            "src": "05_les chat sans abris.mp4",
+            "title": "Chats sans abri"
+        }, {
+            "poster": "06_Lasergame.png",
+            "src": "06_Lasergame.mp4",
+            "title": "Laser game"
+        }, {
+            "poster": "07_chansondeselectrons.png",
+            "src": "07_chansondeselectrons.mp4",
+            "title": "Chanson des électrons"
+        }, {
+            "poster": "08_karaoke.png",
+            "src": "08_karaoke.mp4",
+            "title": "Karaoké"
+        }, {
+            "poster": "09_epic maizena battle.png",
+            "src": "09_epic maizena battle.mp4",
+            "title": "Epic maïzéna battle"
+        }, {
+            "poster": "10_coursier ukes.png",
+            "src": "10_coursier ukes.mp4",
+            "title": "Coursier UKès"
+        }, {
+            "poster": "11_Désillusion.png",
+            "src": "11_Désillusion.mp4",
+            "title": "Désillusion"
+        }, {
+            "poster": "12_Old fruits.png",
+            "src": "12_Old fruits.mp4",
+            "title": "Old fruits"
+        }, {
+            "poster": "13_RetroVendredi.png",
+            "src": "13_RetroVendredi.mp4",
+            "title": "Rétro vendredi"
+        }, {
+            "poster": "14_Resultats.png",
+            "src": "14_Resultats.mp4",
+            "title": "Résultats"
+        }, ]
     }
 }
