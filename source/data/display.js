@@ -106,6 +106,12 @@ var display = {
                 },
                 {
                     "type": "projection",
+                    "poster": "binets2013.png",
+                    "title": "Amphi binets des 2013",
+                    "id": "binets2013"
+                },
+                {
+                    "type": "projection",
                     "poster": "binets2014.png",
                     "title": "Amphi binets des 2014",
                     "id": "binets2014"
@@ -234,6 +240,12 @@ var display = {
                 "pathPrefix": "../../images/projections/courtine2013/",
                 "titre": "titre.png",
                 "prev": "courtine2013",
+                "background": "background.png"
+            },
+            "binets2013": {
+                "pathPrefix": "../../images/projections/binets2013/",
+                "titre": "titre.png",
+                "prev": "promo",
                 "background": "background.png"
             }
     },
