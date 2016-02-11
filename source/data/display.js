@@ -112,12 +112,6 @@ var display = {
                 },
                 {
                     "type": "projection",
-                    "poster": "binets2014.png",
-                    "title": "Amphi binets des 2014",
-                    "id": "binets2014"
-                },
-                {
-                    "type": "projection",
                     "poster": "wei2013.png",
                     "title": "WEI des 2013",
                     "id": "wei2013"
@@ -130,10 +124,22 @@ var display = {
                 },
                 {
                     "type": "projection",
+                    "poster": "ca2013.png",
+                    "title": "Campagne CA des 2013",
+                    "id": "ca2013"
+                },
+                {
+                    "type": "projection",
+                    "poster": "binets2014.png",
+                    "title": "Amphi binets des 2014",
+                    "id": "binets2014"
+                },
+                {
+                    "type": "projection",
                     "poster": "langues.png",
                     "title": "Fêtes des langues",
                     "id": "langues"
-                }
+                },
             ]
         },
         "incorpo2013": {
@@ -268,6 +274,12 @@ var display = {
             },
             "raid2014": {
                 "pathPrefix": "../../images/projections/raid2014/",
+                "titre": "titre.png",
+                "prev": "promo",
+                "background": "background.png"
+            },
+            "ca2013": {
+                "pathPrefix": "../../images/projections/ca2013/",
                 "titre": "titre.png",
                 "prev": "promo",
                 "background": "background.png"

@@ -3052,6 +3052,23 @@ var videos = {
             "poster": "11_Remerciements.png",
             "src": "11_Remerciements.mp4",
             "title": "Remerciements"
-        } ]
+        }]
+    },
+    "ca2013": {
+        "videoPathPrefix": "../../../02_Vie_de_promo/2014-06_Campagne_CA/",
+        "posterPathPrefix": "../../images/posters/ca2013/",
+        "videos": [{
+            "poster": "interviewbiot_court.png",
+            "src": "interviewbiot_court.mp4",
+            "title": "Interview de Jacques Biot"
+        }, {
+            "poster": "Interviews.png",
+            "src": "Interviews.mp4",
+            "title": "Interviews des candidats"
+        }, {
+            "poster": "InterviewsNuit.png",
+            "src": "InterviewsNuit.mp4",
+            "title": "Interviews nocturnes"
+        }, ]
     }
 }
