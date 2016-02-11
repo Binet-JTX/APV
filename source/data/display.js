@@ -124,6 +124,12 @@ var display = {
                 },
                 {
                     "type": "projection",
+                    "poster": "raid2014.png",
+                    "title": "Raid de l'X 2014",
+                    "id": "raid2014"
+                },
+                {
+                    "type": "projection",
                     "poster": "langues.png",
                     "title": "Fêtes des langues",
                     "id": "langues"
@@ -256,6 +262,12 @@ var display = {
             },
             "wei2013": {
                 "pathPrefix": "../../images/projections/wei2013/",
+                "titre": "titre.png",
+                "prev": "promo",
+                "background": "background.png"
+            },
+            "raid2014": {
+                "pathPrefix": "../../images/projections/raid2014/",
                 "titre": "titre.png",
                 "prev": "promo",
                 "background": "background.png"

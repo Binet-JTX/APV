@@ -2999,6 +2999,59 @@ var videos = {
             "poster": "12_merci.png",
             "src": "12_merci.mp4",
             "title": "Merci !"
+        }]
+    },
+    "raid2014": {
+        "videoPathPrefix": "../../../02_Vie_de_promo/2014-06-09_Raid_de_l_X_2014/",
+        "posterPathPrefix": "../../images/posters/raid2014/",
+        "videos": [{
+            "poster": "01_RaidTV_Intro.png",
+            "src": "01_RaidTV_Intro.mp4",
+            "title": "Intro RaidTV"
+        }, {
+            "poster": "02a_CommentReussirSonRaid_Rambo.png",
+            "src": "02a_CommentReussirSonRaid_Rambo.mp4",
+            "title": "Rambo"
+        }, {
+            "poster": "02b_CommentReussirSonRaid_Binet_Batards.png",
+            "src": "02b_CommentReussirSonRaid_Binet_Batards.mp4",
+            "title": "Binet Bâtards"
+        }, {
+            "poster": "03_RaidTV_Transition_Retrospective.png",
+            "src": "03_RaidTV_Transition_Retrospective.mp4",
+            "title": "Transition rétrospective"
+        }, {
+            "poster": "04_Retrospective.png",
+            "src": "04_Retrospective.mp4",
+            "title": "Rétrospective"
+        }, {
+            "poster": "05_RaidTV_Transition_Zapping.png",
+            "src": "05_RaidTV_Transition_Zapping.mp4",
+            "title": "Transition Zapping"
+        }, {
+            "poster": "06_Zapping.png",
+            "src": "06_Zapping.mp4",
+            "title": "Zapping"
+        }, {
+            "poster": "07_RaidTV_Transition_Chant.png",
+            "src": "07_RaidTV_Transition_Chant.mp4",
+            "title": "Transition chant"
+        }, {
+            "poster": "08_La_Subitude.png",
+            "src": "08_La_Subitude.mp4",
+            "title": "La subitude"
+        }, {
+            "poster": "09_RaidTV_Transition_Fin.png",
+            "src": "09_RaidTV_Transition_Fin.mp4",
+            "title": "Transition fin"
+        }, {
+            "poster": "10_SaintCeneri.png",
+            "src": "10_SaintCeneri.mp4",
+            "title": "Saint Ceneri"
+        }, {
+            "poster": "11_Remerciements.png",
+            "src": "11_Remerciements.mp4",
+            "title": "Remerciements"
         } ]
     }
 }
