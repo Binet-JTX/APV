@@ -3936,6 +3936,127 @@ var videos = {
       "poster": "99fin.png",
       "src": "99fin.mp4",
       "title": "Final"
+    }]
+  },
+  "tsged2015": {
+    "videoPathPrefix": "../../../02_Vie_de_promo/2015-03-22_TSGED_2015/",
+    "posterPathPrefix": "../../images/posters/tsged2015/",
+    "videos": [{
+      "poster": "000_Intro.png",
+      "src": "000_Intro.mp4",
+      "title": "Introduction"
+    }, {
+      "poster": "00_Aviron-Indoor.png",
+      "src": "00_Aviron-Indoor.mp4",
+      "title": "Aviron indoor"
+    }, {
+      "poster": "01_Voile.png",
+      "src": "01_Voile.mp4",
+      "title": "Voile"
+    }, {
+      "poster": "02_Intro_Basket.png",
+      "src": "02_Intro_Basket.mp4",
+      "title": "Transition basket"
+    }, {
+      "poster": "02b_Basket.png",
+      "src": "02b_Basket.mp4",
+      "title": "Basket"
+    }, {
+      "poster": "03_Transition_Cross.png",
+      "src": "03_Transition_Cross.mp4",
+      "title": "Transition cross"
+    }, {
+      "poster": "03b_Cross.png",
+      "src": "03b_Cross.mp4",
+      "title": "Cross"
+    }, {
+      "poster": "04_Transition_CO.png",
+      "src": "04_Transition_CO.mp4",
+      "title": "Transition CO"
+    }, {
+      "poster": "04b_CO.png",
+      "src": "04b_CO.mp4",
+      "title": "CO"
+    }, {
+      "poster": "05_Transition_Natation.png",
+      "src": "05_Transition_Natation.mp4",
+      "title": "Transition natation"
+    }, {
+      "poster": "05b_Natation.png",
+      "src": "05b_Natation.mp4",
+      "title": "Natation"
+    }, {
+      "poster": "06_Transition_Rugby.png",
+      "src": "06_Transition_Rugby.mp4",
+      "title": "Transition rugby"
+    }, {
+      "poster": "06b_rugby.png",
+      "src": "06b_rugby.mp4",
+      "title": "Rugby"
+    }, {
+      "poster": "07_Transition_Badminton.png",
+      "src": "07_Transition_Badminton.mp4",
+      "title": "Transition badminton"
+    }, {
+      "poster": "07b_BAD.png",
+      "src": "07b_BAD.mp4",
+      "title": "Badminton"
+    }, {
+      "poster": "08_Transition_Foot.png",
+      "src": "08_Transition_Foot.mp4",
+      "title": "Transition foot"
+    }, {
+      "poster": "08b_Foot.png",
+      "src": "08b_Foot.mp4",
+      "title": "Foot"
+    }, {
+      "poster": "09_Transition_Volley.png",
+      "src": "09_Transition_Volley.mp4",
+      "title": "Transition volley"
+    }, {
+      "poster": "09b_Volley.png",
+      "src": "09b_Volley.mp4",
+      "title": "Volley"
+    }, {
+      "poster": "10_Transition_Judo.png",
+      "src": "10_Transition_Judo.mp4",
+      "title": "Transition judo"
+    }, {
+      "poster": "10b_Judo.png",
+      "src": "10b_Judo.mp4",
+      "title": "Judo"
+    }, {
+      "poster": "11_Transition_Escrime.png",
+      "src": "11_Transition_Escrime.mp4",
+      "title": "Transition escrime"
+    }, {
+      "poster": "11b_Escrime.png",
+      "src": "11b_Escrime.mp4",
+      "title": "Escrime"
+    }, {
+      "poster": "12_Transition Hand.png",
+      "src": "12_Transition Hand.mp4",
+      "title": "Transition handball"
+    }, {
+      "poster": "12b_hand filles.png",
+      "src": "12b_hand filles.mp4",
+      "title": "Handball féminin"
+    }, {
+      "poster": "12c_Hand masculin.png",
+      "src": "12c_Hand masculin.mp4",
+      "title": "Handball masculin"
+    }, {
+      "poster": "13_Transition_Equitation.png",
+      "src": "13_Transition_Equitation.mp4",
+      "title": "Transition équitation"
+    }, {
+      "poster": "13b_poney.png",
+      "src": "13b_poney.mp4",
+      "title": "Équitation"
+    }, {
+      "poster": "26_Conclusion.png",
+      "src": "26_Conclusion.mp4",
+      "title": "Conclusion"
     } ]
   }
 }

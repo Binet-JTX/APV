@@ -148,6 +148,12 @@ var display = {
                 },
                 {
                     "type": "projection",
+                    "poster": "tsged2015.png",
+                    "title": "TSGED 2015",
+                    "id": "tsged2015"
+                },
+                {
+                    "type": "projection",
                     "poster": "binets2014.png",
                     "title": "Amphi binets des 2014",
                     "id": "binets2014"
@@ -392,6 +398,12 @@ var display = {
             },
             "paristech2014": {
                 "pathPrefix": "../../images/projections/paristech2014/",
+                "titre": "titre.png",
+                "prev": "promo",
+                "background": "background.png"
+            },
+            "tsged2015": {
+                "pathPrefix": "../../images/projections/tsged2015/",
                 "titre": "titre.png",
                 "prev": "promo",
                 "background": "background.png"
