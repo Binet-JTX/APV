@@ -141,6 +141,12 @@ var display = {
                     "id": "paristech2014"
                 },
                 {
+                    "type": "menu",
+                    "poster": "kes2013.png",
+                    "title": "Campagne Kès des 2013",
+                    "id": "kes2013"
+                },
+                {
                     "type": "projection",
                     "poster": "binets2014.png",
                     "title": "Amphi binets des 2014",
