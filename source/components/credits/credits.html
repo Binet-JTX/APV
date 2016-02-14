@@ -1,73 +1,128 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>Album Promo Vidéo 2013</title>
-        <link href="../../css/main.css" rel="stylesheet" type="text/css">
-        <!-- Chargement des librairies -->
-        <script src="../../js/jquery.js" type="text/javascript"></script>
-        <script src="../../js/pure.js" type="text/javascript"></script>
-        <!-- Chargement des données des images et vidéos -->
-        <script src="../../data/display.js" type="text/javascript"></script>
-        <script src="../../data/videos.js" type="text/javascript"></script>
-    </head>
 
-    <body>
+<head>
+    <meta charset="utf-8" />
+    <title>Album Promo Vidéo 2013</title>
+    <link href="../../css/main.css" rel="stylesheet" type="text/css">
+    <!-- Chargement des librairies -->
+    <script src="../../js/jquery.js" type="text/javascript"></script>
+    <script src="../../js/pure.js" type="text/javascript"></script>
+    <script src="../../js/queryString.js" type="text/javascript"></script>
+    <!-- Chargement des données des images et vidéos -->
+    <script src="../../data/display.js" type="text/javascript"></script>
+    <script src="../../data/videos.js" type="text/javascript"></script>
+</head>
 
-        <div class="slideshow">
-            <div class="slide">
-                <!-- slide 1 de slideshow -->
-                <div class="bkgd" id="background" style=""></div>
+<body>
 
-                <div id="vp">
-                    <div id="vp2">
-                        <div id="superzone">
-                            <div class="imgzone"><img id="zone-isolated" src=""/></div>
-                            <ul class="buttonsmenu">
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li>
-                                    <a>
-                                        <img id="titre" src=""/>
-                                    </a>
-                                </li>
-                                <li></li>
-                                <li>
-                                    <a onclick="goToIntro()">
-                                        <img id="back-to-intro" src=""/>
-                                        <div><img id="back-to-intro-hover" src="" title="Relancer le clip d'intro"/></div>
-                                    </a>
-                                </li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+    <div class="slideshow">
+        <div class="slide">
+            <!-- slide 1 de slideshow -->
+            <div class="bkgd" id="background" style=""></div>
 
-                            </ul>
-                            <div class="lb-album">
-                                <img id="apj" style="height:90%" alt="Photo de l'équipe de l'APV">
-                            </ul>
+            <div id="vp">
+                <div id="vp2">
+                    <div id="superzone">
+                        <div class="imgzone"><img id="zone-isolated" src="" /></div>
+                        <ul class="buttonsmenu">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li>
+                                <a>
+                                    <img id="titre" src="" />
+                                </a>
+                            </li>
+                            <li>
+                                <a id="prevMenu">
+                                    <img id="prevMenuImg"/>
+                                    <div>
+                                        <img id="prevMenuImg_hover" title="Retour au menu précédent"/>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a onclick="goToIntro()">
+                                    <img id="back-to-intro" src="" />
+                                    <div><img id="back-to-intro-hover" src="" title="Relancer le clip d'intro" /></div>
+                                </a>
+                            </li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+
+                        </ul>
+                        <div class="lb-album">
+                            <div style="position:relative;float:left;display:block;top:5%;bottom:5%;text-align:center;width:25%;height:90%;overflow:auto">
+                                <div style="font-size:3em;font-family:textFont;text-decoration:underline;margin-bottom:-0.8em;margin-top:-0.8em">
+                                    Président
+                                </div>
+                                <div style="font-size:3em;font-family:textFont;margin-bottom:-0.7em;font-weight:bold">
+                                    Denis Merigoux
+                                </div>
+                                <div style="font-size:3em;font-family:textFont;text-decoration:underline;margin-bottom:-0.8em">
+                                    Trésorière
+                                </div>
+                                <div style="font-size:3em;font-family:textFont;margin-bottom:-0.7em;font-weight:bold">
+                                    Louise Koskas
+                                </div>
+                                <div style="font-size:3em;font-family:textFont;text-decoration:underline;margin-bottom:-0.8em">
+                                    Respo facho
+                                </div>
+                                <div style="font-size:3em;font-family:textFont;margin-bottom:-0.7em;font-weight:bold">
+                                    Augustin Lenormand
+                                </div>
+                                <div style="font-size:3em;font-family:textFont;text-decoration:underline;margin-bottom:-0.8em">
+                                    Respo trailer
+                                </div>
+                                <div style="font-size:3em;font-family:textFont;font-weight:bold">
+                                    Marc Szafraniec
+                                </div>
+                            </div>
+                            <img id="apj" style="height:96%" alt="Photo de l'équipe de l'APV">
+                            <div style="position:relative;float:right;display:block;top:5%;bottom:5%;height:90%;text-align:center;width:25%;overflow:auto">
+                                <div style="font-size:3em;font-family:textFont;text-decoration:underline;margin-bottom:-0.3em;margin-top:-0.2em;line-height:1em">
+                                    Relations extérieures
+                                </div>
+                                <div style="font-size:3em;font-family:textFont;margin-bottom:-0.7em;font-weight:bold">
+                                    Louis Legrand
+                                </div>
+                                <div style="font-size:3em;font-family:textFont;text-decoration:underline;margin-bottom:-0.25em">
+                                    Cellule Interviews
+                                </div>
+                                <div style="font-size:3em;font-family:textFont;line-height:1em;margin-bottom:-0.3em;font-weight:bold">
+                                    Marie-Apolline Barbara<br>Antoine Devulder
+                                </div>
+                                <div style="font-size:3em;font-family:textFont;text-decoration:underline;margin-bottom:-0.8em">
+                                    Respo design
+                                </div>
+                                <div style="font-size:3em;font-family:textFont;font-weight:bold">
+                                    Guillaume Genestier
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-    </body>
+</body>
 
-    <!-- Controller import -->
-    <script src="credits.js" type="text/javascript"></script>
+<!-- Controller import -->
+<script src="credits.js" type="text/javascript"></script>
+
 </html>

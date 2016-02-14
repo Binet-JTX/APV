@@ -89,6 +89,8 @@ var displayDirective = {
     '#gauche_hover@src': '#{common.pathPrefix}/#{common.gauche.hover}',
     '.main-menu-section-play@src': '#{common.pathPrefix}/#{common.play}',
     '#titre@src': '#{menu.main.pathPrefix}/#{menu.main.title}',
+    '#equipe@src': '#{common.pathPrefix}/#{common.equipe.main}',
+    '#equipe_hover@src': '#{common.pathPrefix}/#{common.equipe.hover}',
     '#back-to-intro@src': '#{menu.main.pathPrefix}/#{menu.main.backToIntro.main}',
     '#back-to-intro-hover@src': '#{menu.main.pathPrefix}/#{menu.main.backToIntro.hover}'
 };
