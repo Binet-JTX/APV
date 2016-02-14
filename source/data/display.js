@@ -160,6 +160,18 @@ var display = {
                 },
                 {
                     "type": "projection",
+                    "poster": "wei2014.png",
+                    "title": "WEI des 2014",
+                    "id": "wei2014"
+                },
+                {
+                    "type": "projection",
+                    "poster": "raid2015.png",
+                    "title": "Raid de l'X 2015",
+                    "id": "raid2015"
+                },
+                {
+                    "type": "projection",
                     "poster": "langues.png",
                     "title": "Fêtes des langues",
                     "id": "langues"
@@ -413,6 +425,18 @@ var display = {
                 "titre": "titre.png",
                 "prev": "main",
                 "background": "background.jpg"
+            },
+            "wei2014": {
+                "pathPrefix": "../../images/projections/wei2014/",
+                "titre": "titre.png",
+                "prev": "promo",
+                "background": "background.png"
+            },
+            "raid2015": {
+                "pathPrefix": "../../images/projections/raid2015/",
+                "titre": "titre.png",
+                "prev": "promo",
+                "background": "background.png"
             }
     },
     "common": {

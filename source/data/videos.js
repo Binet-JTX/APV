@@ -4159,5 +4159,127 @@ var videos = {
             "src": "2016-02-03_Dance_4_U.mp4",
             "title": "Dance 4 U 2016"
         }, ]
+    },
+    "wei2014": {
+        "videoPathPrefix": "../../../02_Vie_de_promo/2015-04-19_WEI_des_2k14/",
+        "posterPathPrefix": "../../images/posters/wei2014/",
+        "videos": [{
+            "poster": "01_intro_de_lintro.png",
+            "src": "01_intro_de_lintro.mp4",
+            "title": "Intro de l'intro"
+        }, {
+            "poster": "02_Intro.png",
+            "src": "02_Intro.mp4",
+            "title": "Introduction"
+        }, {
+            "poster": "03_Bus.png",
+            "src": "03_Bus.mp4",
+            "title": "Bus"
+        }, {
+            "poster": "04_RetroBouffe.png",
+            "src": "04_RetroBouffe.mp4",
+            "title": "Bouffe"
+        }, {
+            "poster": "05_le gilet.png",
+            "src": "05_le gilet.mp4",
+            "title": "Le gilet"
+        }, {
+            "poster": "06_Vache.png",
+            "src": "06_Vache.mp4",
+            "title": "La vache"
+        }, {
+            "poster": "07_RetroSoirees.png",
+            "src": "07_RetroSoirees.mp4",
+            "title": "Soirées"
+        }, {
+            "poster": "08_Poopstock.png",
+            "src": "08_Poopstock.mp4",
+            "title": "Poopstock"
+        }, {
+            "poster": "09_desole.png",
+            "src": "09_desole.mp4",
+            "title": "Désolé"
+        }, {
+            "poster": "10_RetroAlcool.png",
+            "src": "10_RetroAlcool.mp4",
+            "title": "Alcool"
+        }, {
+            "poster": "11_TousLesWei.png",
+            "src": "11_TousLesWei.mp4",
+            "title": "Tous les WEI"
+        }, {
+            "poster": "12_detournement.png",
+            "src": "12_detournement.mp4",
+            "title": "Détournement"
+        }, {
+            "poster": "13_RetroActis.png",
+            "src": "13_RetroActis.mp4",
+            "title": "Actis"
+        }, {
+            "poster": "14_camera cache.png",
+            "src": "14_camera cache.mp4",
+            "title": "Caméra cachée"
+        }, {
+            "poster": "15_retro_vachette.png",
+            "src": "15_retro_vachette.mp4",
+            "title": "Vachette"
+        }, {
+            "poster": "16_zapping.png",
+            "src": "16_zapping.mp4",
+            "title": "Zapping"
+        }, {
+            "poster": "17_merci_final.png",
+            "src": "17_merci_final.mp4",
+            "title": "Merci final"
+        }]
+    },
+    "raid2015": {
+        "videoPathPrefix": "../../../02_Vie_de_promo/2015-05-16_Raid_de_l_X_2015/",
+        "posterPathPrefix": "../../images/posters/raid2015/",
+        "videos": [{
+            "poster": "01_Intro.png",
+            "src": "01_Intro.mp4",
+            "title": "Introduction"
+        }, {
+            "poster": "02_NomEquipe.png",
+            "src": "02_NomEquipe.mp4",
+            "title": "Nom d'équipe"
+        }, {
+            "poster": "03_RetroJ1.png",
+            "src": "03_RetroJ1.mp4",
+            "title": "Premier jour"
+        }, {
+            "poster": "04_pendantcetemps.png",
+            "src": "04_pendantcetemps.mp4",
+            "title": "Pendant ce temps"
+        }, {
+            "poster": "05_TOP5Deces.png",
+            "src": "05_TOP5Deces.mp4",
+            "title": "Top 5 des décès"
+        }, {
+            "poster": "06b_Surmaroute.png",
+            "src": "06b_Surmaroute.mp4",
+            "title": "Sur ma route"
+        }, {
+            "poster": "06_RetroCamping.png",
+            "src": "06_RetroCamping.mp4",
+            "title": "Camping"
+        }, {
+            "poster": "07_Labalisefantome.png",
+            "src": "07_Labalisefantome.mp4",
+            "title": "La balise fantôme"
+        }, {
+            "poster": "08_RetroDimanche.png",
+            "src": "08_RetroDimanche.mp4",
+            "title": "Deuxième jour"
+        }, {
+            "poster": "09_zapping.png",
+            "src": "09_zapping.mp4",
+            "title": "Zapping"
+        }, {
+            "poster": "10_Remerciements.png",
+            "src": "10_Remerciements.mp4",
+            "title": "Remerciements"
+        } ]
     }
 }
