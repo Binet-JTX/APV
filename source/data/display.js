@@ -135,10 +135,22 @@ var display = {
                     "id": "incorpo2014"
                 },
                 {
+                    "type": "projection",
+                    "poster": "paristech2014.png",
+                    "title": "Tournoi ParisTech",
+                    "id": "paristech2014"
+                },
+                {
                     "type": "menu",
                     "poster": "kes2013.png",
                     "title": "Campagne Kès des 2013",
                     "id": "kes2013"
+                },
+                {
+                    "type": "projection",
+                    "poster": "tsged2015.png",
+                    "title": "TSGED 2015",
+                    "id": "tsged2015"
                 },
                 {
                     "type": "projection",
@@ -382,6 +394,18 @@ var display = {
                 "pathPrefix": "../../images/projections/kes2013deuxieme/",
                 "titre": "titre.png",
                 "prev": "kes2013",
+                "background": "background.png"
+            },
+            "paristech2014": {
+                "pathPrefix": "../../images/projections/paristech2014/",
+                "titre": "titre.png",
+                "prev": "promo",
+                "background": "background.png"
+            },
+            "tsged2015": {
+                "pathPrefix": "../../images/projections/tsged2015/",
+                "titre": "titre.png",
+                "prev": "promo",
                 "background": "background.png"
             },
             "evenements": {
