@@ -23,7 +23,7 @@ var display = {
                 "title": "Vie de Promo",
                 "id": "promo"
             }, {
-                "type": "menu",
+                "type": "projection",
                 "poster": "03-Evenements.png",
                 "title": "Événements",
                 "id": "evenements"
@@ -383,6 +383,12 @@ var display = {
                 "titre": "titre.png",
                 "prev": "kes2013",
                 "background": "background.png"
+            },
+            "evenements": {
+                "pathPrefix": "../../images/projections/evenements/",
+                "titre": "titre.png",
+                "prev": "main",
+                "background": "background.jpg"
             }
     },
     "common": {
