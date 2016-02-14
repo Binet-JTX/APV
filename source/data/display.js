@@ -176,6 +176,12 @@ var display = {
                     "title": "Fêtes des langues",
                     "id": "langues"
                 },
+                {
+                    "type": "projection",
+                    "poster": "khomiss.png",
+                    "title": "Khômiss",
+                    "id": "khomiss"
+                },
             ]
         },
         "incorpo2013": {
@@ -434,6 +440,12 @@ var display = {
             },
             "raid2015": {
                 "pathPrefix": "../../images/projections/raid2015/",
+                "titre": "titre.png",
+                "prev": "promo",
+                "background": "background.png"
+            },
+            "khomiss": {
+                "pathPrefix": "../../images/projections/khomiss/",
                 "titre": "titre.png",
                 "prev": "promo",
                 "background": "background.png"

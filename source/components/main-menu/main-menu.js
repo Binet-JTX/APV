@@ -55,9 +55,9 @@ var mainDisplayDirective = {
                     '.main-menu-section-title': 'section.title',
                     '.main-menu-section-link@href': function(a) {
                         if (this.type == "projection") {
-                            return "../projection/projection.html?prev=main&id=" + this.id;
+                            return "../projection/projection.html?id=" + this.id;
                         } else if (this.type == "menu") {
-                            return "../menu/menu.html?prev=main&id=" + this.id;
+                            return "../menu/menu.html?id=" + this.id;
                         } else {
                             return "../main-menu/main-menu.html";
                         }
