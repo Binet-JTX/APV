@@ -4158,7 +4158,12 @@ var videos = {
             "poster": "2016-02-03_Dance_4_U.png",
             "src": "2016-02-03_Dance_4_U.mp4",
             "title": "Dance 4 U 2016"
-        }, ]
+        },
+        {
+            "poster": "2016-02-16_Concert_We_Lost_Simon.png",
+            "scr": "2016-02-16_Concert_We_Lost_Simon.mp4",
+            "title": "Concert We Lost Simon (février 2016)"
+        } ]
     },
     "wei2014": {
         "videoPathPrefix": "../../../02_Vie_de_promo/2015-04-19_WEI_des_2k14/",
