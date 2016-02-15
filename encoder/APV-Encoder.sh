@@ -36,7 +36,7 @@ printf "========================================
 
 #The second loop : encodes the whole to respect size limit
 mkdir "$folder_to_encode/encoding_final_output"
-for video in $(find "$folder_to_encode" -maxdepth 1 -type f -name "*.mp4" | sort )
+for video in $(find "$folder_to_encode" -maxdepth 1 -type f \( -name "*.mp4" -or -name "*.avi" -or -name "*.mkv" -or -name "*.wmv" -or -name ".mov" \) | sort )
 do
     filename=$(basename "$video")
     if [ -f "$folder_to_encode/constant_quality_output/$filename" ]; then
