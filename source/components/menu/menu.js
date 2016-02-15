@@ -48,6 +48,7 @@ var menuDisplayDirective = {
             return "../menu/menu.html?id=" + prevMenu;
         }
     },
+    '#creditsLink@href+' : function(a) {return "&prev="+menuId},
     '.slidemenu': {
         'slide<-sections': {
             //The function below aims to give the right background image

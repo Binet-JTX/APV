@@ -55,9 +55,9 @@ var mainDisplayDirective = {
                     '.main-menu-section-title': 'section.title',
                     '.main-menu-section-link@href': function(a) {
                         if (this.type == "projection") {
-                            return "../projection/projection.html?prev=main&id=" + this.id;
+                            return "../projection/projection.html?id=" + this.id;
                         } else if (this.type == "menu") {
-                            return "../menu/menu.html?prev=main&id=" + this.id;
+                            return "../menu/menu.html?id=" + this.id;
                         } else {
                             return "../main-menu/main-menu.html";
                         }
@@ -89,6 +89,8 @@ var displayDirective = {
     '#gauche_hover@src': '#{common.pathPrefix}/#{common.gauche.hover}',
     '.main-menu-section-play@src': '#{common.pathPrefix}/#{common.play}',
     '#titre@src': '#{menu.main.pathPrefix}/#{menu.main.title}',
+    '#equipe@src': '#{common.pathPrefix}/#{common.equipe.main}',
+    '#equipe_hover@src': '#{common.pathPrefix}/#{common.equipe.hover}',
     '#back-to-intro@src': '#{menu.main.pathPrefix}/#{menu.main.backToIntro.main}',
     '#back-to-intro-hover@src': '#{menu.main.pathPrefix}/#{menu.main.backToIntro.hover}'
 };

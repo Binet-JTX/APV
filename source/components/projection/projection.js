@@ -137,6 +137,7 @@ var projectionDisplayDirective = {
             return "../menu/menu.html?id=" + prevMenu;
         }
     },
+    '#creditsLink@href+' : function(a) {return "&prev="+projId}
 }
 $('body').render(projectionDisplay, projectionDisplayDirective);
 

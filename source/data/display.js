@@ -23,7 +23,7 @@ var display = {
                 "title": "Vie de Promo",
                 "id": "promo"
             }, {
-                "type": "menu",
+                "type": "projection",
                 "poster": "03-Evenements.png",
                 "title": "Événements",
                 "id": "evenements"
@@ -160,9 +160,27 @@ var display = {
                 },
                 {
                     "type": "projection",
+                    "poster": "wei2014.png",
+                    "title": "WEI des 2014",
+                    "id": "wei2014"
+                },
+                {
+                    "type": "projection",
+                    "poster": "raid2015.png",
+                    "title": "Raid de l'X 2015",
+                    "id": "raid2015"
+                },
+                {
+                    "type": "projection",
                     "poster": "langues.png",
                     "title": "Fêtes des langues",
                     "id": "langues"
+                },
+                {
+                    "type": "projection",
+                    "poster": "khomiss.png",
+                    "title": "Khômiss",
+                    "id": "khomiss"
                 },
             ]
         },
@@ -404,6 +422,30 @@ var display = {
             },
             "tsged2015": {
                 "pathPrefix": "../../images/projections/tsged2015/",
+                "titre": "titre.png",
+                "prev": "promo",
+                "background": "background.png"
+            },
+            "evenements": {
+                "pathPrefix": "../../images/projections/evenements/",
+                "titre": "titre.png",
+                "prev": "main",
+                "background": "background.jpg"
+            },
+            "wei2014": {
+                "pathPrefix": "../../images/projections/wei2014/",
+                "titre": "titre.png",
+                "prev": "promo",
+                "background": "background.png"
+            },
+            "raid2015": {
+                "pathPrefix": "../../images/projections/raid2015/",
+                "titre": "titre.png",
+                "prev": "promo",
+                "background": "background.png"
+            },
+            "khomiss": {
+                "pathPrefix": "../../images/projections/khomiss/",
                 "titre": "titre.png",
                 "prev": "promo",
                 "background": "background.png"
