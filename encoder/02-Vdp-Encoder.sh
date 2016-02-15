@@ -18,4 +18,4 @@
 ./APV-Encoder.sh ../02-Vie_de_promo/2015-04-19_WEI_des_2k14 612
 ./APV-Encoder.sh ../02-Vie_de_promo/2015-05-16_Raid_de_l_X_2015 403
 ./APV-Encoder.sh ../02-Vie_de_promo/2015-06-04_Proj_fete_des_langues 522
-./APV-Encoder.sh ../02-Vie_de_promo/Khomiss 860
+./APV-Encoder.sh ../02-Vie_de_promo/Khomiss 396
