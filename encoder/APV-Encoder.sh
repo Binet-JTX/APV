@@ -21,7 +21,7 @@ IFS=$(echo -en "\n\b")
 #The first loop : encodes with constant quality
 mkdir "$folder_to_encode/constant_quality_output"
 total_size=0
-for video in $(find "$folder_to_encode" -maxdepth 1 -type f \(-name "*.mp4" -or -name "*.avi" -or -name "*.mkv" -or -name "*.wmv" -or -name ".mov" \) | sort )
+for video in $(find "$folder_to_encode" -maxdepth 1 -type f \( -name "*.mp4" -or -name "*.avi" -or -name "*.mkv" -or -name "*.wmv" -or -name ".mov" \) | sort )
 do
     filename=$(basename $video)
     ffmpeg -i "$video" -c:v libx264 -preset medium -crf $video_quality_factor -pix_fmt yuv420p -threads 0 -c:a copy -y "$folder_to_encode/constant_quality_output/$filename"
