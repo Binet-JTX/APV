@@ -1714,10 +1714,19 @@ var videos = {
             "poster": "07-Tennis2012.png",
             "src": "07-Tennis2012.mp4",
             "title": "Section tennis"
+        },
+        {
+            "poster": "07-Tennis2012.png",
+            "src": "07-Tennis2012.mp4",
+            "title": "Section tennis"
         }, {
             "poster": "08_ClipSectionNatationf.png",
             "src": "08_ClipSectionNatationf.mp4",
             "title": "Section natation (1/3)"
+        }, {
+            "poster": "09_Comment_shasser_son_tos1.png",
+            "src": "09_Comment_shasser_son_tos1.mp4",
+            "title": "Comment shâsser son TOS (1/2)"
         }, {
             "poster": "10c_Inkhorpo VentrigliX Marre d'être un TOS.png",
             "src": "10c_Inkhorpo VentrigliX Marre d'être un TOS.mp4",
@@ -1791,6 +1800,18 @@ var videos = {
             "src": "19b_ridemyponey.mp4",
             "title": "Section équitation (1/2)"
         }, {
+            "poster": "20_ccx2.png",
+            "src": "20_ccx2.mp4",
+            "title": "CCX"
+        }, {
+            "poster": "21a_bataille-t'avale-1.png",
+            "src": "21a_bataille-t'avale-1.mp4",
+            "title": "La bataille t'avale"
+        }, {
+            "poster": "21a_Comment shasser son tos 2.png",
+            "src": "21a_Comment shasser son tos 2.mp4",
+            "title": "Comment shâsser son TOS (2/2)"
+        }, {
             "poster": "21a_Section Escrime vidéo 3.png",
             "src": "21a_Section Escrime vidéo 3.mp4",
             "title": "Section escrime (3/4)"
@@ -1798,6 +1819,14 @@ var videos = {
             "poster": "21a_Section hand.png",
             "src": "21a_Section hand.mp4",
             "title": "Section handball (1/2)"
+        }, {
+            "poster": "22b_Section pétanque 2.png",
+            "src": "22b_Section pétanque 2.mp4",
+            "title": "Section pétanque"
+        }, {
+            "poster": "22_video final Holiner .png",
+            "src": "22_video final Holiner.mp4",
+            "title": "Holiner"
         }, {
             "poster": "23b_Aviron.png",
             "src": "23b_Aviron.mp4",
