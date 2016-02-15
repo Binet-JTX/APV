@@ -1714,8 +1714,7 @@ var videos = {
             "poster": "07-Tennis2012.png",
             "src": "07-Tennis2012.mp4",
             "title": "Section tennis"
-        },
-        {
+        }, {
             "poster": "07-Tennis2012.png",
             "src": "07-Tennis2012.mp4",
             "title": "Section tennis"
@@ -4187,12 +4186,11 @@ var videos = {
             "poster": "2016-02-03_Dance_4_U.png",
             "src": "2016-02-03_Dance_4_U.mp4",
             "title": "Dance 4 U 2016"
-        },
-        {
+        }, {
             "poster": "2016-02-16_Concert_We_Lost_Simon.png",
             "scr": "2016-02-16_Concert_We_Lost_Simon.mp4",
             "title": "Concert We Lost Simon (février 2016)"
-        } ]
+        }]
     },
     "wei2014": {
         "videoPathPrefix": "../../../02_Vie_de_promo/2015-04-19_WEI_des_2k14/",
@@ -4351,6 +4349,27 @@ var videos = {
             "poster": "2016-02-08_Battledress.png",
             "src": "2016-02-08_Battledress.mp4",
             "title": "Remise des khôtes aux 2013"
+        }]
+    },
+    "jtxbonus": {
+        "videoPathPrefix": "../../../07-Bonus/Bonus-JTX/",
+        "posterPathPrefix": "../../images/posters/jtxbonus/",
+        "videos": [{
+            "poster": "ArtMinimaliste.png",
+            "src": "ArtMinimaliste.mp4",
+            "title": "Art minimaliste"
+        }, {
+            "poster": "Grabuge_au_tripot.png",
+            "src": "Grabuge_au_tripot.mp4",
+            "title": "Grabuge au tripot"
+        }, {
+            "poster": "Riverse_Court_Métrage.png",
+            "src": "Riverse_Court_Métrage.mp4",
+            "title": "Riverse"
+        }, {
+            "poster": "XMykonos.png",
+            "src": "XMykonos.mp4",
+            "title": "Les X à Mykonos"
         } ]
     }
 }

@@ -84,6 +84,12 @@ var display = {
                 "poster": "jtx2013novembre.png",
                 "title": "Mythologie",
                 "id": "jtx2013novembre"
+            },
+            {
+                "type": "projection",
+                "poster": "jtxbonus.png",
+                "title": "Bonus",
+                "id": "jtxbonus"
             }]
         },
         "promo": {
@@ -448,6 +454,12 @@ var display = {
                 "pathPrefix": "../../images/projections/khomiss/",
                 "titre": "titre.png",
                 "prev": "promo",
+                "background": "background.png"
+            },
+            "jtxbonus": {
+                "pathPrefix": "../../images/projections/jtxbonus/",
+                "titre": "titre.png",
+                "prev": "jtx",
                 "background": "background.png"
             }
     },
