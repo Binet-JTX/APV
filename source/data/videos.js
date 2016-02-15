@@ -1680,7 +1680,7 @@ var videos = {
         ]
     },
     "incorpo2013mardi": {
-        "videoPathPrefix": "../../../02_Vie_de_promo/2013-09-02_Incorpo_des_2k13/2013-09-03_Proj_de_mardi/",
+        "videoPathPrefix": "../../../02-Vie_de_promo/2013-09-02_Incorpo_des_2k13/2013-09-03_Proj_de_mardi/",
         "posterPathPrefix": "../../images/posters/incorpo2013mardi/",
         "videos": [{
             "poster": "00_après_pompom.png",
@@ -1710,10 +1710,6 @@ var videos = {
             "poster": "06b_après_Styx.png",
             "src": "06b_après_Styx.mp4",
             "title": "Après Styx"
-        }, {
-            "poster": "07-Tennis2012.png",
-            "src": "07-Tennis2012.mp4",
-            "title": "Section tennis"
         }, {
             "poster": "07-Tennis2012.png",
             "src": "07-Tennis2012.mp4",
