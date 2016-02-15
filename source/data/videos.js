@@ -4135,9 +4135,9 @@ var videos = {
             "src": "2015-05-21_Concert_OPS.mp4",
             "title": "Concert de l'OPS (mai 2015)"
         }, {
-            "poster": "2015-05-29_Escrime_artistique_Bal.png",
-            "src": "2015-05-29_Escrime_artistique_Bal.mp4",
-            "title": "Escrime artistique au Bal de l'X"
+            "poster": "2015-05-29_Bal_de_l_X.png",
+            "src": "2015-05-29_Bal_de_l_X.mp4",
+            "title": "Bal de l'X 2015"
         }, {
             "poster": "2015-06-04_Concert_Chorale_Versailles.png",
             "src": "2015-06-04_Concert_Chorale_Versailles.mp4",
