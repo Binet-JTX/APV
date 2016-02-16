@@ -16,7 +16,7 @@ var menu = display.menu[menuId];
 The next passage rearranges the sections of the menu to make slides. slideify is
 defined in arrayToSlides.js
 */
-menu.sections = slideify(menu.sections)
+menu.sections = slideify(menu.sections,true)
 
 /*
 Function to determine the type of menu : single-slide, two-slide of more than two slides.

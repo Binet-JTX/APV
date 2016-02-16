@@ -6,7 +6,7 @@ Controller for the main menu page
 The next passage rearranges the sections of the menu to make slides. slideify is
 defined in arrayToSlides.js
 */
-display.menu.main.sections = slideify(display.menu.main.sections)
+display.menu.main.sections = slideify(display.menu.main.sections,true)
 
 /*
 Function to determine the type of menu : single-slide, two-slide of more than two slides.

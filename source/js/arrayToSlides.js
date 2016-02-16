@@ -6,7 +6,7 @@ to have a better presentation.
 
 var videos_per_slide = 8;
 
-var slideify = function(array) {
+var slideify = function(array,reorganize) {
     //accumulator is the new array (made of slides) being constructed
     array = array.reduce(function(accumulator, currentVideo, index, array) {
         if (accumulator[accumulator.length - 1].length < videos_per_slide) {
@@ -22,7 +22,7 @@ var slideify = function(array) {
     var e = {"empty" : true};
     //If there is only two videos on the last slide for instance, they look better
     //centered rather than on the left of the slide.
-    if (videos_per_slide == 8) {
+    if (videos_per_slide == 8 && reorganize) {
         switch (lastSlide.length) {
             case 1:
                 array[array.length - 1] = [lastSlide[0],e, e, e, e, e, e, e];

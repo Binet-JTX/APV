@@ -2052,7 +2052,7 @@ var videos = {
             "poster": "WhatIsLove-1.png",
             "src": "WhatIsLove-1.mp4",
             "title": "What is love ?"
-        }, ]
+        } ]
     },
     "wed2013": {
         "videoPathPrefix": "../../../02_Vie_de_promo/2013-09-09_Courtine_des_2k13/2013-09-23_WED/",

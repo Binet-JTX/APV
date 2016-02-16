@@ -21,7 +21,7 @@ var projectionDisplay = display.projection[projId]
 The next passage rearranges the videos to make slides. slideify is
 defined in arrayToSlides.js
 */
-projection.videos = slideify(projection.videos)
+projection.videos = slideify(projection.videos,false)
 
 /*
 Function to determine the type of menu : single-slide, two-slide of more than two slides.
