@@ -2029,6 +2029,31 @@ var videos = {
             "title": "Transition 4e compagnie"
         }]
     },
+    "mythe": {
+        "videoPathPrefix": "../../js/utils/",
+        "posterPathPrefix": "../../js/utils/",
+        "videos": [{
+            "poster": "alexis potter.png",
+            "src": "alexis potter.mp4",
+            "title": "Alexis Potter"
+        }, {
+            "poster": "bruneel_sur_la_vie_encode.png",
+            "src": "bruneel_sur_la_vie_encode.mp4",
+            "title": "Bruneel sur la vie"
+        }, {
+            "poster": "marcel.png",
+            "src": "marcel.mp4",
+            "title": "Marcel Proost"
+        }, {
+            "poster": "Saint_Diz_interview_epic_trompette_time.png",
+            "src": "Saint_Diz_interview_epic_trompette_time.mp4",
+            "title": "Interview epic trompette time"
+        }, {
+            "poster": "WhatIsLove-1.png",
+            "src": "WhatIsLove-1.mp4",
+            "title": "What is love ?"
+        }, ]
+    },
     "wed2013": {
         "videoPathPrefix": "../../../02_Vie_de_promo/2013-09-09_Courtine_des_2k13/2013-09-23_WED/",
         "posterPathPrefix": "../../images/posters/wed2013/",
@@ -4366,6 +4391,6 @@ var videos = {
             "poster": "XMykonos.png",
             "src": "XMykonos.mp4",
             "title": "Les X à Mykonos"
-        } ]
+        }]
     }
 }

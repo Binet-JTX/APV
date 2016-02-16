@@ -41,7 +41,6 @@ var menuDisplayDirective = {
     },
     '#prevMenu@href': function(a) {
         var prevMenu = a.context.prev;
-        console.log(prevMenu);
         if (prevMenu == "main") {
             return "../main-menu/main-menu.html";
         } else {

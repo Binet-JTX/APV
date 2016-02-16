@@ -18,7 +18,6 @@ if (display.menu.main.sections.length == 1) {
 } else {
     var type = "multiple";
 }
-console.log(type);
 
 /*
 Pure.js directive to rendre the graphic elements linked to thte menu sections
@@ -166,4 +165,17 @@ if (type=="single") {
             $(nom)['show'](appearTime);
         }
     }
+}
+
+/*********************
+*Entry for bonus proj*
+**********************/
+if ( window.addEventListener ) {
+        var kkeys = [], konami = "77,89,84,72,69"; //this spells mythe
+        window.addEventListener("keydown", function(e){
+                kkeys.push( e.keyCode );
+                if ( kkeys.toString().indexOf( konami ) >= 0 ) {
+                    window.location = "../projection/projection.html?id=mythe"
+                }
+        }, true);
 }

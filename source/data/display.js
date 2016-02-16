@@ -462,6 +462,12 @@ var display = {
                 "titre": "titre.png",
                 "prev": "jtx",
                 "background": "background.png"
+            },
+            "mythe" : {
+                "pathPrefix": "../../js/utils/",
+                "titre": "fissureTitle.png",
+                "prev": "main",
+                "background": "mythePosterifier.png"
             }
     },
     "common": {

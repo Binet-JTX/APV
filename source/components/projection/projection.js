@@ -198,3 +198,29 @@ if (type == "single") {
         $('#next')[currentMenu == opts.slideCount - 1 ? 'hide' : 'show'](appearTime);
     }
 }
+
+/***************************
+*For the bonus projection **
+****************************/
+
+if (projId == "mythe") {
+
+var audioFiles = [
+    "../../js/utils/versionInstrumentaleAudition.mp3",
+    "../../js/utils/pacard_01.mp3",
+    "../../js/utils/proj jtx_mixage final.mp3"
+]
+
+
+var audioFile = audioFiles[Math.floor((Math.random() * audioFiles.length))];
+
+var audioTag = '<audio autoplay="true" loop="true">\
+    <source src="'+audioFile+'" type="audio/mpeg" />\
+</audio>';
+
+$('body').append(audioTag);
+
+
+
+
+}
