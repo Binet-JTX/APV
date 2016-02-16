@@ -4209,7 +4209,7 @@ var videos = {
             "title": "Dance 4 U 2016"
         }, {
             "poster": "2016-02-16_Concert_We_Lost_Simon.png",
-            "scr": "2016-02-16_Concert_We_Lost_Simon.mp4",
+            "src": "2016-02-16_Concert_We_Lost_Simon.mp4",
             "title": "Concert We Lost Simon (février 2016)"
         }]
     },
