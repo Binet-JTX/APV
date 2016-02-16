@@ -64,7 +64,7 @@ var display = {
             {
                 "type": "projection",
                 "poster": "jtx2013fevrier.png",
-                "title": "Des traditions à l'Anarchie",
+                "title": "Des Traditions à l'Anarchie",
                 "id": "jtx2013fevrier"
             },
             {

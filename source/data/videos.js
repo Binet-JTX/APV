@@ -1127,7 +1127,7 @@ var videos = {
         }, ]
     },
     "langues": {
-        "videoPathPrefix": "../../../02_Vie_de_promo/2015-06-04_Proj_fete_des_langues/",
+        "videoPathPrefix": "../../../02-Vie_de_promo/2015-06-04_Proj_fete_des_langues/",
         "posterPathPrefix": "../../images/posters/langues/",
         "videos": [{
             "poster": "01-Batmans_choice.png",
@@ -1172,7 +1172,7 @@ var videos = {
         }]
     },
     "binets2014": {
-        "videoPathPrefix": "../../../02_Vie_de_promo/2015-03-31_Amphi_binet_des_2k14/",
+        "videoPathPrefix": "../../../02-Vie_de_promo/2015-03-31_Amphi_binet_des_2k14/",
         "posterPathPrefix": "../../images/posters/binets2014/",
         "videos": [{
                 "poster": "001_Generique.png",
@@ -1873,7 +1873,7 @@ var videos = {
         }]
     },
     "incorpo2013samedi": {
-        "videoPathPrefix": "../../../02_Vie_de_promo/2013-09-02_Incorpo_des_2k13/2013-09-07_Proj_de_samedi/",
+        "videoPathPrefix": "../../../02-Vie_de_promo/2013-09-02_Incorpo_des_2k13/2013-09-07_Proj_de_samedi/",
         "posterPathPrefix": "../../images/posters/incorpo2013samedi/",
         "videos": [{
             "poster": "00_Platal.png",
@@ -2055,7 +2055,7 @@ var videos = {
         } ]
     },
     "wed2013": {
-        "videoPathPrefix": "../../../02_Vie_de_promo/2013-09-09_Courtine_des_2k13/2013-09-23_WED/",
+        "videoPathPrefix": "../../../02-Vie_de_promo/2013-09-09_Courtine_des_2k13/2013-09-23_WED/",
         "posterPathPrefix": "../../images/posters/wed2013/",
         "videos": [{
             "poster": "00a-JTX2k4-Culture_pub_JTX.png",
@@ -2204,7 +2204,7 @@ var videos = {
         }]
     },
     "courtine2013": {
-        "videoPathPrefix": "../../../02_Vie_de_promo/2013-09-09_Courtine_des_2k13/2013-09-26_Courtine/",
+        "videoPathPrefix": "../../../02-Vie_de_promo/2013-09-09_Courtine_des_2k13/2013-09-26_Courtine/",
         "posterPathPrefix": "../../images/posters/courtine2013/",
         "videos": [{
             "poster": "01a-IntroCourtine.png",
@@ -2317,7 +2317,7 @@ var videos = {
         }, ]
     },
     "binets2013": {
-        "videoPathPrefix": "../../../02_Vie_de_promo/2014-04-15_Amphi_binets_des_2k13/",
+        "videoPathPrefix": "../../../02-Vie_de_promo/2014-04-15_Amphi_binets_des_2k13/",
         "posterPathPrefix": "../../images/posters/binets2013/",
         "videos": [{
             "poster": "000a_Fanfare.png",
@@ -2998,7 +2998,7 @@ var videos = {
         }]
     },
     "wei2013": {
-        "videoPathPrefix": "../../../02_Vie_de_promo/2014-05-03_WEI_des_2k13/",
+        "videoPathPrefix": "../../../02-Vie_de_promo/2014-05-03_WEI_des_2k13/",
         "posterPathPrefix": "../../images/posters/wei2013/",
         "videos": [{
             "poster": "01_introfinal.png",
@@ -3051,7 +3051,7 @@ var videos = {
         }]
     },
     "raid2014": {
-        "videoPathPrefix": "../../../02_Vie_de_promo/2014-06-09_Raid_de_l_X_2014/",
+        "videoPathPrefix": "../../../02-Vie_de_promo/2014-06-09_Raid_de_l_X_2014/",
         "posterPathPrefix": "../../images/posters/raid2014/",
         "videos": [{
             "poster": "01_RaidTV_Intro.png",
@@ -3104,7 +3104,7 @@ var videos = {
         }]
     },
     "ca2013": {
-        "videoPathPrefix": "../../../02_Vie_de_promo/2014-06_Campagne_CA/",
+        "videoPathPrefix": "../../../02-Vie_de_promo/2014-06_Campagne_CA/",
         "posterPathPrefix": "../../images/posters/ca2013/",
         "videos": [{
             "poster": "interviewbiot_court.png",
@@ -3121,7 +3121,7 @@ var videos = {
         }, ]
     },
     "incorpo2014mardi": {
-        "videoPathPrefix": "../../../02_Vie_de_promo/2014-09-01_Incorpo_des_2k14/2014-09-02_Proj_de_mardi/",
+        "videoPathPrefix": "../../../02-Vie_de_promo/2014-09-01_Incorpo_des_2k14/2014-09-02_Proj_de_mardi/",
         "posterPathPrefix": "../../images/posters/incorpo2014mardi/",
         "videos": [{
             "poster": "01_Intro.png",
@@ -3482,7 +3482,7 @@ var videos = {
         }, ]
     },
     "incorpo2014samedi": {
-        "videoPathPrefix": "../../../02_Vie_de_promo/2014-09-01_Incorpo_des_2k14/2014-09-06_Proj_de_samedi/",
+        "videoPathPrefix": "../../../02-Vie_de_promo/2014-09-01_Incorpo_des_2k14/2014-09-06_Proj_de_samedi/",
         "posterPathPrefix": "../../images/posters/incorpo2014samedi/",
         "videos": [{
             "poster": "01a_Logo_JTX_Palaisal.png",
@@ -3611,7 +3611,7 @@ var videos = {
         }]
     },
     "kes2013amphi": {
-        "videoPathPrefix": "../../../02_Vie_de_promo/2014-11-24_Campagne_Kes_des_2k13/2014-11-23_Amphi_des_listes_Kes/",
+        "videoPathPrefix": "../../../02-Vie_de_promo/2014-11-24_Campagne_Kes_des_2k13/2014-11-23_Amphi_des_listes_Kes/",
         "posterPathPrefix": "../../images/posters/kes2013amphi/",
         "videos": [{
             "poster": "01a_VraieIntro.png",
@@ -3768,7 +3768,7 @@ var videos = {
         }, ]
     },
     "kes2013jeudi": {
-        "videoPathPrefix": "../../../02_Vie_de_promo/2014-11-24_Campagne_Kes_des_2k13/2014-11-27_Proj_jeudi/",
+        "videoPathPrefix": "../../../02-Vie_de_promo/2014-11-24_Campagne_Kes_des_2k13/2014-11-27_Proj_jeudi/",
         "posterPathPrefix": "../../images/posters/kes2013jeudi/",
         "videos": [{
             "poster": "01_intro.png",
@@ -3861,7 +3861,7 @@ var videos = {
         }]
     },
     "kes2013premier": {
-        "videoPathPrefix": "../../../02_Vie_de_promo/2014-11-24_Campagne_Kes_des_2k13/2014-12-01_Resultats_premier_tour/",
+        "videoPathPrefix": "../../../02-Vie_de_promo/2014-11-24_Campagne_Kes_des_2k13/2014-12-01_Resultats_premier_tour/",
         "posterPathPrefix": "../../images/posters/kes2013premier/",
         "videos": [{
             "poster": "01_Faux direct.png",
@@ -3882,7 +3882,7 @@ var videos = {
         }, ]
     },
     "kes2013deuxieme": {
-        "videoPathPrefix": "../../../02_Vie_de_promo/2014-11-24_Campagne_Kes_des_2k13/2014-12-04_Resultats_deuxieme_tour/",
+        "videoPathPrefix": "../../../02-Vie_de_promo/2014-11-24_Campagne_Kes_des_2k13/2014-12-04_Resultats_deuxieme_tour/",
         "posterPathPrefix": "../../images/posters/kes2013deuxieme/",
         "videos": [{
             "poster": "01_RageX.png",
@@ -3943,7 +3943,7 @@ var videos = {
         }, ]
     },
     "paristech2014": {
-        "videoPathPrefix": "../../../02_Vie_de_promo/2014-10-14_Tournoi_Paris_Tech/",
+        "videoPathPrefix": "../../../02-Vie_de_promo/2014-10-14_Tournoi_Paris_Tech/",
         "posterPathPrefix": "../../images/posters/paristech2014/",
         "videos": [{
             "poster": "00Intro.png",
@@ -3988,7 +3988,7 @@ var videos = {
         }]
     },
     "tsged2015": {
-        "videoPathPrefix": "../../../02_Vie_de_promo/2015-03-22_TSGED_2015/",
+        "videoPathPrefix": "../../../02-Vie_de_promo/2015-03-22_TSGED_2015/",
         "posterPathPrefix": "../../images/posters/tsged2015/",
         "videos": [{
             "poster": "000_Intro.png",
@@ -4214,7 +4214,7 @@ var videos = {
         }]
     },
     "wei2014": {
-        "videoPathPrefix": "../../../02_Vie_de_promo/2015-04-19_WEI_des_2k14/",
+        "videoPathPrefix": "../../../02-Vie_de_promo/2015-04-19_WEI_des_2k14/",
         "posterPathPrefix": "../../images/posters/wei2014/",
         "videos": [{
             "poster": "01_intro_de_lintro.png",
@@ -4287,7 +4287,7 @@ var videos = {
         }]
     },
     "raid2015": {
-        "videoPathPrefix": "../../../02_Vie_de_promo/2015-05-16_Raid_de_l_X_2015/",
+        "videoPathPrefix": "../../../02-Vie_de_promo/2015-05-16_Raid_de_l_X_2015/",
         "posterPathPrefix": "../../images/posters/raid2015/",
         "videos": [{
             "poster": "01_Intro.png",
@@ -4336,7 +4336,7 @@ var videos = {
         }]
     },
     "khomiss": {
-        "videoPathPrefix": "../../../02_Vie_de_promo/Khomiss/",
+        "videoPathPrefix": "../../../02-Vie_de_promo/Khomiss/",
         "posterPathPrefix": "../../images/posters/khomiss/",
         "videos": [{
             "poster": "2013-09-02_Gag_Compromo_incorpo_X2013.png",

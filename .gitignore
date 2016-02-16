@@ -9,5 +9,7 @@ encoder/tmp.*/
 05-Binets/
 06-Sections/
 07-Bonus/
+source/js/utils/*.mp4
+source/js/utils/*.mp3
 *.log
 *.mbtree
