@@ -185,7 +185,7 @@ img {
 .bkgd img {
     position: fixed;
     width: auto;
-    height: auto%;
+    height: auto;
     min-height: 100vh;
     min-width: 100vw;
     background-image: url('Images/ADD/fond.jpg') cover center;
@@ -287,7 +287,7 @@ img {
     left: 17.4%;
     height: auto;
     width: 65.2%;
-    margin-top: -0.5%;
+    margin-top: -5%;
 }
 
 /*------------------Accueil-------------*/
@@ -313,9 +313,9 @@ img {
 
 .buttonsmenu li:nth-child(12) {
     position: absolute;
-    left: 47.5%;
+    left: 45%;
     height: auto;
-    width: 3.7%;
+    width: 8%;
     margin-top: 39.85%;
     padding-bottom: 5%;
 }

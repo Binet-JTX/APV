@@ -19,7 +19,7 @@ console.log(prevMenu,prevLink,QueryString.type);
 var displayDirective = {
     '#zone-isolated@src': '#{common.pathPrefix}/#{common.zone.isolated}',
     '#background@style': function(a) {
-        return "background-image: url(" + this.menu.main.pathPrefix + this.menu.main.background + ");"
+        return "background-image: url(" + this.credits.pathPrefix + this.credits.background + ");"
     },
     '#titre@src': '#{menu.main.pathPrefix}/#{menu.main.title}',
     '#back-to-intro@src': '#{menu.main.pathPrefix}/#{menu.main.backToIntro.main}',

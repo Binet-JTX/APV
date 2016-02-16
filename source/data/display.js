@@ -19,7 +19,7 @@ var display = {
                 "id": "jtx"
             }, {
                 "type": "menu",
-                "poster": "02-VieDePromo.png",
+                "poster": "02-VieDePromo.jpg",
                 "title": "Vie de Promo",
                 "id": "promo"
             }, {
@@ -64,7 +64,7 @@ var display = {
             {
                 "type": "projection",
                 "poster": "jtx2013fevrier.png",
-                "title": "Des traditions à l'anarchie",
+                "title": "Des traditions à l'Anarchie",
                 "id": "jtx2013fevrier"
             },
             {
@@ -285,6 +285,7 @@ var display = {
     },
     "credits" : {
         "pathPrefix" : "../../images/credits/",
+        "background": "background.jpg",
         "apj" : "Photo_APJ_APV.jpg"
     },
     "projection": {
