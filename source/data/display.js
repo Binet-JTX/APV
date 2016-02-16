@@ -33,7 +33,7 @@ var display = {
                 "title": "Interviews",
                 "id": "interviews"
             }, {
-                "type": "menu",
+                "type": "projection",
                 "poster": "05-Binets.png",
                 "title": "Binets",
                 "id": "binets"
@@ -468,6 +468,12 @@ var display = {
                 "titre": "fissureTitle.png",
                 "prev": "main",
                 "background": "mythePosterifier.png"
+            },
+            "binets" : {
+                "pathPrefix": "../../images/projections/binets/",
+                "titre": "titre.png",
+                "prev": "main",
+                "background": "background.jpg"
             }
     },
     "common": {

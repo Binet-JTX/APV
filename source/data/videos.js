@@ -4392,5 +4392,30 @@ var videos = {
             "src": "XMykonos.mp4",
             "title": "Les X à Mykonos"
         }]
+    },
+    "binets": {
+        "videoPathPrefix": "../../../05-Binets/",
+        "posterPathPrefix": "../../images/posters/binets/",
+        "videos": [{
+            "poster": "Escrime_artistique.png",
+            "src": "Escrime_artistique.mp4",
+            "title": "Escrime artistique"
+        }, {
+            "poster": "Faerix.png",
+            "src": "Faerix.mp4",
+            "title": "Faërix"
+        }, {
+            "poster": "JTX.png",
+            "src": "JTX.mp4",
+            "title": "JTX"
+        }, {
+            "poster": "X-Forum.png",
+            "src": "X-Forum.mp4",
+            "title": "X-Forum"
+        }, {
+            "poster": "X-Tra.png",
+            "src": "X-Tra.mp4",
+            "title": "X-Tra"
+        }, ]
     }
 }
