@@ -1,8 +1,8 @@
 ﻿
 var videos = {
     "intro": {
-        "pathPrefix": "../../../videos/",
-        "src": "intro.mp4"
+        "pathPrefix": "../../../07-Bonus/",
+        "src": "Intro.mp4"
     },
     "jtx2012juin": {
         "videoPathPrefix": "../../../01-Projs_JTX/2014-06-18_Proj_juin_JTX_2012/",
@@ -4419,7 +4419,7 @@ var videos = {
         }, ]
     },
     "retrospectives": {
-        "videoPathPrefix": "../../../02-Vie_de_promo/Retrospectives/",
+        "videoPathPrefix": "../../../02-Vie_de_promo/Retrospective/",
         "posterPathPrefix": "../../images/posters/retrospectives/",
         "videos": [{
             "poster": "2014-05-28_Remise_des_bicornes.png",
