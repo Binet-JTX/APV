@@ -188,6 +188,12 @@ var display = {
                     "title": "Khômiss",
                     "id": "khomiss"
                 },
+                {
+                    "type": "projection",
+                    "poster": "retrospectives.png",
+                    "title": "Rétrospectives",
+                    "id": "retrospectives"
+                },
             ]
         },
         "incorpo2013": {
@@ -473,6 +479,12 @@ var display = {
                 "pathPrefix": "../../images/projections/binets/",
                 "titre": "titre.png",
                 "prev": "main",
+                "background": "background.jpg"
+            },
+            "retrospectives" : {
+                "pathPrefix": "../../images/projections/retrospectives/",
+                "titre": "titre.png",
+                "prev": "promo",
                 "background": "background.jpg"
             }
     },

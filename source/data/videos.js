@@ -2052,7 +2052,7 @@ var videos = {
             "poster": "WhatIsLove-1.png",
             "src": "WhatIsLove-1.mp4",
             "title": "What is love ?"
-        } ]
+        }]
     },
     "wed2013": {
         "videoPathPrefix": "../../../02-Vie_de_promo/2013-09-09_Courtine_des_2k13/2013-09-23_WED/",
@@ -4416,6 +4416,31 @@ var videos = {
             "poster": "X-Tra.png",
             "src": "X-Tra.mp4",
             "title": "X-Tra"
+        }, ]
+    },
+    "retrospectives": {
+        "videoPathPrefix": "../../../02-Vie_de_promo/Retrospective/",
+        "posterPathPrefix": "../../images/posters/retrospectives/",
+        "videos": [{
+            "poster": "2014-05-28_Remise_des_bicornes.png",
+            "src": "2014-05-28_Remise_des_bicornes.mp4",
+            "title": "Remise des bicornes aux 2013"
+        }, {
+            "poster": "2014-05_Point_Gamma_manute_defile.png",
+            "src": "2014-05_Point_Gamma_manute_defile.mp4",
+            "title": "Manute et défilé PG 2014"
+        }, {
+            "poster": "2014-07-12_Repetitions_14_juillet.png",
+            "src": "2014-07-12_Repetitions_14_juillet.mp4",
+            "title": "14 juillet 2014"
+        }, {
+            "poster": "2015-07-08_Passation_de_commandement_Gontier.png",
+            "src": "2015-07-08_Passation_de_commandement_Gontier.mp4",
+            "title": "Départ du colonel Gontier"
+        }, {
+            "poster": "Ceremonies_militaires.png",
+            "src": "Ceremonies_militaires.mp4",
+            "title": "Cérémonies militaires"
         }, ]
     }
 }
