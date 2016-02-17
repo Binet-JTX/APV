@@ -4419,7 +4419,7 @@ var videos = {
         }, ]
     },
     "retrospectives": {
-        "videoPathPrefix": "../../../02-Vie_de_promo/Retrospective/",
+        "videoPathPrefix": "../../../02-Vie_de_promo/Retrospectives/",
         "posterPathPrefix": "../../images/posters/retrospectives/",
         "videos": [{
             "poster": "2014-05-28_Remise_des_bicornes.png",
