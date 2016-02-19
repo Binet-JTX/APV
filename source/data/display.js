@@ -491,7 +491,7 @@ var display = {
                 "pathPrefix": "../../images/projections/retrospectives/",
                 "titre": "titre.png",
                 "prev": "promo",
-                "background": "background.jpg"
+                "background": "background.png"
             },
             "jtx2014fevrier" : {
                 "pathPrefix": "../../images/projections/jtx2014fevrier/",
