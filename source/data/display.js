@@ -38,7 +38,7 @@ var display = {
                 "title": "Binets",
                 "id": "binets"
             }, {
-                "type": "menu",
+                "type": "projection",
                 "poster": "06-Sections.png",
                 "title": "Sections",
                 "id": "sections"
@@ -505,6 +505,12 @@ var display = {
                 "prev": "main",
                 "background": "background.jpg"
             },
+            "sections" : {
+                "pathPrefix": "../../images/projections/sections/",
+                "titre": "titre.png",
+                "prev": "main",
+                "background": "background.jpg"
+            }
     },
     "common": {
         "pathPrefix" : "../../images/common/",

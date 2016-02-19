@@ -4416,7 +4416,7 @@ var videos = {
             "poster": "BinetQ.png",
             "src": "BinetQ.mp4",
             "title": "Binet Q"
-        },{
+        }, {
             "poster": "X-Forum.png",
             "src": "X-Forum.mp4",
             "title": "X-Forum"
@@ -4723,6 +4723,51 @@ var videos = {
             "poster": "12-Interview départ gonthier.png",
             "src": "12-Interview départ gonthier.mp4",
             "title": "Interview du colonel Gontier"
+        }, ]
+    },
+    "sections": {
+        "videoPathPrefix": "../../../06-Sections/",
+        "posterPathPrefix": "../../images/posters/sections/",
+        "videos": [{
+            "poster": "Aviron.png",
+            "src": "Aviron.mp4",
+            "title": "Aviron"
+        }, {
+            "poster": "Badminton.png",
+            "src": "Badminton.mp4",
+            "title": "Badminton"
+        }, {
+            "poster": "Basket.png",
+            "src": "Basket.mp4",
+            "title": "Basket"
+        }, {
+            "poster": "Boxe.png",
+            "src": "Boxe.mp4",
+            "title": "Boxe"
+        }, {
+            "poster": "Escrime.png",
+            "src": "Escrime.mp4",
+            "title": "Escrime"
+        }, {
+            "poster": "Handball.png",
+            "src": "Handball.mp4",
+            "title": "Handball"
+        }, {
+            "poster": "Judo.png",
+            "src": "Judo.mp4",
+            "title": "Judo"
+        }, {
+            "poster": "Poney.png",
+            "src": "Poney.mp4",
+            "title": "Poney"
+        }, {
+            "poster": "Raid.png",
+            "src": "Raid.mp4",
+            "title": "Raid"
+        }, {
+            "poster": "Volley.png",
+            "src": "Volley.mp4",
+            "title": "Volley"
         }, ]
     }
 }
