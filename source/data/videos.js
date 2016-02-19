@@ -1,8 +1,8 @@
 ﻿
 var videos = {
     "intro": {
-        "pathPrefix": "../../../videos/",
-        "src": "intro.mp4"
+        "pathPrefix": "../../../07-Bonus/",
+        "src": "Intro.mp4"
     },
     "jtx2012juin": {
         "videoPathPrefix": "../../../01-Projs_JTX/2014-06-18_Proj_juin_JTX_2012/",

@@ -17,11 +17,11 @@ if (QueryString.id) {
 
 var projection = videos[projId];
 var projectionDisplay = display.projection[projId]
-/*
-The next passage rearranges the videos to make slides. slideify is
-defined in arrayToSlides.js
-*/
-projection.videos = slideify(projection.videos,false)
+    /*
+    The next passage rearranges the videos to make slides. slideify is
+    defined in arrayToSlides.js
+    */
+projection.videos = slideify(projection.videos, false)
 
 /*
 Function to determine the type of menu : single-slide, two-slide of more than two slides.
@@ -67,7 +67,7 @@ var videosDirective = {
                     '.projection-video-title': 'video.title',
                     '.projection-video-link@href+': function(a) {
                         var video = a.slide.pos * videos_per_slide + a.pos;
-                        return "?proj=" + projId + "&prevSlide="+a.slide.pos + "&video="+ video + "&projMode=false";
+                        return "?proj=" + projId + "&prevSlide=" + a.slide.pos + "&video=" + video + "&projMode=false";
                     },
                     '.@class+': function(a) {
                         if (a.item.empty == true) {
@@ -137,7 +137,9 @@ var projectionDisplayDirective = {
             return "../menu/menu.html?id=" + prevMenu;
         }
     },
-    '#creditsLink@href+' : function(a) {return "&prev="+projId}
+    '#creditsLink@href+': function(a) {
+        return "&prev=" + projId
+    }
 }
 $('body').render(projectionDisplay, projectionDisplayDirective);
 
@@ -146,7 +148,7 @@ Function that redirects to the video player with the correct settings to player
 the whole projection
 */
 var playProj = function() {
-    window.location = "../video/video.html?proj=" + projId + "&prevMenu=" + prevMenu +"&prevSlide=0&projMode=true";
+    window.location = "../video/video.html?proj=" + projId + "&prevMenu=" + prevMenu + "&prevSlide=0&projMode=true";
 }
 
 if (type == "single") {
@@ -200,27 +202,25 @@ if (type == "single") {
 }
 
 /***************************
-*For the bonus projection **
-****************************/
+ *For the bonus projection **
+ ****************************/
 
-if (projId == "mythe") {
+$(document).ready(function() {
+    if (projId == "mythe") {
 
-var audioFiles = [
-    "../../js/utils/versionInstrumentaleAudition.mp3",
-    "../../js/utils/pacard_01.mp3",
-    "../../js/utils/proj jtx_mixage final.mp3"
-]
-
-
-var audioFile = audioFiles[Math.floor((Math.random() * audioFiles.length))];
-
-var audioTag = '<audio autoplay="true" loop="true">\
-    <source src="'+audioFile+'" type="audio/mpeg" />\
-</audio>';
-
-$('body').append(audioTag);
+        var audioFiles = [
+            "../../js/utils/versionInstrumentaleAudition.mp3",
+            "../../js/utils/pacard_01.mp3",
+            "../../js/utils/proj jtx_mixage final.mp3"
+        ]
 
 
+        var audioFile = audioFiles[Math.floor((Math.random() * audioFiles.length))];
 
+        var audioTag = '<audio autoplay="true" loop="true">\
+        <source src="' + audioFile + '" type="audio/mpeg" />\
+    </audio>';
 
-}
+        $('#music').html(audioTag);
+    }
+});
