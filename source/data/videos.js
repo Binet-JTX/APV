@@ -4409,6 +4409,10 @@ var videos = {
             "src": "JTX.mp4",
             "title": "JTX"
         }, {
+            "poster": "SYWoC.png",
+            "src": "SYWoC.mp4",
+            "title": "SYWoC"
+        }, {
             "poster": "X-Forum.png",
             "src": "X-Forum.mp4",
             "title": "X-Forum"
