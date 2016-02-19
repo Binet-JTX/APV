@@ -87,6 +87,12 @@ var display = {
             },
             {
                 "type": "projection",
+                "poster": "jtx2014fevrier.png",
+                "title": "La dernière proj' avant la fin du monde",
+                "id": "jtx2014fevrier"
+            },
+            {
+                "type": "projection",
                 "poster": "jtxbonus.png",
                 "title": "Bonus",
                 "id": "jtxbonus"
@@ -486,6 +492,12 @@ var display = {
                 "titre": "titre.png",
                 "prev": "promo",
                 "background": "background.jpg"
+            },
+            "jtx2014fevrier" : {
+                "pathPrefix": "../../images/projections/jtx2014fevrier/",
+                "titre": "titre.png",
+                "prev": "jtx",
+                "background": "background.png"
             }
     },
     "common": {

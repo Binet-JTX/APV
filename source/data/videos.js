@@ -4442,5 +4442,226 @@ var videos = {
             "src": "Ceremonies_militaires.mp4",
             "title": "Cérémonies militaires"
         }, ]
+    },
+    "jtx2014fevrier": {
+        "videoPathPrefix": "../../../01_Projs_JTX/2016-02-18_Proj_fevrier_JTX_2014/",
+        "posterPathPrefix": "../../images/posters/jtx2014fevrier/",
+        "videos": [{
+            "poster": "000a_CookooCommercial1.png",
+            "src": "000a_CookooCommercial1.mp4",
+            "title": "Préproj - Pub Cookoo (1/2)"
+        }, {
+            "poster": "000b_ 24h de la natation.png",
+            "src": "000b_ 24h de la natation.mp4",
+            "title": "Préproj - 24h natation"
+        }, {
+            "poster": "000b_annonceBobar.png",
+            "src": "000b_annonceBobar.mp4",
+            "title": "Préproj - annonce BôBar"
+        }, {
+            "poster": "000c_ Developpement Durable.png",
+            "src": "000c_ Developpement Durable.mp4",
+            "title": "Préproj - SDDX"
+        }, {
+            "poster": "000d_X-Broadway.png",
+            "src": "000d_X-Broadway.mp4",
+            "title": "Préproj - X-Broadway"
+        }, {
+            "poster": "000e_ BinetQ.png",
+            "src": "000e_ BinetQ.mp4",
+            "title": "Préproj - Binet Q"
+        }, {
+            "poster": "000f_PSC.png",
+            "src": "000f_PSC.mp4",
+            "title": "Pr&proj - PSC"
+        }, {
+            "poster": "000g_Superette Surgelés.png",
+            "src": "000g_Superette Surgelés.mp4",
+            "title": "Préproj - Supérette"
+        }, {
+            "poster": "000h_CookooCommercial2.png",
+            "src": "000h_CookooCommercial2.mp4",
+            "title": "Préproj - Pub Cookoo (2/2)"
+        }, {
+            "poster": "000i_Superette Livraison.png",
+            "src": "000i_Superette Livraison.mp4",
+            "title": "Préproj - Supérette (2/2)"
+        }, {
+            "poster": "000j_ TedX Preproj.png",
+            "src": "000j_ TedX Preproj.mp4",
+            "title": "Préproj - TEDx"
+        }, {
+            "poster": "000k_ fruits desktop 2.png",
+            "src": "000k_ fruits desktop 2.mp4",
+            "title": "Préproj - Fruits"
+        }, {
+            "poster": "000l _Manon plaquage.png",
+            "src": "000l _Manon plaquage.mp4",
+            "title": "Préproj - Plaquage Manon"
+        }, {
+            "poster": "000m_ Trailer FUPS.png",
+            "src": "000m_ Trailer FUPS.mp4",
+            "title": "Pr&proj - Trailer FUPS"
+        }, {
+            "poster": "000n_ La force de l'amour.png",
+            "src": "000n_ La force de l'amour.mp4",
+            "title": "Préproj - La force de l'amour"
+        }, {
+            "poster": "000o_ Demay_insanity_version_courte.png",
+            "src": "000o_ Demay_insanity_version_courte.mp4",
+            "title": "Préproj - Demay insanity"
+        }, {
+            "poster": "000p_ APV.png",
+            "src": "000p_ APV.mp4",
+            "title": "Préproj - APV"
+        }, {
+            "poster": "000r_PreprojClipFlorent.png",
+            "src": "000r_PreprojClipFlorent.mp4",
+            "title": "Préproj - Anniversaire Florent"
+        }, {
+            "poster": "000s_trailer_chut.png",
+            "src": "000s_trailer_chut.mp4",
+            "title": "Préproj - Trailer Point Gamma"
+        }, {
+            "poster": "000t_ Amphi binet Titus.png",
+            "src": "000t_ Amphi binet Titus.mp4",
+            "title": "Préproj - Amphi binet"
+        }, {
+            "poster": "000z_Intro.png",
+            "src": "000z_Intro.mp4",
+            "title": "Introcution"
+        }, {
+            "poster": "001a_Le_plan_gu.png",
+            "src": "001a_Le_plan_gu.mp4",
+            "title": "Le plan GU"
+        }, {
+            "poster": "002a_Milix.png",
+            "src": "002a_Milix.mp4",
+            "title": "Milix"
+        }, {
+            "poster": "003a_Faux Raccords.png",
+            "src": "003a_Faux Raccords.mp4",
+            "title": "Faux Raccords"
+        }, {
+            "poster": "004a_LeCrepuscule_ChapitreI.png",
+            "src": "004a_LeCrepuscule_ChapitreI.mp4",
+            "title": "Le crépuscule - chap. 1"
+        }, {
+            "poster": "005a_La dernière pute avant la fin du monde.png",
+            "src": "005a_La dernière pute avant la fin du monde.mp4",
+            "title": "La dernière pute avant la fin du monde"
+        }, {
+            "poster": "006a_bloqués_si_j_étais_Yves_Demay.png",
+            "src": "006a_bloqués_si_j_étais_Yves_Demay.mp4",
+            "title": "Bloqués : si j'étais Yves Demay"
+        }, {
+            "poster": "007a_Polytechniman.png",
+            "src": "007a_Polytechniman.mp4",
+            "title": "Polytechniman VIII"
+        }, {
+            "poster": "008a_Problème de polytechnicien.png",
+            "src": "008a_Problème de polytechnicien.mp4",
+            "title": "Problème de polytechnicien"
+        }, {
+            "poster": "009a_Humans.png",
+            "src": "009a_Humans.mp4",
+            "title": "Humans of Palaiseau"
+        }, {
+            "poster": "010a_ERB KLUB CDM.png",
+            "src": "010a_ERB KLUB CDM.mp4",
+            "title": "ERB Club vs. Corps des Mines"
+        }, {
+            "poster": "011a_CameraCacheeJSP.png",
+            "src": "011a_CameraCacheeJSP.mp4",
+            "title": "Caméra cachée JSP"
+        }, {
+            "poster": "012a_DrahixPartie1.png",
+            "src": "012a_DrahixPartie1.mp4",
+            "title": "Drahix (1/2)"
+        }, {
+            "poster": "013a_Kamoulox.png",
+            "src": "013a_Kamoulox.mp4",
+            "title": "Kamoulix"
+        }, {
+            "poster": "014a_Casque_bleu.png",
+            "src": "014a_Casque_bleu.mp4",
+            "title": "Casque bleu"
+        }, {
+            "poster": "015a_le_double.png",
+            "src": "015a_le_double.mp4",
+            "title": "Le double"
+        }, {
+            "poster": "016a_CPUC.png",
+            "src": "016a_CPUC.mp4",
+            "title": "C'est pour un clip"
+        }, {
+            "poster": "017a_24hchrono.png",
+            "src": "017a_24hchrono.mp4",
+            "title": "24h chrono"
+        }, {
+            "poster": "018a_bienvenue_en_enfer.png",
+            "src": "018a_bienvenue_en_enfer.mp4",
+            "title": "Bienvenue en enfer"
+        }, {
+            "poster": "019a_Merdass_Software_Comment_passer_une_bonne_soirée.png",
+            "src": "019a_Merdass_Software_Comment_passer_une_bonne_soirée.mp4",
+            "title": "Merdass' software"
+        }, {
+            "poster": "020a_DrahixPartie2.png",
+            "src": "020a_DrahixPartie2.mp4",
+            "title": "Drahix (2/2)"
+        }, {
+            "poster": "021a_Retrospective_fullHD_vfinale.png",
+            "src": "021a_Retrospective_fullHD_vfinale.mp4",
+            "title": "Rétrospective"
+        }, {
+            "poster": "022a_trailer_ADD.png",
+            "src": "022a_trailer_ADD.mp4",
+            "title": "Trailer ADD"
+        }, {
+            "poster": "023a_Honest_JTX_Trailer.png",
+            "src": "023a_Honest_JTX_Trailer.mp4",
+            "title": "Honest JTX trailer"
+        }, {
+            "poster": "024a_Turn down for X.png",
+            "src": "024a_Turn down for X.mp4",
+            "title": "Turn down for X"
+        }, {
+            "poster": "025a_Seulsurleplatal.png",
+            "src": "025a_Seulsurleplatal.mp4",
+            "title": "Seul sur le plâtal"
+        }, {
+            "poster": "026a_Gérontocilp.png",
+            "src": "026a_Gérontocilp.mp4",
+            "title": "Gérontoclip"
+        }, {
+            "poster": "027a_Alice_de_lautre_cote_du_portail_v2.png",
+            "src": "027a_Alice_de_lautre_cote_du_portail_v2.mp4",
+            "title": "Alice de l'autre côté du portail"
+        }, {
+            "poster": "028a_making_of(f)_JTX_v3_fullHD.png",
+            "src": "028a_making_of(f)_JTX_v3_fullHD.mp4",
+            "title": "Making of(f) JTX"
+        }, {
+            "poster": "029a_Le dernier monde avant la fin de la poop - Copie.png",
+            "src": "029a_Le dernier monde avant la fin de la poop - Copie.mp4",
+            "title": "Le dernier monde avant la fin de la poop"
+        }, {
+            "poster": "030a_Where Is Everybody.png",
+            "src": "030a_Where Is Everybody.mp4",
+            "title": "Where is everybody"
+        }, {
+            "poster": "031a_BattleDeLike.png",
+            "src": "031a_BattleDeLike.mp4",
+            "title": "Battle de likes"
+        }, {
+            "poster": "032a_Concerning Hobbits.png",
+            "src": "032a_Concerning Hobbits.mp4",
+            "title": "Concerning Hobbits"
+        }, {
+            "poster": "033a_GénériqueFin.png",
+            "src": "033a_GénériqueFin.mp4",
+            "title": "Générique de fin"
+        } ]
     }
 }
