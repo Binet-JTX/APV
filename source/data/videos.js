@@ -4413,6 +4413,10 @@ var videos = {
             "src": "SYWoC.mp4",
             "title": "SYWoC"
         }, {
+            "poster": "BinetQ.png",
+            "src": "BinetQ.mp4",
+            "title": "Binet Q"
+        },{
             "poster": "X-Forum.png",
             "src": "X-Forum.mp4",
             "title": "X-Forum"
