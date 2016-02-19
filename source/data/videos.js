@@ -4666,6 +4666,59 @@ var videos = {
             "poster": "033a_GénériqueFin.png",
             "src": "033a_GénériqueFin.mp4",
             "title": "Générique de fin"
-        } ]
+        }]
+    },
+    "interviews": {
+        "videoPathPrefix": "../../../04-Interviews/",
+        "posterPathPrefix": "../../images/posters/interviews/",
+        "videos": [{
+            "poster": "01-Présentation.png",
+            "src": "01-Présentation.mp4",
+            "title": "Présentation"
+        }, {
+            "poster": "02-Parcours.png",
+            "src": "02-Parcours.mp4",
+            "title": "Parcours antérieur"
+        }, {
+            "poster": "03-Journée Type.png",
+            "src": "03-Journée Type.mp4",
+            "title": "Journée type"
+        }, {
+            "poster": "04-Image des X.png",
+            "src": "04-Image des X.mp4",
+            "title": "Image des X"
+        }, {
+            "poster": "05-Les valeurs de l'X.png",
+            "src": "05-Les valeurs de l'X.mp4",
+            "title": "Les valeurs de l'X"
+        }, {
+            "poster": "06-Les traditions.png",
+            "src": "06-Les traditions.mp4",
+            "title": "Les traditions"
+        }, {
+            "poster": "07-La réforme.png",
+            "src": "07-La réforme.mp4",
+            "title": "La réforme de la scolarité"
+        }, {
+            "poster": "08-Les binets.png",
+            "src": "08-Les binets.mp4",
+            "title": "La vie associative"
+        }, {
+            "poster": "09-Anecdotes.png",
+            "src": "09-Anecdotes.mp4",
+            "title": "Anecdotes"
+        }, {
+            "poster": "10- Dernier mot.png",
+            "src": "10- Dernier mot.mp4",
+            "title": "Un dernier mot"
+        }, {
+            "poster": "11-La boîte à questions.png",
+            "src": "11-La boîte à questions.mp4",
+            "title": "La boîte à question"
+        }, {
+            "poster": "12-Interview départ gonthier.png",
+            "src": "12-Interview départ gonthier.mp4",
+            "title": "Interview du colonel Gontier"
+        }, ]
     }
 }

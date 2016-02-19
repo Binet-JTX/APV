@@ -498,7 +498,13 @@ var display = {
                 "titre": "titre.png",
                 "prev": "jtx",
                 "background": "background.png"
-            }
+            },
+            "interviews" : {
+                "pathPrefix": "../../images/projections/interviews/",
+                "titre": "titre.png",
+                "prev": "main",
+                "background": "background.jpg"
+            },
     },
     "common": {
         "pathPrefix" : "../../images/common/",
