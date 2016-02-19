@@ -2736,8 +2736,8 @@ var videos = {
             "src": "100_Binet Loisirs.mp4",
             "title": "Binet Loisirs"
         }, {
-            "poster": "101_ProBono.png",
-            "src": "101_ProBono.mp4",
+            "poster": "1Bono.png",
+            "src": "1Bono.mp4",
             "title": "Probono"
         }, {
             "poster": "102_FanfarX.png",
@@ -4444,7 +4444,7 @@ var videos = {
         }, ]
     },
     "jtx2014fevrier": {
-        "videoPathPrefix": "../../../01_Projs_JTX/2016-02-18_Proj_fevrier_JTX_2014/",
+        "videoPathPrefix": "../../../01-Projs_JTX/2016-02-18_Proj_fevrier_JTX_2014/",
         "posterPathPrefix": "../../images/posters/jtx2014fevrier/",
         "videos": [{
             "poster": "000a_CookooCommercial1.png",
