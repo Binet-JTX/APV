@@ -148,6 +148,7 @@ Function that redirects to the video player with the correct settings to player
 the whole projection
 */
 var playProj = function() {
+	var prevMenu = projectionDisplay.prev;
     window.location = "../video/video.html?proj=" + projId + "&prevMenu=" + prevMenu + "&prevSlide=0&projMode=true";
 }
 
