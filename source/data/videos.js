@@ -4408,6 +4408,10 @@ var videos = {
             "poster": "JTX.png",
             "src": "JTX.mp4",
             "title": "JTX"
+        },{
+            "poster": "Binet_Judo.png",
+            "src": "Binet_Judo.mp4",
+            "title": "Binet Judo"
         }, {
             "poster": "SYWoC.png",
             "src": "SYWoC.mp4",
