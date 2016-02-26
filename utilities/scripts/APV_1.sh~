@@ -1,0 +1,12 @@
+#/bin/bash
+
+mkdir /tmp/diskA
+mkdir /tmp/diskB
+
+sudo /sbin/mkdosfs -F 32 -I  /dev/sdb
+sudo /sbin/mkdosfs -F 32 -I  /dev/sdc
+
+sudo /bin/mount /dev/sdb1 /tmp/diskA -o umask=000
+sudo /bin/mount /dev/sdc1 /tmp/diskB -o umask=000
+
+

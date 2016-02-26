@@ -1,0 +1,3 @@
+#!/bin/bash
+
+[ -f /tmp/add/test ] && echo "Found" >> /users/eleves-b/x2013/augustin.lenormand/APV/result
