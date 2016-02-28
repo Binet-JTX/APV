@@ -4485,7 +4485,7 @@ var videos = {
         }, {
             "poster": "000f_PSC.png",
             "src": "000f_PSC.mp4",
-            "title": "Pr&proj - PSC"
+            "title": "Préproj - PSC"
         }, {
             "poster": "000g_Superette Surgelés.png",
             "src": "000g_Superette Surgelés.mp4",
@@ -4513,7 +4513,7 @@ var videos = {
         }, {
             "poster": "000m_ Trailer FUPS.png",
             "src": "000m_ Trailer FUPS.mp4",
-            "title": "Pr&proj - Trailer FUPS"
+            "title": "Préproj - Trailer FUPS"
         }, {
             "poster": "000n_ La force de l'amour.png",
             "src": "000n_ La force de l'amour.mp4",
