@@ -26,11 +26,11 @@ choose_apv_dir() {
     then
         copy_files $apv_dir
     else
-        wrong_location
+        wrong_location_APV
     fi
 }
 
-wrong_location() {
+wrong_location_APV() {
     echo "\
 L'emplacement que tu as choisi ne contient pas l'APV.
 Cela devrait ressembler à '/media/utilisateur/APV2013' si
@@ -39,8 +39,14 @@ tu utilises la clé USB.
 choose_apv_dir
 }
 
-copyfiles() {
+copy_files() {
+    apv_dir=$1
 
+    tput sc
+    echo "Correction du son sur les interviews..."
+    rsync -azh --progress Interviews/* "$apv_dir/04-Interviews/"
+    tput rc
+    echo "Correction du son sur les interviews... [OK]"
 }
 
 #Main execution
