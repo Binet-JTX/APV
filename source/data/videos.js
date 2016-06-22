@@ -2052,6 +2052,18 @@ var videos = {
             "poster": "WhatIsLove-1.png",
             "src": "WhatIsLove-1.mp4",
             "title": "What is love ?"
+        }, {
+            "poster": "022a_KFTeaser.png",
+            "src": "022a_KFTeaser.mp4",
+            "title": "Teaser Kung Fighter 2"
+        }, {
+            "poster": "Daube.png",
+            "src": "Daube.mp4",
+            "title": "Daube"
+        }, {
+            "poster": "LouisLeRoi.png",
+            "src": "LouisLeRoi.mp4",
+            "title": "Louis Le Roy"
         }]
     },
     "wed2013": {
@@ -4388,9 +4400,25 @@ var videos = {
             "src": "Riverse_Court_Métrage.mp4",
             "title": "Riverse"
         }, {
+            "poster": "making of riverse.png",
+            "src": "making of riverse.mp4",
+            "title": "Making of Riverse"
+        }, {
             "poster": "XMykonos.png",
             "src": "XMykonos.mp4",
             "title": "Les X à Mykonos"
+        }, {
+            "poster": "02_HouseOfTOS.png",
+            "src": "02_HouseOfTOS.mp4",
+            "title": "House of TOS"
+        }, {
+            "poster": "ADD_X12_51_ChansonDes2013.png",
+            "src": "ADD_X12_51_ChansonDes2013.mp4",
+            "title": "Chanson d'au revoir aux 2012"
+        }, {
+            "poster": "TrailerPointGamma.png",
+            "src": "TrailerPointGamma.mp4",
+            "title": "Trailer Point Gamma 2015"
         }]
     },
     "binets": {
@@ -4408,7 +4436,7 @@ var videos = {
             "poster": "JTX.png",
             "src": "JTX.mp4",
             "title": "JTX"
-        },{
+        }, {
             "poster": "Binet_Judo.png",
             "src": "Binet_Judo.mp4",
             "title": "Binet Judo"
@@ -4428,7 +4456,11 @@ var videos = {
             "poster": "X-Tra.png",
             "src": "X-Tra.mp4",
             "title": "X-Tra"
-        }, ]
+        }, {
+            "poster": "BN APV.png",
+            "src": "BN APV.mp4",
+            "title": "Binet Niversaire"
+        }]
     },
     "retrospectives": {
         "videoPathPrefix": "../../../02-Vie_de_promo/Retrospectives/",
@@ -4772,6 +4804,367 @@ var videos = {
             "poster": "Volley.png",
             "src": "Volley.mp4",
             "title": "Volley"
+        }, ]
+    },
+    "add2013": {
+        "videoPathPrefix": "../../../07-ADD/",
+        "posterPathPrefix": "../../images/posters/add2013/",
+        "videos": [{
+            "poster": "01_HommageColine.png",
+            "src": "01_HommageColine.mp4",
+            "title": "Hommage à Coline"
+        }, {
+            "poster": "02_ChansonColine.png",
+            "src": "02_ChansonColine.mp4",
+            "title": "Tu planes Coco"
+        }, {
+            "poster": "03_Maxence.png",
+            "src": "03_Maxence.mp4",
+            "title": "Hommage à Maxence"
+        }, {
+            "poster": "04_PourLaPatrieLesSciencesEtLaGloire.png",
+            "src": "04_PourLaPatrieLesSciencesEtLaGloire.mp4",
+            "title": "Pour la patrie, les Sciences et la Gloire"
+        }, {
+            "poster": "05_DiscoursBiot.png",
+            "src": "05_DiscoursBiot.mp4",
+            "title": "Discours de Jacques Biot"
+        }, {
+            "poster": "06_DiscoursTourneur.png",
+            "src": "06_DiscoursTourneur.mp4",
+            "title": "Discours du colonel Tourneur"
+        }, {
+            "poster": "07_TroisEpoquesUneHistoire.png",
+            "src": "07_TroisEpoquesUneHistoire.mp4",
+            "title": "Trois époques, une histoire"
+        }, {
+            "poster": "08_DeLautreCoteDuMur.png",
+            "src": "08_DeLautreCoteDuMur.mp4",
+            "title": "De l'autre côté du mur"
+        }, {
+            "poster": "09_LesSansCulottes.png",
+            "src": "09_LesSansCulottes.mp4",
+            "title": "Les sans-culottes"
+        }, {
+            "poster": "10_VousEtesLElite.png",
+            "src": "10_VousEtesLElite.mp4",
+            "title": "Vous êtes l'élite"
+        }, {
+            "poster": "11_CampagneKesRevival.png",
+            "src": "11_CampagneKesRevival.mp4",
+            "title": "Campagne Kès revival"
+        }, {
+            "poster": "12_FissureDE.png",
+            "src": "12_FissureDE.mp4",
+            "title": "Fissure DE"
+        }, {
+            "poster": "13_MicroCrottoir.png",
+            "src": "13_MicroCrottoir.mp4",
+            "title": "Micro crottoir"
+        }, {
+            "poster": "14_Passation.png",
+            "src": "14_Passation.mp4",
+            "title": "Passation"
+        }, {
+            "poster": "15_ExpressionX.png",
+            "src": "15_ExpressionX.mp4",
+            "title": "Expressions de l'X"
+        }, {
+            "poster": "16_Apero.png",
+            "src": "16_Apero.mp4",
+            "title": "Apéro"
+        }, {
+            "poster": "17_SiLeBobEtait.png",
+            "src": "17_SiLeBobEtait.mp4",
+            "title": "Si le BôB était..."
+        }, {
+            "poster": "18_X-Circus.png",
+            "src": "18_X-Circus.mp4",
+            "title": "X-Circus"
+        }, {
+            "poster": "19_VieDUnX.png",
+            "src": "19_VieDUnX.mp4",
+            "title": "Vie d'un X"
+        }, {
+            "poster": "20_Scandez.png",
+            "src": "20_Scandez.mp4",
+            "title": "Scandez !"
+        }, {
+            "poster": "21_DiscoursLegrix.png",
+            "src": "21_DiscoursLegrix.mp4",
+            "title": "Discours du colonel Legrix"
+        }, {
+            "poster": "22_JeuDeLOie.png",
+            "src": "22_JeuDeLOie.mp4",
+            "title": "Jeu de l'oie"
+        }, {
+            "poster": "23_VousEtesIci.png",
+            "src": "23_VousEtesIci.mp4",
+            "title": "Discours de Joaquim Nassar"
+        }, {
+            "poster": "24_LeTribunal.png",
+            "src": "24_LeTribunal.mp4",
+            "title": "Le tribunal"
+        }, {
+            "poster": "25_StrassWars_TheFisAwaken.png",
+            "src": "25_StrassWars_TheFisAwaken.mp4",
+            "title": "Strass Wars : The Fist Awakens"
+        }, {
+            "poster": "26_Gospel.png",
+            "src": "26_Gospel.mp4",
+            "title": "Gospel"
+        }, {
+            "poster": "27_SouvenirDUnPompier.png",
+            "src": "27_SouvenirDUnPompier.mp4",
+            "title": "Discours du colonel Gontier"
+        }, {
+            "poster": "28_Jamais.png",
+            "src": "28_Jamais.mp4",
+            "title": "Jamais !"
+        }, {
+            "poster": "29_Reflexions.png",
+            "src": "29_Reflexions.mp4",
+            "title": "Réflexions"
+        }, {
+            "poster": "30_LeCercle.png",
+            "src": "30_LeCercle.mp4",
+            "title": "Le cercle"
+        }, {
+            "poster": "31_Bloques4A.png",
+            "src": "31_Bloques4A.mp4",
+            "title": "Bloqués : 4A"
+        }, {
+            "poster": "32_RobesPooP.png",
+            "src": "32_RobesPooP.mp4",
+            "title": "RobesPooP"
+        }, {
+            "poster": "33_MissaireNonDevoile.png",
+            "src": "33_MissaireNonDevoile.mp4",
+            "title": "Le missaire non dévoilé"
+        }, {
+            "poster": "34_PouvoirNumerique.png",
+            "src": "34_PouvoirNumerique.mp4",
+            "title": "Pouvoir numérique"
+        }, {
+            "poster": "35_LeRetourDeLaHure.png",
+            "src": "35_LeRetourDeLaHure.mp4",
+            "title": "Le retour de la Hure"
+        }, {
+            "poster": "36_ChansonDesVoyageurs.png",
+            "src": "36_ChansonDesVoyageurs.mp4",
+            "title": "Chanson des voyageurs"
+        }, {
+            "poster": "37_PimPim.png",
+            "src": "37_PimPim.mp4",
+            "title": "Pim Pim"
+        }, {
+            "poster": "38_RugbyArtistique.png",
+            "src": "38_RugbyArtistique.mp4",
+            "title": "Rugby artistique"
+        }, {
+            "poster": "39_OneManShow.png",
+            "src": "39_OneManShow.mp4",
+            "title": "The Pierre Casas Show"
+        }, {
+            "poster": "40_Tziganes.png",
+            "src": "40_Tziganes.mp4",
+            "title": "Tziganes"
+        }, {
+            "poster": "41_LePremierBob.png",
+            "src": "41_LePremierBob.mp4",
+            "title": "Le premier BôB"
+        }, {
+            "poster": "42_PriseDOtage.png",
+            "src": "42_PriseDOtage.mp4",
+            "title": "Prise d'otages"
+        }, {
+            "poster": "43_BarbeLunettes.png",
+            "src": "43_BarbeLunettes.mp4",
+            "title": "Binet Barbe Lunettes"
+        }, {
+            "poster": "44_ManVsADD.png",
+            "src": "44_ManVsADD.mp4",
+            "title": "Man vs. ADD"
+        }, {
+            "poster": "45_ChicALaJone.png",
+            "src": "45_ChicALaJone.mp4",
+            "title": "Chic à la jône"
+        }, {
+            "poster": "46_ClipDeGu.png",
+            "src": "46_ClipDeGu.mp4",
+            "title": "Clip de GU"
+        }, {
+            "poster": "47_Medley.png",
+            "src": "47_Medley.mp4",
+            "title": "Medley"
+        }, {
+            "poster": "48_UnDossierCompromettant.png",
+            "src": "48_UnDossierCompromettant.mp4",
+            "title": "Déclaration à BriBri"
+        }, {
+            "poster": "49_LaSecte.png",
+            "src": "49_LaSecte.mp4",
+            "title": "La secte"
+        }, {
+            "poster": "50_DemainDeBonMatin.png",
+            "src": "50_DemainDeBonMatin.mp4",
+            "title": "Demain, de bon matin"
+        }, {
+            "poster": "51_ChansonMarine.png",
+            "src": "51_ChansonMarine.mp4",
+            "title": "Il est temps de nous quitter"
+        }, {
+            "poster": "52_Lipdub.png",
+            "src": "52_Lipdub.mp4",
+            "title": "Lipdub"
+        }, {
+            "poster": "53_Dernier amphi.png",
+            "src": "53_Dernier amphi.mp4",
+            "title": "Dernier amphi"
+        }, {
+            "poster": "54_CombienDeTemps.png",
+            "src": "54_CombienDeTemps.mp4",
+            "title": "Combien de temps"
+        }, {
+            "poster": "55_LeCrepusculeFinal_KF2.png",
+            "src": "55_LeCrepusculeFinal_KF2.mp4",
+            "title": "Le crépuscule final - KF4"
+        }, {
+            "poster": "56_LeReveil.png",
+            "src": "56_LeReveil.mp4",
+            "title": "Le réveil"
+        }, {
+            "poster": "57_LaHautSurNotrePlateau.png",
+            "src": "57_LaHautSurNotrePlateau.mp4",
+            "title": "Là haut, sur notre Plateau"
+        }, {
+            "poster": "58_Adieu.png",
+            "src": "58_Adieu.mp4",
+            "title": "Adieu"
+        }, {
+            "poster": "59_ToutCommenca.png",
+            "src": "59_ToutCommenca.mp4",
+            "title": "Tout commença..."
+        }, {
+            "poster": "60_ParUnePlume.png",
+            "src": "60_ParUnePlume.mp4",
+            "title": "Par une plume"
+        }, {
+            "poster": "61_ChansonDeDepart.png",
+            "src": "61_ChansonDeDepart.mp4",
+            "title": "Chanson de départ"
+        }, {
+            "poster": "62_Trombino.png",
+            "src": "62_Trombino.mp4",
+            "title": "Trombinoscope"
+        }, ]
+    },
+    "eogn2013": {
+        "videoPathPrefix": "../../../02-Vie_de_promo/2013-11_Ecole_officiers/2013-11_EOGN/",
+        "posterPathPrefix": "../../images/posters/eogn2013/",
+        "videos": [{
+            "poster": "00_Intro.png",
+            "src": "00_Intro.mp4",
+            "title": "Introduction"
+        }, {
+            "poster": "01_SRT_Ymca_Eogn.png",
+            "src": "01_SRT_Ymca_Eogn.mp4",
+            "title": "YMCA EOGN"
+        }, {
+            "poster": "02_Clip_MSAA.png",
+            "src": "02_Clip_MSAA.mp4",
+            "title": "MSAA"
+        }, {
+            "poster": "03_Rap_du_popotier.png",
+            "src": "03_Rap_du_popotier.mp4",
+            "title": "Rap du popotier"
+        }, {
+            "poster": "04_La_nuit_des_lits.png",
+            "src": "04_La_nuit_des_lits.mp4",
+            "title": "La nuit des lits"
+        }, {
+            "poster": "05_Pendant_ce_temps.png",
+            "src": "05_Pendant_ce_temps.mp4",
+            "title": "Pendant ce temps"
+        }, {
+            "poster": "07_Clip_Bureau_Promo.png",
+            "src": "07_Clip_Bureau_Promo.mp4",
+            "title": "Clip bureau promo"
+        }, {
+            "poster": "Disparition.png",
+            "src": "Disparition.mp4",
+            "title": "Transition disparition"
+        }, {
+            "poster": "Electrocution.png",
+            "src": "Electrocution.mp4",
+            "title": "Transition électrocution"
+        }, {
+            "poster": "Meteore.png",
+            "src": "Meteore.mp4",
+            "title": "Transition météore"
+        }, ]
+    },
+    "coet2013": {
+        "videoPathPrefix": "../../../02-Vie_de_promo/2013-11_Ecole_officiers/2013-11_Coet/",
+        "posterPathPrefix": "../../images/posters/coet2013/",
+        "videos": [{
+            "poster": "2013-11_commissionTheatre_Coet_2013.png",
+            "src": "2013-11_commissionTheatre_Coet_2013.mp4",
+            "title": "Commission théâtre"
+        }]
+    },
+    "navale2013": {
+        "videoPathPrefix": "../../../02-Vie_de_promo/2013-11_Ecole_officiers/2013-11_Navale/",
+        "posterPathPrefix": "../../images/posters/navale2013/",
+        "videos": [{
+            "poster": "Opération Vaneau - version longue.png",
+            "src": "Opération Vaneau - version longue.mp4",
+            "title": "Opération Vaneau"
+        }]
+    },
+    "kes2014": {
+        "videoPathPrefix": "../../../02-Vie_de_promo/2015-11_Campagne_Kes_X2014/",
+        "posterPathPrefix": "../../images/posters/kes2014/",
+        "videos": [{
+            "poster": "000a_BolcheviKesResultats.png",
+            "src": "000a_BolcheviKesResultats.mp4",
+            "title": "Résultats BolcheviKès"
+        }, {
+            "poster": "006a_BolcheviKes 1.png",
+            "src": "006a_BolcheviKes 1.mp4",
+            "title": "BolcheviKès Pirmet"
+        }, {
+            "poster": "00c_InKEStellar3.png",
+            "src": "00c_InKEStellar3.mp4",
+            "title": "InKèstellar"
+        }, {
+            "poster": "012a_chansondes3A.png",
+            "src": "012a_chansondes3A.mp4",
+            "title": "Chanson des 3A"
+        }, {
+            "poster": "017a_ClipLuckyLucKes.png",
+            "src": "017a_ClipLuckyLucKes.mp4",
+            "title": "Clip Lucky LuKès"
+        }, {
+            "poster": "018a_BolcheviKes 2.png",
+            "src": "018a_BolcheviKes 2.mp4",
+            "title": "BolcheviKès Pelletier"
+        }, {
+            "poster": "024a_BolcheviKes 3.png",
+            "src": "024a_BolcheviKes 3.mp4",
+            "title": "BolcheviKès Gaëtan"
+        }, {
+            "poster": "028a_Qes_Opening.png",
+            "src": "028a_Qes_Opening.mp4",
+            "title": "Qès opening"
+        }, {
+            "poster": "037a_BolcheviKes 4.png",
+            "src": "037a_BolcheviKes 4.mp4",
+            "title": "BolcheviKès Gautier"
+        }, {
+            "poster": "039a_clip_Kes.png",
+            "src": "039a_clip_Kes.mp4",
+            "title": "Clip retro Kès"
         }, ]
     }
 }
