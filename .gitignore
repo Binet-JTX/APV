@@ -13,3 +13,4 @@ source/js/utils/*.mp4
 source/js/utils/*.mp3
 *.log
 *.mbtree
+patcher/contents/

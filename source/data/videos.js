@@ -4807,7 +4807,7 @@ var videos = {
         }, ]
     },
     "add2013": {
-        "videoPathPrefix": "../../../07-ADD/",
+        "videoPathPrefix": "../../../08-ADD/",
         "posterPathPrefix": "../../images/posters/add2013/",
         "videos": [{
             "poster": "01_HommageColine.png",
