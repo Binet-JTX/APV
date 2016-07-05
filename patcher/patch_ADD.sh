@@ -14,7 +14,7 @@ l'emplacement où est montée ta clé USB (ou l'emplacement)
 du dossier de l'APV sur ton disque dur.
 
 Le patch de l'APV nécessite 7,2 Go d'espace supplémentaire
-sur la clé USB ou le disque dur où ets stocké l'APV, vérifie
+sur la clé USB ou le disque dur où est stocké l'APV, vérifie
 la place restante avant de lancer le patch. Appuie sur Ctrl+C
 pour quitter le patch.
 
@@ -50,57 +50,52 @@ choose_apv_dir
 copy_files() {
     apv_dir=$1
 
-    tput sc
-    echo "Correction du son sur les interviews..."
+	printf "Début de la mise à jour...\n\n"
+
+    printf "Correction du son sur les interviews...\n"
     rsync -azhr --info=progress2 "$script_dir/contents/Interviews/" "$apv_dir/04-Interviews/"
-    tput rc
+    tput cuu 2
     tput ed
-    echo "Correction du son sur les interviews... [OK]"
+    printf "Correction du son sur les interviews...     [OK]\n"
 
-    tput sc
-    echo "Copie des vidéos de l'ADD..."
+    printf "Copie des vidéos de l'ADD...\n"
     rsync -azhr --info=progress2 "$script_dir/contents/ADD/" "$apv_dir/08-ADD/"
-    tput rc
+    tput cuu 2
     tput ed
-    echo "Copie des vidéos de l'ADD... [OK]"
+    printf "Copie des vidéos de l'ADD...                [OK]\n"
 
-    tput sc
-    echo "Copie des bonus supplémentaires..."
+    printf "Copie des bonus supplémentaires...\n"
     rsync -azhr --info=progress2 "$script_dir/contents/Bonus-officiel/" "$apv_dir/07-Bonus/Bonus-JTX/"
-    rsync -azhr "$script_dir/contents/Bonus-cache/" "$apv_dir/source/utils/js/" > /dev/null
-    tput rc
+    rsync -azhr "$script_dir/contents/Bonus-cache/" "$apv_dir/source/js/utils/" > /dev/null
+    tput cuu 2
     tput ed
-    echo "Copie des bonus supplémentaire... [OK]"
+    printf "Copie des bonus supplémentaire...           [OK]\n"
 
-    tput sc
-    echo "Copie des vidéos des écoles d'officiers..."
+    printf "Copie des vidéos des écoles d'officiers...\n"
     rsync -azhr --info=progress2 "$script_dir/contents/Proj_gendarmerie/" "$apv_dir/02-Vie_de_promo/2013-11_Ecole_officiers/2013-11_EOGN/"
     rsync -azhr --info=progress2 "$script_dir/contents/Theatre_Coet/" "$apv_dir/02-Vie_de_promo/2013-11_Ecole_officiers/2013-11_Coet/"
     rsync -azhr --info=progress2 "$script_dir/contents/Vaneau_navale/" "$apv_dir/02-Vie_de_promo/2013-11_Ecole_officiers/2013-11_Navale/"
-    tput rc
+    tput cuu 5
     tput ed
-    echo "Copie des vidéos des écoles d'officiers... [OK]"
+    printf "Copie des vidéos des écoles d'officiers...  [OK]\n"
 
-    tput sc
-    echo "Copie des nouveaux clips binets..."
+    printf "Copie des nouveaux clips binets...\n"
     rsync -azhr --info=progress2 "$script_dir/contents/Binets/" "$apv_dir/05-Binets/"
-    tput rc
+    tput cuu 2
     tput ed
-    echo "Copie des nouveaux clips binets... [OK]"
+    printf "Copie des nouveaux clips binets...          [OK]\n"
 
-    tput sc
-    echo "Copie de la campagne Kès des 2014..."
+    printf "Copie de la campagne Kès des 2014...\n"
     rsync -azhr --info=progress2 "$script_dir/contents/Campagne_Kes_X2014/" "$apv_dir/02-Vie_de_promo/2015-11_Campagne_Kes_X2014/"
-    tput rc
+	tput cuu 2
     tput ed
-    echo "Copie de la campagne Kès des 2014... [OK]"
+    printf "Copie de la campagne Kès des 2014...        [OK]\n"
 
-    tput sc
-    echo "Copie des nouveaux menus de présentation..."
+    printf "Copie des nouveaux menus de présentation...\n"
     rsync -azhr --info=progress2 "$script_dir/contents/source/" "$apv_dir/source/"
-    tput rc
+    tput cuu 2
     tput ed
-    echo "Copie des nouveaux menus de présentation...[OK]"
+    printf "Copie des nouveaux menus de présentation... [OK]\n"
 }
 
 end_message () {
