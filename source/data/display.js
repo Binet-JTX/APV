@@ -89,7 +89,14 @@ var display = {
                 "poster": "jtx2014fevrier.png",
                 "title": "La dernière proj' avant la fin du monde",
                 "id": "jtx2014fevrier"
-            }, {
+            },
+            {
+                "type": "projection",
+                "poster": "prepass2013.png",
+                "title": "Prépassation du JTX2013",
+                "id": "prepass2013"
+            },
+            {
                 "type": "projection",
                 "poster": "jtxbonus.png",
                 "title": "Bonus",
@@ -539,6 +546,12 @@ var display = {
             "pathPrefix": "../../images/projections/kes2014/",
             "titre": "titre.png",
             "prev": "promo",
+            "background": "background.png"
+        },
+        "prepass2013": {
+            "pathPrefix": "../../images/projections/prepass2013/",
+            "titre": "titre.png",
+            "prev": "jtx",
             "background": "background.png"
         }
     },
