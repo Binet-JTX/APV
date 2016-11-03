@@ -5159,6 +5159,14 @@ var videos = {
             "poster": "2013-11_commissionTheatre_Coet_2013.png",
             "src": "2013-11_commissionTheatre_Coet_2013.mp4",
             "title": "Commission théâtre"
+        }, {
+            "poster": "JTCoët.png",
+            "src": "JTCoët.mp4",
+            "title": "JT Coët"
+        }, {
+            "poster": "Présentation Chant.png",
+            "src": "Présentation Chant.mp4",
+            "title": "Présentation chant"
         }]
     },
     "navale2013": {
@@ -5168,6 +5176,10 @@ var videos = {
             "poster": "Opération Vaneau - version longue.png",
             "src": "Opération Vaneau - version longue.mp4",
             "title": "Opération Vaneau"
+        }, {
+            "poster": "Projection JTMarine.png",
+            "src": "Projection JTMarine.mp4",
+            "title": "JT Marine"
         }]
     },
     "kes2014": {
