@@ -502,6 +502,10 @@ var videos = {
             "src": "14_man_vs_bar.mp4",
             "title": "Man vs. bar"
         }, {
+            "poster": "15_Regarde comme il fait beau (Antoine).png",
+            "src": "15_Regarde comme il fait beau (Antoine).mp4",
+            "title": "Regarde comme il fait beau"
+        }, {
             "poster": "16_Quiproquo(Florent).png",
             "src": "16_Quiproquo(Florent).mp4",
             "title": "Quiproquo"
