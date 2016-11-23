@@ -2072,6 +2072,14 @@ var videos = {
             "poster": "Terroir.png",
             "src": "Terroir.mp4",
             "title": "Terroir"
+        }, {
+            "poster": "Bruno Taillé - Brace yourself, interview chef de corps is co.png",
+            "src": "Bruno Taillé - Brace yourself, interview chef de corps is co.mp4",
+            "title": "Suce mon sexe pute"
+        }, {
+            "poster": "JTX 2013.png",
+            "src": "JTX 2013.mp4",
+            "title": "La vie d'Alexis"
         }]
     },
     "wed2013": {
