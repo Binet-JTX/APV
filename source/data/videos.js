@@ -498,10 +498,6 @@ var videos = {
             "src": "13_SaintValentin.mp4",
             "title": "Saint-Valentin"
         }, {
-            "poster": "15_Regarde comme il fait beau (Antoine).png",
-            "src": "15_Regarde comme il fait beau (Antoine).mp4",
-            "title": "Regarde comme il fait beau"
-        }, {
             "poster": "14_man_vs_bar.png",
             "src": "14_man_vs_bar.mp4",
             "title": "Man vs. bar"
